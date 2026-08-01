@@ -21,18 +21,10 @@ function ProductDetailPage({handleAddToCartProductdetailPage, setOpenCartBar, se
   const ProductImages = {
     1: [
       { id: 1, img: "/firstbox.webp", producttitle:"Fio Accent Chair with Footstool", productprice:799, productoffer:"₹1399", discount:"26%OFF", rating:"4.6", 
-      description:`Qur’an Kareem Allah Ta’ala ki woh Kitaab hai jo khud mein ek mojza hai, isliye iska theek theek tarjuma aur iski 
-      balaaghat waghairah ko kisi dusri zabaan mein utaar dena bilkul na-mumkin hai, lekin jitna mumkin ho sakta tha iski 
-      koshishein huin, isi saff mein Mufti Taqi Usmani sahab ne ek aasaan aur aam fahem zabaan mein Urdu Tarjuma 
-      Qur’an pesh kiya jo kaafi maqbool hua, isliye hum ne Urdu Roman Script mein “Aasaan Tarjuma” ka intikhaab kiya.
-      Tarjum-e-Qur’an ko Urdu Roman Script mein pesh karne ka ehsaas is wajah se paida hua ke logon ki ek badi tadaad
-      aisi hai jo urdu bolna to jaanti hai lekin likhna-padhna nahi janti, aur woh is wajah se kahin paighaam-e-Ilaahi
-      se mehroom na ho jayen, is zimmedaari ko saamne rakhte hue is Tarjuma ko Shaaye kiya gaya.
-      Allah Ta’ala se dua hai ke Allah Ta’ala is khidmat ko qubool farmakar humare liye aur tamaam insano ke liye hidayat
-      ka zariya banaye. Ameen.There are many instances where people are not able to read Urdu but can understand it very
-      well whereas people can read English very well but are unable to understand some words written in roman English. 
-      The author has kept in mind this problem and hence has provided the solution by writing the Urdu in Roman English Script 
-      so that people can read English very well and understand each bit of it as it is pronounced in Urdu.`}, 
+      description: `Designed to bring warmth and elegance to your living room, this premium orangish sofa combines modern aesthetics with exceptional comfort. 
+      Upholstered in soft, breathable fabric and filled with high-density foam cushions, it provides excellent support for everyday relaxation. Built on a 
+      durable hardwood frame, the sofa is crafted to withstand years of daily use while maintaining its stylish appearance. Its vibrant orange tone adds a 
+      welcoming touch to any interior, making it a perfect centerpiece for contemporary and classic homes alike.`}, 
       // { id: 2, img: "/firstbox.webp", }, 
       { id: 3, img: "/firstboxtwo.webp" },
       { id: 4, img: "/firstboxthree.webp" },
@@ -42,13 +34,9 @@ function ProductDetailPage({handleAddToCartProductdetailPage, setOpenCartBar, se
     ],
     2: [ 
       { id: 1, img: "/secondbox.webp", producttitle:"Dune Upholstered Box Storage Queen Bed in Lyon Walnut Finish",  productprice:375 , productoffer:"₹599", discount:"37%OFF", rating:"4.5",
-        description:`Muntakhab Ahadees Roman Urdu: Hazrat Maulana Muhammad Yusuf Kandhlawi (Rh.) ne umr ke aakhiri hisse mein apne kai bharosemand
-                     logon ko saath le kar apni nigrani mein Mustanad Ahadees ke zariye “6-Numberon” par aik zakhira jama kiya jo ke Arbi zuban mein tha.
-                     Maulana ke Inteqal ke kai saal baad ye Zakhira Hazrat Maulana Muhammad Saad Sahab ko mila, unhone unka Urdu tarjuma kiya aur tarteeb
-                     de kar isko “Muntakhab Ahadees” naam se shaya kiya. Is kitaab ki ek ehem khususiyat yeh bhi hai ke ismein tamaam Ahadees Mustanad aur Motabar hain.
-                     Alhamdulillah, “idara” ko Akaabir-e-Ummat ke Mashwaron se is aham-tareen kitaab “Muntakhab Ahadees” ko Urdu Roman Script mein pesh karne 
-                     ki sa’adat hasil hui, chunki Ummat ki ek badi tadaad aisi hai jo urdu likhne-padhne se nawaaqif hai, isliye unke liye yeh edition insha’Allah
-                     kaafi faidamand saabit hoga.`
+        description: `Transform your bedroom with this beautifully crafted pistachio-colored bed that blends timeless design with everyday comfort. Constructed from premium-quality engineered wood,
+        it offers excellent stability and long-lasting durability. The elegant pistachio finish creates a calm and refreshing atmosphere, while the sturdy frame provides reliable support for a restful
+        night's sleep. Its modern design complements a wide range of bedroom interiors, making it an ideal choice for any home.`
       },
       { id: 2, img: "/secondboxtwo.webp" },
       { id: 3, img: "/secondboxthree.webp" }, 
@@ -59,17 +47,22 @@ function ProductDetailPage({handleAddToCartProductdetailPage, setOpenCartBar, se
     3: [
       { id: 1, img: "/Thirdbox.avif", producttitle:"Hako Solid Wood Bedside Table in Timeless Teak Finish",  productprice:699, productoffer:"₹1399", discount:"26%OFF", rating:"4", 
         Mainheading:`Write, Learn & Connect with the Holy Quran`,
-        description:`The Trace Quran (Writable Quran) is a beautiful and engaging way to connect with the Holy Quran on a deeper
-         level. This unique tracing Quran allows you to write the Quran while reading it, helping you improve focus, strengthen 
-         your memorization, and enhance your understanding of every verse. By writing each word, you experience a spiritual 
-         calmness that brings you closer to the message of Allah.`
+        description: `Enhance your bedroom with this stylish wooden bedside table, thoughtfully designed for both beauty and functionality. Crafted from high-quality wood with a
+        smooth natural finish, it features spacious storage for keeping your essentials organized and within easy reach. Its compact design fits perfectly beside any bed, while
+        the sturdy construction ensures lasting durability. Whether used for a bedside lamp, books, or decorative items, this table adds warmth and sophistication to your space.`
         },
       { id: 2, img: "/Thirdboxtwo.webp" },
       { id: 3, img: "/Thirdboxthree.webp" },
       { id: 4, img: "/Thirdboxfourth.webp" },
     ],
     4: [
-      { id: 1, img: "/Fourthbox.avif", producttitle:"Semi Automatic Washing Machine", productprice:999 , productoffer:"₹1399", discount:"26%OFF", rating:"4.2"  },
+      { id: 1, img: "/Fourthbox.avif", producttitle:"Semi Automatic Washing Machine", productprice:999 , productoffer:"₹1399", discount:"26%OFF", rating:"4.2",
+        Mainheading:`Experience the Perfect Blend of Tradition and Technology`,
+        description: `Experience powerful and efficient laundry care with this modern washing machine, designed to make everyday washing effortless. Featuring
+        multiple wash programs, energy-efficient performance, and a spacious drum capacity, it delivers outstanding cleaning results while protecting your clothes.
+        Its user-friendly controls and quiet operation make it perfect for busy households, while the sleek contemporary design complements any laundry area. Built
+        for reliability and convenience, it offers the perfect balance of performance and efficiency.`
+        },
       { id: 2, img: "/Fourthboxtwo.webp" },
       { id: 3, img: "/Fourthboxthree.webp" },
       { id: 4, img: "/Fourthboxfourth.webp" }, 
@@ -250,7 +243,7 @@ const handleConfirmOrder = () => {
   const selectedProduct = {
     ...product,
     qty,
-    total: product.price * qty,
+    total: product.productprice * qty,
   };
 
   // Sirf Buy Now product save hoga
@@ -338,12 +331,12 @@ const handleConfirmOrder = () => {
 
    <div className="FeturesDetail"> 
       <ul>
-        <li>Arabic (Indo-Pak script) with transliteration</li>
-        <li>Premium quality 2-color pages with golden edging</li>
-        <li>Roman Urdu translation by Mufti Taqi Usmani</li>
-        <li>QR code on every page (iOS & Android compatible)</li>
-        <li>Hardcover with gold & UV embossing, matte finish.</li>
-        <li>Luxurious black & gold Ka’bah-themed cover</li>
+        <li>Premium-quality solid wood frame for long-lasting durability</li>
+        <li>High-density foam cushions for exceptional comfort and support</li>
+        <li>Soft, breathable upholstery available in multiple fabric options</li>
+        <li>Modern design that complements any living room interior</li>
+        <li>Sturdy construction with a weight capacity for everyday use</li>
+        <li>Easy-to-clean fabric with scratch and stain-resistant finish</li>
       </ul>
    </div>
 
@@ -354,6 +347,8 @@ const handleConfirmOrder = () => {
       <button  onClick={()=> {
                   handleAddToCartProductdetailPage({
                     ...product,
+                    title: product.producttitle,
+                    price: product.productprice,
                     qty : qty 
                   });
                   setOpenCartBar(true);
@@ -406,58 +401,8 @@ const handleConfirmOrder = () => {
     <h5>{product?.Mainheading}</h5>
     <p>{product?.description}</p>
 
-       {/* <h6>About This Edition</h6> 
-    
-    <p className="SpecialPara">The QR Quran (Roman Urdu Edition) beautifully joins Islamic wisdom with modern technology.
-      Designed especially for those who find Arabic or Urdu script difficult to read, this Quran lets you recite and understand using Roman Urdu — 
-      simple, clear, and accessible for all.</p>
-
-      <ul className="FirstUl" title="Perfect for:">
-        <li>Non-Arabic readers learning to recite with proper tajweed</li>
-        <li>Students and families wanting easy understanding in Roman Urdu</li>
-        <li>Anyone who wishes to listen and reflect on Qur’anic verses directly from their phone</li>
-      </ul> */}
-
-      {/* <div className="KeyFetauresofQuran"> */}
-        {/* <h4>Key Features of the QR Quran</h4>
+      
         
-        <h3>📖 Roman Urdu Translation by Mufti Taqi Usmani</h3>
-        <p>Likha gaya hai Roman Urdu mein taake har koi asaani se samajh sake. No need to read Urdu script — just follow in Roman letters and grasp every ayah’s meaning.</p>
-
-        <h3>🔤 Arabic with English Transliteration</h3>
-        <p>Arabic text ke saath English transliteration di gayi hai, helping non-Arabic readers recite correctly with tajweed. Perfect for beginners and advanced readers alike.</p>
-
-        <h3>📱 QR Code on Every Page</h3>
-        <p>Har page par diya gaya QR code (Android & iOS compatible).
-           Scan and listen to tilawat aur tarjuma directly — a beautiful blend of learning and reflection.</p>
-
-          <h3>✨ Premium Quality Design</h3>
-          <p>Printed on two-color golden-edged pages with a luxurious black & gold Ka’bah-themed hardcover.
-             UV embossed with a matte finish — ideal for gifting and lifelong reading.</p> */}
-
-          {/* <div className="Why">
-            <ul title="Why Choose the QR Quran (Roman Urdu Edition)?">
-              <li>Trusted translation by Mufti Taqi Usmani</li>
-              <li>Read, understand, and listen — all in one Quran</li>
-              <li>Best for non-Arabic readers and new learners</li>
-              <li>A timeless connection of ilm (knowledge) and technology</li>
-              <li>Perfect for Ramadan, daily tilawat, or as a spiritual gift</li>
-            </ul>
-          </div> */}
-
-
-          {/* <div className="ProductDetails">
-            <ul title="Product Details">
-              <li>Languages: Arabic, Roman Urdu, English Transliteration</li>
-              <li>Translator: Mufti Taqi Usmani</li>
-              <li>Format: Hardcover</li>
-              <li>Audio Access: QR Code on every page (Android/iOS)</li>
-              <li>Design: Black & Gold Ka’bah Theme with UV Embossing</li>
-            </ul>
-          </div> */}
-
-
-      {/* </div> */}
 
     
    </div>

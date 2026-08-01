@@ -1104,6 +1104,7 @@ h1 {
 
 
 .MainContainer {
+
     width: 100%;
     max-width: 100%;
 }  
@@ -1163,7 +1164,9 @@ h1 {
     color: rgb(2, 184, 145);
 }
 
-
+  .RentSubmenus, .BuySubmenus {
+    display: none important,   /* ya width: 100vw; max-width:100%; */
+  }
 
 
 
@@ -1172,8 +1175,7 @@ h1 {
     text-align: center;
     align-items: center;
     position: absolute;
-    left: 100px;
-    margin-top: 20px;  
+    left: 120px;
 
 }
 

@@ -24,7 +24,7 @@ const checkoutItems =
 // ); 
 
 const totalPrice = checkoutItems.reduce(
-  (total, item) => total + item.price * item.qty,
+  (total, item) => total + item.productprice * item.qty,
   0
 );
 
@@ -441,10 +441,10 @@ checkoutItems.map((item) => (
 
     {checkoutItems.map((item) => (
       <div className="OrderSummaryCard" key={item.id}>
-        <img src={item.img} alt={item.title} />
+        <img src={item.img} alt={item.producttitle} />
 
         <div className="ProductInfo">
-          <h3>{item.title}</h3>
+          <h3>{item.producttitle}</h3>
 
           <div className="ProductInfotext">
             <p className="qtyofProductinfo">
@@ -452,7 +452,7 @@ checkoutItems.map((item) => (
             </p>
 
             <p className="PriceofProductinfo">
-              ₹{item.price}
+              ₹{item.productprice}
             </p>
           </div>
         </div>
@@ -517,12 +517,12 @@ checkoutItems.map((item) => (
 
     {checkoutItems.map((item) => (
       <div className="SummaryTabOrderSummary" key={item.id}>
-        <img src={item.img} alt={item.title} />
+        <img src={item.img} alt={item.producttitle} />
 
         <div>
-          <h3>{item.title}</h3>
+          <h3>{item.producttitle}</h3>
           <p>Qty: {item.qty}</p>
-          <h5>₹{item.price}</h5>
+          <h5>₹{item.productprice}</h5>
         </div>
       </div>
     ))}

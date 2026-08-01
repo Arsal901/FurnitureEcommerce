@@ -354,11 +354,15 @@
     gap: 10px;
 }
 
+
 .Delivery h3, .Days h3 {
     color: rgba(0, 0, 0, 0.507);
 }
 
+.Delivery p, .Days p {
+    margin-top: 1px;
 
+}
 
 /* OurProductDetails */
 
