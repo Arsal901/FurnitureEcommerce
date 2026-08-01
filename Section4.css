@@ -1,0 +1,159 @@
+
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+
+.SectionFourContainer {
+    /* background-color: aqua; */
+    background-color: gainsboro;
+    width: 100%;
+    height: 670px;
+}
+
+.section4Boxs {
+    display: flex;
+}
+
+.Section4LeftSide {
+    /* background-color: orangered; */
+    width: 55%;
+}
+
+.Section4LeftSide img {
+   height: 550px;
+   max-height: 100%; 
+   max-width: 100%;
+   margin-left: 160px;
+   margin-top: 50px;
+   transition: 0.4s ease;
+}
+
+.Section4LeftSide img:hover {
+    transform: scale(1.04);
+}
+
+
+.Section4RightSide {
+    /* background-color: green; */
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    width: 45%;
+    margin-top: 10px;
+}
+
+.Section4RightSide img {
+    margin-left: 0px;
+    height: 250px;
+    max-width: 100%;
+    width: 250px;
+    transition: 0.4s ease;
+}
+
+.Section4RightSide img:hover {
+    /* transform: scale(1.04); */
+}
+
+
+.Section4RightSide img{
+    /* border: 2px solid black; */
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.392);
+    width: 320px; 
+    height: 250px;
+    object-fit: cover;
+    cursor: pointer;
+}
+
+.Bedrooms {
+    margin-top: 10px;
+    margin-left: 10px;
+    transition: 0.4s ease;
+}
+
+.Bedrooms:hover {
+    transform: scale(1.04);
+}
+
+
+.LivingRooms {
+    transition: 0.4s ease;
+}
+
+.LivingRooms:hover {
+        transform: scale(1.04);
+}
+
+.LivingRooms img {
+    margin-top: 10px;
+    height: 350px;
+    width: 290px;
+}
+
+
+.StorageRoom img  {
+    margin-top: -100px;
+    height: 300px;
+    width: 325px;
+    margin-left: 10px;
+}
+
+.StorageRoom h3 {
+    margin-left: 25px;
+}
+
+.StorageRoom {
+    transition: 0.4s ease;
+}
+
+.StorageRoom:hover {
+        transform: scale(1.04);
+}
+
+.Appliancesroom img {
+    margin-top: 0px;
+    width: 270px;
+    height: 250px;
+}
+
+
+.Appliancesroom {
+    transition: 0.4s ease;
+}
+
+.Appliancesroom:hover {
+        transform: scale(1.04);
+}
+
+
+
+
+
+
+.section4Boxs h3 {
+    text-shadow: 1px 1px 10px black;
+    position: absolute;
+    margin-top: -55px;
+    margin-left: 20px;
+    font-size: 1.9rem;
+    color: white;
+    cursor: pointer;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+
+
+@media screen and (min-width:320px) and (max-width:768px) {
+    
+
+
+
+.SectionFourContainer {
+    display: none;
+    
+}
+}
+
+

@@ -7,9 +7,12 @@ function HeroSlider() {
     // "ooh.PNG",   
     // "hmm.jpg",  
       // "he.jpeg", 
-      "Best.jpg", 
-      "Best2.webp", 
-      "best one 2.jpg", 
+      // "Best.jpg", 
+      // "Best2.webp", 
+      // "best one 2.jpg", 
+      "1.webp",
+      "2.webp",
+      "3.webp",
   ];
  
   const [current, setCurrent] = useState(0); 
@@ -44,12 +47,13 @@ function HeroSlider() {
     <div className="dots">
   {images.map((_, index) => (
     <span
+      id="DotofSlide" 
       key={index}
       className={`dot ${current === index ? "active" : ""}`}
       onClick={() => setCurrent(index)}
     ></span>
   ))}
-</div>
+</div> 
 </div>
   );
 }

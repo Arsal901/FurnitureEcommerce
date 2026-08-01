@@ -9,20 +9,367 @@
     justify-content: space-between; 
     gap: 5px; 
     background-color: white;
-    height: 3.5rem;
+    height: 4rem;
     border-bottom: 2px solid rgb(89, 87, 87);
 }
+/* 
+.StatePinCode {
+    display: flex;
+    gap: 5px;
+    align-items: center;
+    margin-top: 20px;
+    margin-left: 40px;
+    cursor: pointer;
+}
+
+.StatePinCode h3 {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+} */
+
+
+
+/* This is For FurnitureWala Menus  */
+
+/* .FurniturewaleMenus ul {
+    display: flex;
+    gap: 25px;
+    margin-left: 50px;
+    font-size: 1.2rem;
+}
+
+.FurniturewaleMenus li {
+    margin: 20px; 
+    cursor: pointer; 
+} */
+
+/* This is Submenus of furniturewala */
+
+/* .AllRentSubMenu {
+    display: flex;
+    flex-direction: column; 
+} */
+
+
+
+/* .RentSubmenus{
+    display: flex;
+    flex-direction: column;
+    background-color: whitesmoke;
+    z-index: 1005;
+    height: 550px;
+    max-height: 100%; 
+    flex-wrap: nowrap;
+    position: absolute; 
+    margin-top: 13px; 
+    width: 1350px;
+} */
+
+
+
+
+/* .RentSubmenus li {
+    
+    font-size: 1.1rem;
+    color: black;
+    padding: 0px;
+    margin: 0px;  
+    padding-left: 10px;
+    line-height: 2px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+
+.RentSubmenus li:hover {
+  color: rgb(2, 184, 145);
+} */
+
+
+/* ===========================
+   Top Navigation
+=========================== */
+
+
+
+
+.FurniturewaleMenus > ul {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    list-style: none;
+    margin-left: 145px;
+}
+
+.FurniturewaleMenus > ul > li {
+    position: relative;
+    cursor: pointer;
+    padding: 0px 10px;
+    /* background-color: red; */
+    height: 40px;
+    z-index: 1;
+    margin-top: -25px;
+    font-size: 1.2rem;
+}
+
+/* ===========================
+   Mega Menu
+=========================== */
+
+
+
+.RentSubmenus {
+    position: absolute;
+    top: 88%;
+    left: 0;
+
+    width: 1299px;
+    min-height: 550px;
+
+    background: white;
+    box-shadow: 0 10px 25px rgba(0,0,0,.15);
+
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 30px;
+
+    padding: 30px;
+
+    z-index: 1005;
+
+    /* Hide by default (optional) */
+    /* display: none; */
+}
+
+/* Show on Hover */
+
+/* .FurniturewaleMenus > ul > li:hover .RentSubmenus{
+    display:flex;
+} */
+
+/* ===========================
+   One Column
+=========================== */
+
+.AllRentSubMenu{
+    flex:1;
+}
+
+/* ===========================
+   Heading
+=========================== */
+
+.AllRentSubMenu h4{
+    margin-left: 0px;
+    color: rgb(2,184,145);
+    font-size: 1rem;
+    margin-bottom: 15px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+/* ===========================
+   List
+=========================== */
+
+.AllRentSubMenu ul{
+    list-style:none;
+    padding:0;
+    margin:0;
+}
+
+.AllRentSubMenu li{
+    color:#444;
+    font-size:1rem;
+    line-height: 23px;
+    margin:10px 0;
+    cursor:pointer;
+    transition:.25s;
+}
+
+.AllRentSubMenu li:hover{
+    color:rgb(2,184,145);
+    /* transform:translateX(4px); */
+}
+
+
+
+
+
+
+
+
+/* ===========================
+   Buy Menu
+=========================== */
+
+
+
+.BuySubmenus {
+    position: absolute;
+    top: 88%;
+    left: 0;
+    width: 950px;
+    min-height: 450px;
+
+    background: white;
+    box-shadow: 0 10px 25px rgba(0,0,0,.15);
+
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 0px;
+    padding: 20px 15px;
+    z-index: 1005;
+
+    /* Hide by default (optional) */
+    /* display: none; */
+}
+
+/* Show on Hover */
+
+/* .FurniturewaleMenus > ul > li:hover .RentSubmenus{
+    display:flex;
+} */
+
+/* ===========================
+   One Column
+=========================== */
+
+.AllBuySubMenu{
+    flex:1;
+}
+
+/* ===========================
+   Heading
+=========================== */
+
+.AllBuySubMenu h4{
+    margin-left: 0px;
+    color: rgb(2,184,145);
+    font-size: 1rem;
+    margin-bottom: 15px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+/* ===========================
+   List
+=========================== */
+
+.AllBuySubMenu ul{
+    list-style:none;
+    padding:0;
+    margin:0;
+}
+
+.AllBuySubMenu li{
+    color:#444;
+    font-size:1rem;
+    margin:10px 0;
+    line-height: 23px;
+    cursor:pointer;
+    transition:.25s;
+}
+
+.AllBuySubMenu li:hover{
+    color:rgb(2,184,145);
+    /* transform:translateX(4px); */
+}
+
+
+.AdminIcon {
+    position: absolute;
+    right: 25px;
+    /* background-color: brown; */
+    height: 20px;
+    margin-top: 22px;
+    margin-right: 20px;
+    /* background-color: red; */
+    height: 50px;
+    width: 60px;
+    /* border: 1px solid black; */
+    /* background-color: red; */
+    padding-left: 15px;
+}
+
+.AdminUser {
+    /* padding: 4px; */
+    font-size: 1.3rem;
+    cursor: pointer; 
+    transition: 0.4s ease;
+    /* margin-left: 20px; */
+}
+
+.AdminUser:hover {
+    /* transform: scale(1.1); */
+    color: rgb(2,184,145); ;
+}
+
+.UserOptions {
+    position: absolute;
+    right: -45px; 
+    width: 210px;
+    /* padding: 10px; */
+    top: 40px;
+    /* background-color: brown; */
+    background-color: whitesmoke;
+    z-index: 1005;
+    height: 245px;
+    border: 1px solid black;
+    /* border-radius: 20px; */
+}
+
+.UserOptions h4 {
+    font-size: 1.1rem;
+    padding: 10px;
+}
+
+
+
+.UserOptions li {
+    line-height: 40px;
+    margin: 0px;
+    padding: 0px;
+    padding-left: 10px;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+.UserOptions li:hover {
+    background-color: rgba(2, 184, 145, 0.156); ;
+}
+
+#AdminLogin {
+    color: rgb(2,184,145); ;
+}
+#AdminLogin:hover {
+    background-color: whitesmoke;
+}
+
+
+
+
+
+.PinCodeArea {
+    display: flex;
+    align-items: center;
+}
+
+.PinCodeArea b {
+    margin-top: 20px;
+    text-decoration: underline;
+}
+
 
 .hamburgerIcon {
     font-size: 1.8rem;
-    border: 1px solid rgb(173, 170, 170);
+    border: 1px solid (173, 170, 170);
     border-radius: 10px;
     padding: 4px;
     cursor: pointer;
     color: black;
     transition: 0.4s ease; 
     margin-left: 20px;
-    margin-top: 15px;
+    margin-top: 20px;
 }
 
 .hamburgerIcon:hover {
@@ -30,36 +377,96 @@
     border-color: black;
 }
 
-.Shopcart {
-    font-size: 2rem;
-    border: 1px solid rgb(182, 179, 179);
-    border-radius: 10px;
-    padding: 6px;
-    cursor: pointer;
-    color: black;
-    transition: 0.4s ease; 
-    margin-right: 15px;
-    margin-top: 12px;
+
+
+.PinCodeCityHint {
+    margin-left: 50px;
 }
 
 
-.Shopcart:hover {
-    transform: scale(1.04);
-    border-color: black;
-}
 
 
 h1 {
-    font-size: 1.3rem;
-    color: goldenrod;
+    font-size: 1.6rem;
+    /* color: goldenrod; */
+    color: rgb(2, 184, 145);
     text-align: center;
-    margin: 18px auto; 
+    margin: 15px auto; 
     cursor: pointer; 
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; 
 }
 
 .HomeLink {
+    margin-top: 5px;
+    margin-left: 120px;
     text-decoration: none; 
 }
+
+
+/* SearchBarArea  */
+
+.SearchBar {
+    /* background-color: brown; */
+    height: 48px;
+    max-height: 100%;
+    width: 350px;
+    max-width: 100%;
+    margin-top: 7px;
+    margin-left: 100px;
+    border-radius: 10px; 
+    /* border: 1px solid rgba(0, 0, 0, 0.499); */
+    background-color: rgba(216, 216, 216, 0.462);
+    position: relative; 
+}
+
+.SearchBar input {
+    height: 100%;
+    width: 100%;
+    margin-left: 0px;
+    overflow: hidden;
+    border-radius: 10px;
+    outline: none; 
+    border: none;
+    padding-left: 10px;
+    background-color: transparent;
+    font-size: 0.87rem;
+    margin-top: 0px;
+    border: 1px solid whitesmoke;
+}
+
+.SearchBar input:focus {
+    outline: 2px solid #047992;
+}
+
+.SearchBar input:hover {
+        outline: 2px solid #047992;
+}
+
+.MainSearchIcon {
+    position: absolute;
+    right: 5px;
+    top: 11px;
+    font-size: 1.4rem;
+    font-weight: bolder;
+    border-left: 2px solid rgba(0, 0, 0, 0.151);
+    /* background-color: red; */
+    width: 38px;
+    color: rgba(0, 0, 0, 0.611);
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 /* SideBar  */
@@ -81,8 +488,8 @@ h1 {
     position: fixed;
     top: 0;
     left: 0;
-    background-color: aliceblue;
-    width: 350px;
+    background-color: white;
+    width: 577px;
     max-width: 85%;
     height: 100vh;
     display: flex;
@@ -105,25 +512,26 @@ h1 {
 .first {
     /* background: linear-gradient(295deg, green, darkgreen, rgba(4, 4, 4, 0.849)); */
     height: 170px;
-    background: linear-gradient(135deg, #141e30, #243b55);
+    /* background: linear-gradient(135deg, #141e30, #243b55); */
+    background: white;
 
 }
 
 
 .Cancelicon {
-    font-size: 2rem; 
+    font-size: 2.8rem; 
     background-color: transparent;
-    color: gainsboro;
+    color: rgba(0, 0, 0, 0.595);
     border-radius: 50%;
     padding: 6px;
     position: absolute;
     right: 20px;
-    top: 25px; 
-    border: 1.5px solid gainsboro;
+    top: 15px; 
+    /* border: 1.5px solid gainsboro; */
     cursor: pointer;
 }
 
-.usericon {
+/* .usericon {
     background-color: rgb(229, 164, 0);
     border-radius: 60%;
     color: black;
@@ -132,147 +540,232 @@ h1 {
     margin-left: 15px;
     padding: 10px;
     text-align: center;
+} */
+
+.first {
+    /* background-color: red; */
+    height: 140px;
+    max-height: 100%;
+    width: 100%;
+    max-width: 100%;
 }
 
 .first h1 {
-    text-align: left;
-    margin-left: 14px;
-    color: white;
-    font-size: 1.2rem;
-    margin-top: 10px;
+    text-align: center;
+    margin-left: 10px;
+    color: black;
+    font-weight: 400;
+    font-size: 1.9rem;
+    margin-top: 80px;
 }
 
-.first p {
-    color: rgb(181, 179, 179);
-    font-size: 0.9rem;
-    margin-left: 12px;
-    margin-top: -12px;
+.PinCodeInputArea {
+    /* background-color: brown; */
+    width: 75%;
+    max-width: 100%;
+    margin: 0px auto;
+    height: 65px;
+    max-height: 100%;
+    border-radius: 50px; 
+    background-color: white;
+    cursor: pointer;
+    padding: 2px;
+    position: relative;
 }
 
 
-/* sideBarMenus */
+/* .PinCodeInputArea:hover { 
+    border: 1px solid #047992;
+} */
+
+
+
+.PinCodeRightArrow {
+    position: absolute;
+    right: 0px;
+    font-size: 1.8rem;
+    font-weight: 400;
+    margin-right: 25px;
+    margin-top: 5px;
+    color: #047992;
+}
+
+
+.JustPinCode {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    /* border: 2px solid rgba(0, 0, 0, 0.173); */
+    border-radius: 50px;
+        transition: 0.4s ease;
+    border: 1px solid rgba(0, 0, 0, 0.382);
+    outline: none;
+
+}
+
+
+
+.JustPinCode:hover {
+        border: 1.55px solid #047992;
+}
+
+
+
+.JustPinCode input {
+    width: 100%;
+    height: 60px;
+    border-radius: 50px;
+    padding-left: 30px;
+    font-size: 1rem;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    transition: 0.4s ease;
+    /* background-color: red; */
+   
+}
+
+.JustPinCode input:focus {
+    outline: 2px solid #047992;
+    border-color: transparent; 
+}
+
+.CurrentStateCode p {
+    margin: 10px 85px;
+    width: 250px;
+}
+
+
+/* SelectYourCity  */
+
+.SelectYourCity {
+    margin-top: 60px;
+}
+
+.orDivider {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  width: 80%;
+  margin: 0px auto;
+}
+
+.orDivider .line {
+  flex: 1;
+  height: 1px;
+  background-color: #b7d7f5; /* Light Blue Line */
+}
+
+.orDivider span {
+  font-size: 1.2rem;
+  color: #1d1d1d;
+  white-space: nowrap;
+  font-family: Georgia, serif; /* Optional */
+}
+
+
+
+.AllPinCities {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 25px;
+    width: 450px;
+    max-width: 100%;
+    margin: 20px 70px;
+    text-align: center;
+}
+
+
+
+
+.CityBox img {
+    display: flex;
+    width: 11vh;
+    height: 10vh;
+    cursor: pointer;
+    padding: 5px;
+}
+
+.CityBox span {
+    color: rgba(0, 0, 0, 0.597);
+    
+}
+
+
+
+
+.Fourth h4 {
+    /* background-color: red; */
+    width: 200px;
+    text-align: center;
+    font-size: 1.8rem;
+    margin: 50px auto;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 400;
+    /* background-color: red; */
+    margin-bottom: 20px;
+}
+
+.ALlCities {
+    display: flex;
+    gap: 0px;
+    margin-bottom: 80px;
+    font-size: 1.1rem;
+    
+}
+
+.ALlCities ul  {
+    margin: 0px auto;
+    cursor: pointer;
+}
+
+
 
 .sideBarMenus {
     flex: 1;
     overflow-y: auto;
     padding-bottom: 0px; /* space for footer */
     margin: 10px 10px; 
+        scrollbar-width: none;
+
 }
 
 
 
-
-.second h4 {
-    color: goldenrod;
-}
-
-.second p {
-    width: 170px;
-    border: 0.01px solid rgba(44, 43, 43, 0.19);
-    text-align: center;
-    margin-left: 60px;
-    margin-top: -7px;
-}
-
-.SideBarHome {
-    text-decoration: none;
-}
-
-.Homeicon {
-    background-color: rgba(89, 226, 155, 0.693);
-    font-size: 1.75rem;
+.Shopcart {
+    font-size: 2.1rem;
+    /* border: 1px solid rgb(182, 179, 179); */
     border-radius: 10px;
-    padding: 3.9px;
-}
-
-.Shopicon {
-    background-color: rgba(211, 158, 34, 0.693);
-    font-size: 1.75rem;
-    border-radius: 10px;
-    padding: 3.9px;
-}
-
-.Carticon {
-    background-color: rgba(10, 174, 239, 0.693); 
-    font-size: 1.75rem;
-    border-radius: 10px;
-    padding: 3.9px;
+    padding: 6px;
+    cursor: pointer;
+    color: black;
+    transition: 0.4s ease; 
+    margin-right: 15px;
+    margin-top: 15px;
 }
 
 
-
-.Home, .Shop, .Cart {
-    width: 270px;
-    max-width: 90%;
-    /* width: 17rem; */
-    height: 6.5vh;
-    margin-top: 10px;
-    border-radius: 10px;
-    display: flex;
-    font-size: 0.71rem;
-    color: #0f1724;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    gap: 10px;
-    align-items: center;
-    padding-left: 10px;
-    cursor: pointer; 
-    transition: 0.6s ease;
-}
-
-.Home:hover {
-    background-color: rgba(89, 226, 155, 0.444);
-}
-
-
-.Shop:hover {
-    background-color: rgba(211, 158, 34, 0.422);
-}
-
-
-.Cart:hover {
-     background-color: rgba(10, 174, 239, 0.371);
+.Shopcart:hover {
+    transform: scale(1.04);
+    border-color: black;
 }
 
 
 
 
-/* /Sidebarfooter  */
 
-.Sidebarfooter {
-    position: relative;
-    background: linear-gradient(135deg, #141e30, #243b55);
-    width: 100%;
-    /* max-width: 100%; */
-    height: 7vh;
-    bottom: 0%;
-}
 
-.Sidebarfooter h4 {
-    position: absolute;
-    top: 20px;
-    left: 60px; 
-    text-align: center;
-    color:white
-}
+
+
+
+
 
 
 /* third */
 
-.Third {
-    margin-top: 30px;
-}
 
-.Third h4 {
-    color: goldenrod;
-}
 
-.Third p {
-    width: 170px;
-    border: 0.01px solid rgba(44, 43, 43, 0.19);
-    text-align: center;
-    margin-left: 60px;
-    margin-top: -7px;
-}
+
 
 .Accounticon {
     background-color: rgba(244, 83, 247, 0.693);
@@ -575,7 +1068,7 @@ h1 {
     position: absolute;
     bottom: 20px;
     font-size: 1rem;
-    left: 47px;
+    left: 37px;
 }
 
 .Plusbtn {
@@ -592,15 +1085,157 @@ h1 {
     position: absolute; 
     margin-top: 60px;
     margin-left: 160px;
-    background-color: palevioletred;
+    /* background-color: palevioletred; */
 
+}
+
+.MobileMenuBar {
+    display: none;
+}
+
+.MobileSearchBarDown {
+    display: none;
+}
+
+
+@media screen and (min-width:320px) and (max-width:768px) {
+
+
+
+
+.MainContainer {
+    width: 100%;
+    /* background-color: red; */
+    max-width: 100%;
+}  
+
+.MobileMenuBar {
+    display: block;
+    margin-top: 25px;
+    margin-left: 13px;
+    font-size: 1.1rem;
+}
+
+.hamburgerIcon {
+    margin-left: 5px;
+    position: absolute;
+    left: 40px;
+    margin-top: 22px;
+    font-size: 1.6rem;
+}
+
+.PinCodeArea b {
+    display: none;
 }
 
 
 
 
-@media screen and (min-width:320px) and (max-width:768px) {
 
+/* This is FurnitureMobileSection  */
+
+
+.FurniturewaleMenus {
+    position: absolute;
+    left: 0px;
+    margin-top: 20px;  
+    background-color: whitesmoke;
+    z-index: 100;
+}
+
+
+
+.FurniturewaleMenus ul {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    margin-left: 0px;
+    margin-top: 45px;
+}
+
+.FurniturewaleMenus ul li {
+    z-index: 100;
+    cursor: pointer;
+}
+
+.FurniturewaleMenus ul li:hover {
+    width: 100%;
+    background-color: rgba(183, 186, 185, 0.179);
+    color: rgb(2, 184, 145);
+}
+
+
+
+
+
+.MainContainer h1 {
+    font-size: 1rem;
+    text-align: center;
+    align-items: center;
+    position: absolute;
+    left: 100px;
+    margin-top: 20px;  
+
+}
+
+.MobileSearchBarDown {
+    display: block;
+    position: absolute;
+    right: 60px;
+    margin-top: 25px;
+    /* margin-left: 30px; */
+    font-size: 1.2rem;
+    /* background-color: red; */
+}
+
+.MainSearchBarSection {
+    position: absolute;
+    left: 0px;
+    top: 60px;
+    z-index: 1109;
+    background-color: white;
+    width: 100%;
+    padding: 10px;
+    border-top: 1px solid rgba(0, 0, 0, 0.303);
+}
+
+.SearchBar {
+    background-color: whitesmoke;
+    margin-left: 0px;
+    width: 100%;
+    max-width: 100%;
+    margin-top: 0px; 
+    height: 40px;
+}
+
+
+/* .AdminUser {
+    margin-left: 30px;
+    font-size: 1rem;
+    margin-top: 3px;
+} */
+
+.AdminIcon {
+    background-color: #047992;
+    margin-top: 100px;
+    display: none;
+}
+
+.AdminUser {
+    background-color: pink;
+    display: none;
+    margin-top: 100px; 
+}
+
+.UserOptions {
+    display: none;
+}
+
+.Shopcart {
+    font-size: 1.92rem;
+    margin-top: 17px;
+    margin-left: 45px;
+}
 
 
 
@@ -900,7 +1535,8 @@ h1 {
 
 .cartBadge{
     position: absolute;
-    top: -12px;
+    top: -10px;
+    right: -48px;
     /* left: 1460px; */
 
     background-color: red;

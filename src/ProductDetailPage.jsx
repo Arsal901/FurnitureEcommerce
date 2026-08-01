@@ -20,7 +20,7 @@ function ProductDetailPage({handleAddToCartProductdetailPage, setOpenCartBar, se
 
   const ProductImages = {
     1: [
-      { id: 1, img: "/Green Main.PNG", title:"Holy Quran – Urdu translation in ROMAN Script with Transliteration and Arabic Text by Mufti Taqi Usmani", price:799, offer:"₹1399", discount:"26%OFF", rating:"4.6", 
+      { id: 1, img: "/firstbox.webp", producttitle:"Fio Accent Chair with Footstool", productprice:799, productoffer:"₹1399", discount:"26%OFF", rating:"4.6", 
       description:`Qur’an Kareem Allah Ta’ala ki woh Kitaab hai jo khud mein ek mojza hai, isliye iska theek theek tarjuma aur iski 
       balaaghat waghairah ko kisi dusri zabaan mein utaar dena bilkul na-mumkin hai, lekin jitna mumkin ho sakta tha iski 
       koshishein huin, isi saff mein Mufti Taqi Usmani sahab ne ek aasaan aur aam fahem zabaan mein Urdu Tarjuma 
@@ -33,15 +33,15 @@ function ProductDetailPage({handleAddToCartProductdetailPage, setOpenCartBar, se
       well whereas people can read English very well but are unable to understand some words written in roman English. 
       The author has kept in mind this problem and hence has provided the solution by writing the Urdu in Roman English Script 
       so that people can read English very well and understand each bit of it as it is pronounced in Urdu.`}, 
-      { id: 2, img: "/Green1.PNG", },
-      { id: 3, img: "/Green2.WEBP" },
-      { id: 4, img: "/Green3.PNG" },
-      { id: 5, img: "/Green4.JPEG"},
-      { id: 6, img: "/Green5.PNG" },
+      // { id: 2, img: "/firstbox.webp", }, 
+      { id: 3, img: "/firstboxtwo.webp" },
+      { id: 4, img: "/firstboxthree.webp" },
+      { id: 5, img: "/firstboxfourth.webp"},
+      { id: 6, img: "/firstboxfifth.webp" },
       
     ],
     2: [ 
-      { id: 1, img: "/Hadith1.PNG", title:"Muntakhab Ahadees Roman Urdu (HB)...",  price:375 , offer:"₹599", discount:"37%OFF", rating:"4.5",
+      { id: 1, img: "/secondbox.webp", producttitle:"Dune Upholstered Box Storage Queen Bed in Lyon Walnut Finish",  productprice:375 , productoffer:"₹599", discount:"37%OFF", rating:"4.5",
         description:`Muntakhab Ahadees Roman Urdu: Hazrat Maulana Muhammad Yusuf Kandhlawi (Rh.) ne umr ke aakhiri hisse mein apne kai bharosemand
                      logon ko saath le kar apni nigrani mein Mustanad Ahadees ke zariye “6-Numberon” par aik zakhira jama kiya jo ke Arbi zuban mein tha.
                      Maulana ke Inteqal ke kai saal baad ye Zakhira Hazrat Maulana Muhammad Saad Sahab ko mila, unhone unka Urdu tarjuma kiya aur tarteeb
@@ -50,33 +50,29 @@ function ProductDetailPage({handleAddToCartProductdetailPage, setOpenCartBar, se
                      ki sa’adat hasil hui, chunki Ummat ki ek badi tadaad aisi hai jo urdu likhne-padhne se nawaaqif hai, isliye unke liye yeh edition insha’Allah
                      kaafi faidamand saabit hoga.`
       },
-      { id: 2, img: "/Hadith2.jpeg" },
-      { id: 3, img: "/Hadith3.jpeg" }, 
-      { id: 4, img: "/Hadith4.PNG" },
-      { id: 5, img: "/Hadith5.PNG" },
+      { id: 2, img: "/secondboxtwo.webp" },
+      { id: 3, img: "/secondboxthree.webp" }, 
+      { id: 4, img: "/secondboxfouth.webp" },
+      { id: 5, img: "/secondboxfifth.webp" }, 
+      { id: 5, img: "/secondboxsixth.webp" },
     ], 
     3: [
-      { id: 1, img: "/Trace4.PNG", title:"Trace Quran (Writable Quran) – Write, Learn & Connect with the Holy Quran",  price:699, offer:"₹1399", discount:"26%OFF", rating:"4", 
+      { id: 1, img: "/Thirdbox.avif", producttitle:"Hako Solid Wood Bedside Table in Timeless Teak Finish",  productprice:699, productoffer:"₹1399", discount:"26%OFF", rating:"4", 
         Mainheading:`Write, Learn & Connect with the Holy Quran`,
         description:`The Trace Quran (Writable Quran) is a beautiful and engaging way to connect with the Holy Quran on a deeper
          level. This unique tracing Quran allows you to write the Quran while reading it, helping you improve focus, strengthen 
          your memorization, and enhance your understanding of every verse. By writing each word, you experience a spiritual 
          calmness that brings you closer to the message of Allah.`
         },
-      { id: 2, img: "/Trace2.PNG" },
-      { id: 3, img: "/Trace3.WEBP" },
-      { id: 4, img: "/Trace1.PNG" },
-      { id: 5, img: "/Trace5.PNG" }, 
-      { id: 6, img: "/Trace6.WEBP" },
-      { id: 7, img: "/Trace7.WEBP" },
-      { id: 8, img: "/Trace8.WEBP" },
+      { id: 2, img: "/Thirdboxtwo.webp" },
+      { id: 3, img: "/Thirdboxthree.webp" },
+      { id: 4, img: "/Thirdboxfourth.webp" },
     ],
     4: [
-      { id: 1, img: "/that one.jpg", title:"QR Quran with Roman Urdu Arabic & English Transliteration – Mufti Taqi Usmani", price:999 , offer:"₹1399", discount:"26%OFF", rating:"4.2"  },
-      { id: 2, img: "/2.jpg" },
-      { id: 3, img: "/3.jpg" },
-      { id: 4, img: "/4.jpg" },
-      { id: 5, img: "/Last5.jpg" },
+      { id: 1, img: "/Fourthbox.avif", producttitle:"Semi Automatic Washing Machine", productprice:999 , productoffer:"₹1399", discount:"26%OFF", rating:"4.2"  },
+      { id: 2, img: "/Fourthboxtwo.webp" },
+      { id: 3, img: "/Fourthboxthree.webp" },
+      { id: 4, img: "/Fourthboxfourth.webp" }, 
     ],
   };
  
@@ -260,7 +256,7 @@ const handleConfirmOrder = () => {
   // Sirf Buy Now product save hoga
   localStorage.setItem(
     "buyNowProduct",
-    JSON.stringify([selectedProduct])
+    JSON.stringify([selectedProduct]) 
   );
 };
         
@@ -275,10 +271,10 @@ const handleConfirmOrder = () => {
   return (
     <div className="MainProductPage">
       {/* <h1>Product ID : {id}</h1> */}
-  <div className="TopSection">
+  <div className="TopedSection">
 
-       <div className="RightSide">
-      <div className="ImagesBox">
+       <div className="ProductRightSide">
+      <div className="ProductImagesBox">
         {/* <img src={images[0]?.img} alt=""/> */}
         <img src={changeImage} alt="#"/> 
  
@@ -294,7 +290,7 @@ const handleConfirmOrder = () => {
  
    
      <div className="LeftSide">
-     <h2>{product?.title}</h2>
+     <h2>{product?.producttitle}</h2>
 
      
 
@@ -316,9 +312,9 @@ const handleConfirmOrder = () => {
 
                         })}
             </div>
-      <div className="Pricebox">
-        <p>{product?.offer}</p>
-        <h4>{product?.price}</h4>
+      <div className="Pricedbox">
+        <p>{product?.productoffer}</p>
+        <h4>{product?.productprice}</h4>
         <span>{product?.discount}</span>  
       </div>
 

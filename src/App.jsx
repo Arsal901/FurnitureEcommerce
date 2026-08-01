@@ -1,20 +1,61 @@
 
 import Navbar from "./NavBar";
 import HeroSlider from "./HeroSection";
-import Products from "./ProductSection";
+// import Products from "./ProductSection";
+import RentFurniture from "./RentFurnitureCategory"; 
+import SectionFour from "./Section4"; 
 import Card from "./Cards";
-import Onsale from "../Onsale"; 
+// import Onsale from "./Onsale"; 
+import OnSaleTwo from "./OnSaleTwo";
 import FooterArea from "./Footer";
 import ProductDetailPage from "./ProductDetailPage";
 import { useState, useEffect } from "react";
 import CheckoutStepper from "./ConfirmOrder";
 import { useLocation } from "react-router-dom";
+import VideoCallBanner from "./VideoCallBanner";
+import KidSection from "./KidSection";
+import LuxurySection from "./LuxurySection";
+import WhyFurniturewale from "./WhyFurniturewale";
 
-import {BrowserRouter, Routes, Route } from "react-router-dom"; 
+
+// import MainLivingRoom from "./MainLivingRoom";
+import MainLivingRoomDuplicate from "./MainLivingRoomDuplicate"; 
+import MainBedRoom from "./MainBedroom";
+import MainStealDeal from "./MainStealDeal";
+import MainCombo from "./MainCombo";
+import MainAppliances from "./MainAppliances";
+import MainStorage from "./MainStorage";
+import MainKids from "./MainKids";
+import MainStudy from "./MainStudy";
+import MainDinning from "./MainDinning";
+import MainLuxury from "./MainLuxury";
+import MainFitness from "./MainFitness";
+import MainMattress from "./MainMattress";
+import MainZrated from "./MainZrated";
+
+import MainProductDetail from "./MainProductDetailPage"; 
+import MainProductDetailFitness from "./MainProductDetailPageFitness";
+import MainProductDetailCombo from "./MainProductDetailPageCombo";
+import MainProductDetailLivingroom from "./MainProductDetailPageLivingroom";
+import MainProductDetailStealDeal from "./MainProductDetailPageStealDeal";
+import MainProductDetailAppliances from "./MainProductDetailPageappliances";
+import MainProductDetailStorage from "./MainProductDetailPageStorage";
+import MainProductDetailKids from "./MainProductDetailPageKids";
+import MainProductDetailStudy from "./MainProductDetailPageStudy";
+import MainProductDetailZrated from "./MainProductDetailPageZrated";
+import MainProductDetailMattress from "./MainProductDetailPageMattress";
+import MainProductDetailLuxury from "./MainProductDetailPageLuxury";
+import MainProductDetailDinning from "./MainProductDetailPageDinning";
+
+import AllProducts from "./AllProductData"; 
+
+
+
+import {BrowserRouter, Routes, Route, Link } from "react-router-dom";  
 
 // import axios from "axios";
 
-
+ 
 // import PaymentButton from "./PaymentButton";     
 
 
@@ -27,7 +68,7 @@ function App() {
   return savedCart ? JSON.parse(savedCart) : []; 
 });
 
-useEffect(() => {
+useEffect(() => { 
   localStorage.setItem("cart", JSON.stringify(cart));
 }, [cart]);
 
@@ -141,7 +182,7 @@ const handleAddToCartProductdetailPage = (product) => {
           ? {
               ...item,
 
-              qty: item.qty + product.qty,
+              qty: item.qty + product.qty, 
 
               total:
                 (item.qty + product.qty) * item.price,
@@ -187,6 +228,24 @@ const handleAddToCartProductdetailPage = (product) => {
   }
 }, [OpenCartBar]); 
 
+const [searchResults, setSearchResults] = useState(null);
+const [searchTerm, setSearchTerm] = useState("");
+
+const handleSearch = (query) => {
+  const lower = query.toLowerCase();
+  const results = AllProducts.filter((item) =>
+    item.title.toLowerCase().includes(lower)
+  );
+  setSearchTerm(query);
+  setSearchResults(results);
+};
+
+useEffect(() => {
+  if (location.pathname !== "/") {
+    setSearchResults(null);
+  }
+}, [location.pathname]);
+
   return (
 
     <>
@@ -199,32 +258,97 @@ const handleAddToCartProductdetailPage = (product) => {
           </div>
          )}
          {!location.pathname.startsWith("/ConfirmOrder") && (
-            <Navbar cart={cart} OpenCartBar={OpenCartBar} setOpenCartBar={setOpenCartBar} setCart={setCart} /> 
+            <Navbar cart={cart} OpenCartBar={OpenCartBar} setOpenCartBar={setOpenCartBar} setCart={setCart} onSearch={handleSearch} /> 
 )}
          
          <Routes> 
           <Route path="/" element={ 
       <>
-          <HeroSlider /> 
-         <Products />
-         <Card handleAddToCart={handleAddToCart} setOpenCartBar={setOpenCartBar}/>          
-         <Onsale /> 
-         
+
+
+    {searchResults && (
+      <div style={{ padding: "20px 40px" }}>
+        <h2 style={{marginBottom:"20px", fontFamily:"monospace",fontSize:"1.6rem"}}>{searchTerm}</h2>
+        {searchResults.length === 0 ? (
+          <p>No products found.</p>
+        ) : (
+          <div style={{ display: "flex", flexWrap: "wrap", gap: "20px" }}>
+            {searchResults.map((item, index) => (
+              <Link to={item.link} key={index} style={{ textDecoration: "none", color: "inherit" }}>
+                <div style={{ width: "220px", cursor: "pointer" }}>
+                  <img src={item.displayImg} alt={item.title} style={{ width: "100%", height: "100%", objectFit: "cover" }} />
+                  <h4 style={{ fontSize: "0.9rem", marginTop: "8px" }}>{item.title}</h4>
+                  <p style={{ fontSize: "0.85rem", color: "green", marginLeft:"10px" }}>{item.price}</p>
+                </div>
+              </Link>
+            ))}
+          </div>
+        )}
+      </div>
+    )}
+
+    
+
+
+    {!searchResults && (
+      <>
+
+         {/* <Products /> */}
+                   <HeroSlider /> 
+         <RentFurniture />
+         <Card handleAddToCart={handleAddToCart} setOpenCartBar={setOpenCartBar}/>  
+         <SectionFour />         
+         {/* <Onsale />  */}
+         <OnSaleTwo />
+         <VideoCallBanner />
+         <KidSection />
+         <LuxurySection />
+         <WhyFurniturewale />
+
+          </>
+    )}
+  </> 
+} />
 
           {/* <PaymentButton/>   */}
          
-     </> 
-          } 
-        // /> 
-        /> 
+    
         <Route path="/ConfirmOrder/:id"  element={<CheckoutStepper cart={cart} setCart={setCart} />}/>
         <Route path="/ConfirmOrder"  element={<CheckoutStepper cart={cart} setCart={setCart} />}/>
         <Route path="/product-detail/:id" element={<ProductDetailPage handleAddToCartProductdetailPage={handleAddToCartProductdetailPage} setOpenCartBar={setOpenCartBar} setCart={setCart}/> }  /> 
-          
+        {/* <Route path="/MainLivingRoom" element={<MainLivingRoom />} />  */}
+         <Route path="/MainLivingRoomDuplicate" element={<MainLivingRoomDuplicate />} />   
+         <Route path="/MainBedRoom" element={<MainBedRoom />} />   
+         <Route path="/MainStealDeal" element={<MainStealDeal />} />   
+         <Route path="/MainCombo" element={<MainCombo />} />   
+         <Route path="/MainAppliances" element={<MainAppliances />} />   
+         <Route path="/MainStorage" element={<MainStorage />} />   
+         <Route path="/MainKids" element={<MainKids />} />   
+         <Route path="/MainStudy" element={<MainStudy />} />   
+         <Route path="/MainDinning" element={<MainDinning />} />   
+         <Route path="/MainLuxury" element={<MainLuxury />} />   
+         <Route path="/MainFitness" element={<MainFitness />} />    
+         <Route path="/MainMattress" element={<MainMattress />} />   
+         <Route path="/MainZrated" element={<MainZrated />} />  
+         <Route path="/MainProductDetailPage/:id" element={<MainProductDetail />} />  
+         <Route path="/MainProductDetailPageFitness/:id" element={<MainProductDetailFitness />} />  
+         <Route path="/MainProductDetailPageCombo/:id" element={<MainProductDetailCombo />} />  
+         <Route path="/MainProductDetailPageLivingroom/:id" element={<MainProductDetailLivingroom />} />  
+         <Route path="/MainProductDetailPageStealDeal/:id" element={<MainProductDetailStealDeal />} />  
+         <Route path="/MainProductDetailPageappliances/:id" element={<MainProductDetailAppliances />} />  
+         <Route path="/MainProductDetailPageStorage/:id" element={<MainProductDetailStorage />} />  
+         <Route path="/MainProductDetailPageKids/:id" element={<MainProductDetailKids />} />  
+         <Route path="/MainProductDetailPageStudy/:id" element={<MainProductDetailStudy />} />  
+         <Route path="/MainProductDetailPageZrated/:id" element={<MainProductDetailZrated />} />  
+         <Route path="/MainProductDetailPageMattress/:id" element={<MainProductDetailMattress />} />  
+         <Route path="/MainProductDetailPageLuxury/:id" element={<MainProductDetailLuxury />} />  
+         <Route path="/MainProductDetailPageDinning/:id" element={<MainProductDetailDinning />} />  
+
+
       
 </Routes>
 
-{/* <FooterArea />  */}
+{/* <FooterArea />  */} 
 {!location.pathname.startsWith("/ConfirmOrder") && ( 
   <FooterArea />
 )}

@@ -1,0 +1,1343 @@
+
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.MainContainerProductPage {
+    display: flex;
+    background-color: brown;
+    height: 700px;
+    width: 85%;
+    max-width: 100%;
+    margin: 0px auto;
+}
+
+.LeftSideProductPage {
+    display: flex;
+    /* background-color: black; */
+    background-color: white;
+    height: 100%;
+    max-height: 100%;
+    width: 60%;
+    max-width: 100%; 
+}
+
+.smallPicsContainer {
+     /* border: 2px solid pink;  */
+    height: 90%;
+    width: 15%;
+    margin-top: 30px;
+    overflow-x: scroll;
+    scrollbar-width: none;
+    scroll-behavior: smooth;
+    /* background-color: yellow; */
+    background-color: white;
+
+}
+
+.smallPicsContainer img {
+   object-fit: cover;
+   height: 15%;
+    width: 100%;
+    padding: 2px 8px;
+    cursor: pointer;
+}
+
+
+.BigPicsContainer {
+    /* border: 2px solid white;  */
+    height: 90%;
+    width: 80%;
+    margin-top: 30px;
+    margin-left: 15px;
+
+
+}
+
+
+.BigPicsContainer img {
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+}
+
+/* RightSideProductPage  */
+
+
+.RightSideProductPage {
+    /* background-color: chocolate; */
+    background-color: white;
+    width: 40%;
+    max-width: 100%;
+    height: 100%;
+    max-height: 100%;
+    overflow-x: scroll;
+    scrollbar-width: none;
+    scroll-behavior: smooth;
+}
+
+
+
+
+.MainTitleArea h1 {
+    color: black;
+    font-weight: 400;
+    margin-left: 20px;
+    margin-top: 30px;
+    width: 458px;
+    max-width: 100%;
+    font-size: 1.5rem;
+    text-align: left;
+
+}
+
+.MainTitleArea h5 {
+   color: rgb(155, 4, 4);
+   font-weight: 400;
+   font-size: 0.89rem;
+   margin-left: 24px;
+}
+
+
+.MainPriceSection {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    /* background-color: red; */
+    width: 450px;
+    max-width: 100%;
+    margin-left: 20px;
+    margin-top: 20px;
+    padding: 20px;
+    height: auto;
+    max-height: 100%;
+    border: 1.5px solid rgba(0, 0, 0, 0.168);
+    border-radius: 12px;
+    position: relative;
+}
+
+
+.MainPriceSection h3 {
+    font-size: 1.4rem;
+    font-family: sans-serif;
+    font-weight: 400;
+}
+
+.MainPriceSection h4 {
+    font-size: 1.2rem;
+    font-weight: 400;
+    position: absolute;
+    right: 25px;
+    color: rgba(255, 0, 0, 0.83);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+#MainOffer {
+    text-decoration: line-through;
+    font-size: 1rem;
+    margin-top: 5px;
+    color: rgba(0, 0, 0, 0.497);
+}
+
+#MainDiscount {
+    color: green;
+    font-size: 0.91rem;
+    margin-top: 7px; 
+    font-weight: 600;
+}
+
+.MainPriceSection h2 {
+    background-color: rgba(101, 210, 101, 0.111);
+    padding: 10px;
+    font-size: 1rem;
+    border-radius: 12px;
+    color: green ;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    width: 500px;
+    max-width: 100%;
+    max-height: 100%;
+    height: 50px;
+    margin-top: 10px;
+    font-weight: 400;
+}
+
+
+.ExtraData p {
+    margin-top: 20px;
+    margin-left: 22px;
+}
+
+.ExtraData button {
+     height: 50px;
+     margin-left: 25px;
+     margin-top: 30px;
+     border-radius: 15px;
+     border: 1px solid;
+     cursor: pointer;
+     position: sticky;
+     top: 0px; 
+}
+
+#AddtoCartbtn1 {
+    background-color: var(--primary-7, #047992);
+    color: white;
+    font-size: 1rem;
+    border: 1px solid var(--primary-7, #047992);
+    width: 260px;
+    transition: 0.4s ease;
+}
+
+#AddtoCartbtn1:hover {
+    background-color: var(--primary-7, #0a5e70);
+}
+
+
+#AddtoWishCartbtn2 {
+    color: var(--primary-7, #047992);
+    font-size: 1rem;
+    border: 1px solid var(--primary-7, #047992);
+    width: 180px;
+    transition: 0.4s ease;
+}
+
+#AddtoWishCartbtn2:hover {
+    border: 1.5px solid var(--primary-7, #0a5e70);
+    color:var(--primary-7, #0a5e70) ;
+}
+
+
+
+.OtherDataofRightSide {
+    margin-top: 0px;
+    margin-left: 20px;
+}
+
+.OtherDataofRightSide h2 {
+   margin-top: 20px;
+   font-size: 1.2rem;
+   margin-left: 0px;
+   
+}
+
+
+#OtherVariant  {
+    display: flex;
+    gap: 20px;
+    width: 150px;
+    margin-top: 15px;
+}
+
+
+#OtherVariant p {
+    font-size: 1.05rem;
+    border: 1px solid rgba(0, 0, 0, 0.214);
+    padding: 10px 20px;
+    border-radius: 10px;
+    cursor: pointer; 
+    color: rgba(0, 0, 0, 0.441);
+
+}
+
+#Storage_NonStorage {
+    display: flex;
+    gap: 20px;
+    width: 150px;
+    margin-top: 15px;
+}
+
+#Storage_NonStorage p {
+    font-size: 1.05rem;
+    border: 1px solid rgba(0, 0, 0, 0.214);
+    padding: 10px 20px;
+    border-radius: 10px;
+    cursor: pointer; 
+    color: rgba(0, 0, 0, 0.441);
+
+}
+
+#Addon {
+    display: flex;
+    gap: 20px;
+    width: 30%;
+    max-width: 100%;
+    margin-top: 15px;
+    height: 50px;
+}
+
+
+#Addon p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.05rem;
+    border: 1px solid rgba(0, 0, 0, 0.214);
+    padding: 10px 25px;
+    border-radius: 10px;
+    cursor: pointer; 
+    /* margin-bottom: 50px; */
+    height: 40px;
+    color: rgba(0, 0, 0, 0.441);
+}
+
+
+
+/* .ClickedDataofRightSide  {
+    color: #047992;
+    border: 1px solid var(--primary-7, #047992) !important;
+} */
+
+/* anotherway to do  */
+
+#OtherVariant p.ClickedDataofRightSide,
+#Storage_NonStorage p.ClickedDataofRightSide,
+#Addon p.ClickedDataofRightSide {
+    color: #047992;
+    border: 1px solid #047992;
+}
+
+
+
+
+/* This is Tip Component  */
+
+
+.TipCompo {
+    position: relative;
+    display: flex;
+    margin-left: 25px;
+    margin-top: 40px;
+    margin-bottom: 30px;
+}
+
+.TipCompo p {
+    font-size: 1rem;
+    color: rgb(5, 95, 5);   
+}
+
+.TipIcon {
+    position: absolute;
+    left: 125px;
+    color: rgb(5, 95, 5);
+    margin-top: 14px;    
+    cursor: pointer;
+
+}
+
+
+
+.TipsiconData {
+    position: static;
+    margin-top: -80px;
+    background-color: rgba(164, 219, 247, 0.951);
+    width: 225px;
+    margin-left: 175px;
+    margin-bottom: 20px;
+    /* padding: 5px; */
+    text-align: left;
+    border-radius: 10px;
+}
+
+.TipsiconData p {
+    padding: 10px;
+}
+
+
+.CoupenSection {
+    margin-left: 29px;
+}
+
+.CoupenTemplates {
+    display: flex;
+    gap: 30px;
+    overflow-x: scroll;
+    scroll-behavior: smooth;
+    scrollbar-width: none;
+}
+
+.OfferandCoupens {
+    display: flex;
+    align-items: center;
+    gap: 0px;
+    justify-content: space-between;
+    width: 460px;
+}
+
+.OfferandCoupens h2 {
+    font-size: 1.2rem;
+}
+
+.OfferandCoupens h4 {
+    font-size: 0.85rem;
+    font-weight: 400;
+    cursor: pointer;
+    color: #047992;
+}
+
+.Couponbox {
+    /* background-color: rebeccapurple; */
+    background-color: white;
+    border: 1px solid #19e83b;
+    width: 65%;
+    padding:20px;
+    margin-top: 20px;
+    border-radius: 15px;
+    margin-bottom: 20px;
+    cursor: pointer;
+    margin-right: 10px;
+
+}
+
+.Couponbox h3 {
+    margin-left: 0px;
+}
+
+.MaxSaving {
+    display: flex;
+    margin-top: 20px;
+    background-color: #19e83c59;
+    width: 130px;
+    font-size: 0.91rem;
+    color: rgba(0, 0, 0, 0.592);
+    margin-left: 0px;
+    cursor: pointer;
+
+}
+
+.MaxSavingIcon {
+    margin-top: 3px;
+    margin-left: 10px;
+
+}
+
+.Couponbox h5 {
+  text-decoration: underline;
+  color: rgba(0, 0, 0, 0.845);
+  margin-left: 140px;
+  margin-top: -17px;
+  cursor: pointer;
+}
+
+
+.AssemblyDetails {
+    margin-left: 30px;
+    margin-top: 20px;
+    border-top: 1px solid rgba(0, 0, 0, 0.142);
+    padding-top: 20px;
+    width: 90%;
+    margin: 0px auto;
+}
+
+.PincodeBox {
+    width: 280px;
+    max-width: 100%;
+    height: 60px;
+    max-height: 100%;
+    border-radius: 10px;
+    background-color: white;
+    margin-top: 15px;
+    color: #047992;
+}
+
+.PincodeBox input {
+    width: 70%;
+    height: 80%;
+    border: none;
+    padding-left: 10px;
+    font-size: 1rem;
+    /* background-color: red; */
+    overflow: hidden;
+    border-radius: 15px;
+    outline: none;
+}
+
+.PincodeBox button {
+    font-size: 0.95rem;
+    font-family: Arial, Helvetica, sans-serif;
+    border: none;
+    color: #047992;
+    background-color: white;
+    font-weight: 400;
+    cursor: pointer;
+    border-left: 1px solid rgba(0, 0, 0, 0.236);
+    padding-left: 12px;
+}
+
+.DeliveryTiming {
+    display: flex;
+    gap: 0px;
+    margin-top: 3px;
+}
+
+
+
+.DeliverTruckicon {
+    /* background-color: red; */
+    font-size: 3rem;
+    height: 20px;
+    margin-top: 10px;
+    color: rgba(0, 0, 0, 0.614);
+
+    
+}
+
+.DeliveryTiming p {
+    font-size: 0.90rem;
+    color: rgba(0, 0, 0, 0.684);
+
+}
+
+
+
+
+/* SeamlessGuaranteed  */
+
+
+.SeamlessGuaranteed {
+    position: relative;
+    margin-top: 40px;
+    background-color: white;
+    height: 330px;
+    max-height: 100%;
+    width: 80%;
+    max-width: 100%;
+    margin-bottom: 20px;
+    margin-left: 30px;
+    padding: 10px;
+    border-radius: 20px;
+    border: 1px solid rgba(0, 0, 0, 0.258);
+}
+
+
+.SeamlessGuaranteed h4 {
+    font-size: 1.1rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-top: 10px;
+    margin-left: 18px; 
+}
+
+.timeline {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 300px;
+    height: 200px;
+    position: absolute;
+    top: 70px;
+    left: -130px;
+}
+
+.line {
+   
+    flex: 1;
+    width: 0.91px;
+    height: 0.91px;
+    background: #333;
+}
+
+.dot {
+    width: 5px;
+    height: 5px;
+    background: #333;
+    border-radius: 50%;
+}
+
+
+.AllStepshere {
+    margin: 20px;
+
+}
+
+
+.Stepone p, .Steptwo p, .Stepthree p {
+
+    font-size: 1.05rem;
+
+}
+
+.Steptwo {
+    margin-top: 15px;
+}
+
+.Stepthree {
+    margin-top: 15px;
+}
+
+
+
+.Steponebtn, .Steptwobtn {
+    display: flex;
+    width: 120px;
+    margin-top: 12px;
+}
+
+
+.Steponebtn p, .Steptwobtn p {
+    color: #047992;
+    margin-top: 0px;
+    cursor: pointer;
+}
+
+.Steponeicon, .Steptwoicon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.95rem;
+    /* background-color: pink; */
+    width: 190px;
+    margin-top: 3px;
+    color: #047992; 
+    cursor: pointer;  
+    
+}
+
+
+
+/* MainProductAccordian */
+
+
+.AllAccordinaBox {
+    border: 1px solid rgba(0, 0, 0, 0.112);
+    width: 75%;
+    margin-left: 30px;
+    border-radius: 15px;
+    height: auto;
+    margin-top: 40px;
+    margin-bottom: 40px;
+
+}
+
+/* first  */
+
+.HeadAccordianBox {
+    display: flex; 
+    /* border: 1px solid rgba(0, 0, 0, 0.086); */
+    width: 100%;
+    max-width: 100%;
+    height: 60px;
+    max-height: 100%;
+    position: relative;
+    border-radius: 10px;
+    background-color: #c6e9f182;
+    cursor: pointer;
+    transition: 0.4s ease;
+}
+
+.HeadAccordianBox:hover {
+    background-color: #c6e9f1f5;
+}
+
+
+.HeadAccordianBox img {
+    height: 60px;
+    /* margin-top: 1px; */
+    /* margin-left: 25px; */
+    border-radius: 10px;
+    /* border-bottom-left-radius: 0px; */
+}
+
+.HeadAccordianBox h1 {
+    font-size: 1rem;
+    color: black;
+    width: 230px;
+    position: absolute;
+    left: 70px;
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    margin-top: 10px;
+}
+
+.HeadAccordianBoxicon {
+    position: absolute;
+    right: 15px;
+    top: 15px; 
+    cursor: pointer; 
+    font-size: 1.7rem;
+}
+
+
+
+
+/* two  */
+
+.HeadAccordianBoxtwo {
+    display: flex;
+    /* border: 1px solid rgba(0, 0, 0, 0.086); */
+    width: 100%;
+    max-width: 100%;
+    height: 60px;
+    max-height: 100%;
+    /* margin-bottom: 20px; */
+    position: relative;
+    cursor: pointer;
+    transition: 0.4s ease;
+}
+
+
+.HeadAccordianBoxtwo img {
+    height: 56px;
+    margin-top: 1px;
+    margin-left: 25px;
+    border-radius: 10px;
+}
+
+.HeadAccordianBoxtwo h1 {
+    font-size: 1rem;
+    color: black;
+    width: 230px;
+    position: absolute;
+    left: 15px;
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    margin-top: 20px;
+}
+
+.HeadAccordianBoxtwoicon {
+    position: absolute;
+    right: 15px;
+    top: 15px; 
+    cursor: pointer; 
+    font-size: 1.7rem; 
+}
+
+
+
+/* HeadAccordiantwoData */
+
+
+
+.HeadAccordiantwoData {
+    /* background-color: brown; */
+    background-color: white;
+    height: auto;
+    max-height: 100%;
+    width: 100%;
+    /* padding: 15px; */
+    display: flex;
+    flex-direction: column; 
+    
+}
+
+
+
+
+
+.Dimension ul h2 {
+    font-size: 1.3rem;
+    margin-left: -10px;
+
+}
+
+.GeneralSpecifications ul h2 {
+    font-size: 1.3rem;
+    margin-top: 40px;
+    margin-left: -10px;
+    
+    
+}
+
+.Dimension, .GeneralSpecifications ul {
+    margin-left: 20px;
+    color: black;
+    margin-top: 10px;
+}
+
+.Dimension ul li, .GeneralSpecifications ul li {
+    list-style: disc;
+    margin-left: 10px;
+    line-height: 0.91;
+    width: 300px;
+    font-size: 1rem;
+    color: rgba(0, 0, 0, 0.907);
+    font-family: sans-serif;
+}
+
+
+
+.HeadAccordiantwoimg img {
+    height: auto;
+    margin-top: 10px;
+    object-fit: cover;
+    width: 100%;
+    cursor: pointer;
+
+}
+
+
+/* three  */
+
+.HeadAccordianBoxthree {
+    display: flex;
+    border: 1px solid rgba(0, 0, 0, 0.086);
+    width: 100%;
+    max-width: 100%;
+    height: 60px;
+    max-height: 100%;
+    position: relative;
+    cursor: pointer;
+    transition: 0.4s ease;
+}
+
+
+.HeadAccordianBoxthree img {
+    height: 56px;
+    margin-top: 1px;
+    margin-left: 25px;
+    border-radius: 10px;
+}
+
+.HeadAccordianBoxthree h1 {
+    font-size: 1rem;
+    color: black;
+    width: 230px;
+    position: absolute;
+    left: 15px;
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    margin-top: 20px;
+}
+
+.HeadAccordianBoxthreeicon {
+    position: absolute;
+    right: 15px;
+    top: 15px; 
+    cursor: pointer; 
+    font-size: 1.7rem; 
+}
+
+
+.HeadAccordianBoxthreeData p {
+    padding: 10px;
+    font-size: 1rem;
+    text-align: left;
+    color: rgba(0, 0, 0, 0.664);
+}
+
+/* four  */
+
+.HeadAccordianBoxfour {
+    display: flex;
+    border: 1px solid rgba(0, 0, 0, 0.086);
+    width: 100%;
+    max-width: 100%;
+    height: 60px;
+    max-height: 100%;
+    position: relative;
+    cursor: pointer;
+    transition: 0.4s ease;
+}
+
+
+
+
+.HeadAccordianBoxfour img {
+    height: 56px;
+    margin-top: 1px;
+    margin-left: 25px;
+    border-radius: 10px;
+}
+
+.HeadAccordianBoxfour h1 {
+    font-size: 1rem;
+    color: black;
+    width: 230px;
+    position: absolute;
+    left: 15px;
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    margin-top: 20px;
+}
+
+.HeadAccordianBoxfouricon {
+    position: absolute;
+    right: 15px;
+    top: 15px; 
+    cursor: pointer; 
+    font-size: 1.7rem;
+}
+
+
+
+.HeadAccordianBoxfourData {
+    padding: 10px;
+    font-size: 1.1rem;
+    margin-top: 10px;
+}
+
+.HeadAccordianBoxfourData h4 {
+    margin-top: 10px;
+    color: rgba(0, 0, 0, 0.675);
+}
+
+.HeadAccordianBoxfourData p {
+    margin-top: 20px;
+    width: 360px;
+    font-size: 0.94rem;
+    color: rgba(0, 0, 0, 0.779);
+}
+
+/* fifth  */
+
+.HeadAccordianBoxfifth {
+    display: flex;
+    border: 1px solid rgba(0, 0, 0, 0.086);
+    width: 100%;
+    max-width: 100%;
+    height: 60px;
+    max-height: 100%;
+    position: relative;
+    cursor: pointer;
+    transition: 0.4s ease;
+}
+
+
+
+
+.HeadAccordianBoxfifth img {
+    height: 56px;
+    margin-top: 1px;
+    margin-left: 25px;
+    border-radius: 10px;
+}
+
+.HeadAccordianBoxfifth h1 {
+    font-size: 1rem;
+    color: black;
+    width: 230px;
+    position: absolute;
+    left: 15px;
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    margin-top: 20px;
+}
+
+.HeadAccordianBoxfifthicon {
+    position: absolute;
+    right: 15px;
+    top: 15px; 
+    cursor: pointer; 
+    font-size: 1.7rem; 
+}
+
+
+
+.HeadAccordianBoxfifthData {
+    padding: 10px;
+    font-size: 1.1rem;
+    margin-top: 10px;
+}
+
+.HeadAccordianBoxfifthData h4 {
+    margin-top: 15px;
+    color: rgba(0, 0, 0, 0.799);
+}
+
+.HeadAccordianBoxfifthData p {
+    margin-top: 12px;
+    width: 360px;
+    font-size: 0.94rem;
+    color: rgba(0, 0, 0, 0.779);
+}
+
+
+
+
+/* FurnitureWaleCare  */
+
+
+.FurnitureWaleCare {
+    display: flex;
+    border: 1px solid rgb(90, 193, 233);
+    width:430px;
+    max-width: 100%;
+    height: 98px;
+    margin-left: 30px;
+    border-radius: 20px;
+    background-color: #7ce3fa12;
+}
+
+
+.FurniturewaleCareLeftSide {
+    /* background-color: red; */
+    width: 10%;
+    max-width: 100%;
+    /* height: 100%; */
+}
+
+.FurniturewaleCaricon {
+    font-size: 2rem;
+    color:#08abd0;
+    margin-top: 30px;
+    margin-left: 15px;
+}
+
+.FurniturewaleCareRightSide {
+    /* background-color: #19e83b; */
+    width: 90%;
+    padding: 10px 0px;
+    position: relative;
+    margin-top: 0px;
+    margin-left: 10px;
+    
+}
+
+
+.FurniturewaleCareRightSide h2 {
+    font-size: 1rem;
+    margin-top: 0px;
+    /* font-family: Arial, Helvetica, sans-serif; */
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-left: 10px;
+    color: rgba(0, 0, 0, 0.759);
+}
+
+
+.FurniturewaleCareRightSide p {
+    margin-top: 5px;
+    width: 260px;
+    font-size: 0.85rem;
+    text-align: left;
+    color: rgba(0, 0, 0, 0.664);
+}
+
+
+.FurniturewaleCareRightSide h4 {
+    position: absolute;
+    right: 15px;
+    top: 40px;
+    font-size: 0.85rem;
+    color: #047992;
+    font-family: Arial, Helvetica, sans-serif;
+    cursor: pointer; 
+}
+
+
+
+/* DoubleCard */
+
+
+.DoubleCard {
+    display: flex;
+    gap: 15px; 
+}
+
+
+.BuytwoSection {
+    border: 1px solid rgba(0, 0, 0, 0.201);
+    padding: 10px;
+    margin-top: 40px;
+    margin-left: 25px;
+    border-radius: 15px;
+    width: 440px;
+    margin-bottom: 40px;
+}
+
+.Buytwoinside h2 {
+    font-size: 1.2rem;
+   margin-left: 10px;
+   font-family: Arial, Helvetica, sans-serif;
+   margin-top: 10px;
+}
+
+.Buytwoinside p {
+    color: rgba(0, 0, 0, 0.651);
+    font-size: 1.05rem;
+}
+
+
+
+/* LeftCard area  */
+
+
+.LeftCard {
+    width: 200px;
+    height: 310px;
+    /* background-color: red; */
+    margin-left: 0px;
+    margin-top: 20px;
+}
+
+.LeftCard img {
+    height: 185px;
+    width: 95%;
+    max-height: 100%;
+    /* margin-left: 10px; */
+}
+
+.LeftCard h4 { 
+    font-size: 1.2rem; 
+    margin-left: 0px;
+}
+
+.LeftCard h2 {
+    font-size: 1rem; 
+    font-weight: 400;
+    margin-left: 0px;
+    margin-top: 10px;
+
+}
+
+.LeftCard h5 {
+    margin-top: 5px;
+    text-decoration: line-through; 
+}
+
+.LeftCardprices {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.LeftCardprices h4 {
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgba(0, 0, 0, 0.766);
+}
+
+.LeftCardprices h5 {
+    color: rgba(0, 0, 0, 0.523);
+    font-weight: 400;
+}
+
+
+.AddAllitem button {
+    width: 95%;
+    margin-left: 10px;
+    height: 40px;
+    border-radius: 10px;
+    outline: none;
+    border: 1.2px solid #047992 ;
+    cursor: pointer;
+    color: #047992;
+    background-color: white;
+    
+}
+
+
+/* rightCard area  */
+
+
+.RightCard {
+    width: 200px;
+    height: 310px;
+    /* background-color: red; */
+    margin-left: 10px;
+    margin-top: 20px;
+}
+
+.RightCard img {
+    height: 185px;
+    width: 95%;
+    max-height: 100%;
+    /* margin-left: 10px; */
+}
+
+.RightCard h4 { 
+    font-size: 1.2rem; 
+    margin-left: 0px;
+}
+
+.RightCard h2 {
+    font-size: 0.91rem; 
+    font-weight: 400;
+    margin-left: 0px;
+    margin-top: 10px;
+    width: 190px;
+    text-overflow: ellipsis;
+    /* white-space: nowrap; */
+    display: -webkit-box;
+   -webkit-line-clamp: 2;   /* kitni lines dikhani hain */
+   -webkit-box-orient: vertical;
+    overflow: hidden;
+
+}
+
+.RightCard h5 {
+    margin-top: 5px;
+    text-decoration: line-through; 
+}
+
+.RightCardprices {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.RightCardprices h4 {
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgba(0, 0, 0, 0.766);
+}
+
+.RightCardprices h5 {
+    color: rgba(0, 0, 0, 0.523);
+    font-weight: 400;
+}
+
+
+/* LastAccordians */
+
+
+.LastAccordians {
+    border: 1px solid rgba(0, 0, 0, 0.193);
+    margin-left: 30px;
+    padding: 10px;
+    width: 430px;
+    border-radius: 10px;
+    height: auto;
+    margin-bottom: 50px;
+}
+
+.Cancellation {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.129);
+    cursor: pointer;
+    width: 95%;
+    margin: 0px auto;
+    padding: 18px 0px;
+    position: relative;
+}
+
+.CancellationHeading {
+    display: flex;
+    gap: 10px;
+    font-size: 0.71rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    color: rgba(0, 0, 0, 0.944);
+}
+
+.CancellationHeading h2 {
+   font-weight: 400;
+}
+
+.CancellationIcon {
+    font-size: 1.6rem;
+    position: absolute;
+    right: 10px;
+    top: 12px;
+
+}
+
+
+
+
+.CancellationData h3 {
+    margin-top: 18px;
+    color: rgba(0, 0, 0, 0.679);
+ 
+}
+
+.CancellationData p {
+    margin-left: 0px;
+    color: rgba(0, 0, 0, 0.77);
+    font-size: 1rem;
+
+
+}
+
+
+/* Importterms  */
+
+.ImportTerms {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.122);
+    cursor: pointer;
+    width: 95%;
+    margin: 0px auto;
+    padding: 20px 0px;
+    position: relative;
+    margin-top: 5px;
+
+
+}
+
+.ImportTermsHeading {
+    display: flex;
+    gap: 15px;
+    font-size: 0.81rem;
+    font-weight: 400;
+}
+
+.ImportTermsHeading h2 {
+   font-weight: 400;
+}
+
+.ImportTermsIcon {
+    font-size: 1.5rem;
+    position: absolute;
+    right: 10px;  
+}
+
+.ImportTermsData {
+    padding: 0px 15px;
+}
+
+.ImportTermsData ul li {
+    list-style-type: disc;
+    font-size: 1rem;
+    color: rgba(0, 0, 0, 0.758); 
+}
+
+
+/* FrequentlyAskedQuestion  */
+
+.FrequentlyAskedQuestion {
+    cursor: pointer;
+    width: 95%;
+    margin: 0px auto;
+    padding: 15px 0px;
+    position: relative;
+    margin-top: 5px;
+
+    
+}
+
+.FAQHeading {
+    display: flex;
+    gap: 15px;
+    font-size: 0.81rem;
+    font-weight: 400;
+}
+
+.FAQHeading h2 {
+   font-weight: 400;
+}
+
+
+
+.FAQIcon {
+    font-size: 1.5rem;
+    position: absolute;
+    right: 10px;
+}
+
+.FAQData h4, p {
+    margin-left: 0px; 
+    margin-top: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.FAQData h4 {
+   font-size: 0.92rem;
+   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+   color: rgba(0, 0, 0, 0.752);
+}
+
+.FAQData p {
+    color: rgba(0, 0, 0, 0.615);
+    font-size: 0.90rem;
+}
+
+.FAQData {
+  margin-top: 30px;
+}

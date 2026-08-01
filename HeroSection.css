@@ -43,13 +43,18 @@
 
 @media screen and (min-width:320px) and (max-width:768px) {
     .hero-img {
+        /* height: fit-content; */
     width: 100%; 
+    /* max-width: fit-content; */
     height: 100%;
-    object-fit: cover; 
+    object-fit: cover;  
     transition: 0.5s ease;
+    object-position: left;
+
 }
 .hero {
     height: clamp(300px, 40vh, 700px);
+    /* height: clamp(120px, 18vh, 700px); */
 }
 
 }
@@ -60,7 +65,7 @@
 
 .dots {
     position: absolute;
-    bottom: 15px;
+    bottom: 10px;
     left: 50%;
     transform: translateX(-50%);
     display: flex;
@@ -73,12 +78,15 @@
 }
 
 .dot {
-    width: 10px;
-    height: 10px;
     border-radius: 50%;
-    background-color: whitesmoke;   
+    background-color: whitesmoke;    
     cursor: pointer;
     transition: 0.3s ease;
+}
+
+#DotofSlide {
+    height: 8px;
+    width: 8px;
 }
 
 .dot.active {

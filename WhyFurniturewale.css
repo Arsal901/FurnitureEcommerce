@@ -1,0 +1,123 @@
+
+
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+
+.WhyContainer {
+    display: flex;
+    flex-wrap: wrap;
+    /* background-color: brown; */
+    height: 400px;
+    max-height: 100%;
+    position: relative;
+
+}
+
+.WhyContainer h2 {
+    position: absolute;
+    top: 60px;
+    left: 600px;
+    /* display: flex; */
+    /* justify-content: center; */
+    /* margin: 40px auto; */
+    font-size: 1.7rem;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 400;
+}
+
+
+.AllWhyhere {
+    display: flex;
+    gap: 25px;
+    justify-content: center;
+    margin-left: 180px;
+    margin-top: 140px;
+    /* border: 1px solid black; */
+}
+
+
+.ZeroDeposit {
+    /* border: 1px solid black; */
+    height: 180px;
+    width: 280px;
+    padding: 30px ;
+    font-size: 1.3rem;
+    background-color: rgba(220, 220, 220, 0.14);
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.296);
+}
+
+.ZeroDeposit p {
+    font-size: 1rem;
+    margin-top: 5px;
+}
+
+.FreeDelivery {
+    /* border: 1px solid black; */
+    height: 180px;
+    width: 280px;
+    padding: 30px ;
+    font-size: 1.3rem;
+    background-color: rgba(220, 220, 220, 0.14);
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.296);
+}
+
+.FreeDelivery p {
+    font-size: 1rem;
+    margin-top: 5px;
+}
+
+.PickDate {
+    /* border: 1px solid black; */
+    height: 180px;
+    width: 280px;
+    padding: 30px ;
+    font-size: 1.3rem;
+    background-color: rgba(220, 220, 220, 0.14);
+        box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.296);
+}
+
+.PickDate p {
+    font-size: 1rem;
+    margin-top: 5px;
+}
+
+.PickDate h3 {
+    font-size: 1.3rem;
+}
+
+.UpgradeFurniture {
+    /* border: 1px solid black; */
+    height: 180px;
+    width: 280px;
+    padding: 30px ;
+    font-size: 1.3rem;
+    background-color: rgba(220, 220, 220, 0.14);
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.296);
+
+}
+
+.UpgradeFurniture p {
+    font-size: 1rem;
+    margin-top: 5px;
+}
+
+
+.WhyChooseusIcons {
+    font-size: 2rem;
+    margin: 5px 0px;
+}
+
+
+@media screen and (min-width:320px) and (max-width:768px) {
+    
+
+    .WhyContainer {
+        display: none;
+    }
+
+    
+}

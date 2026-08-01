@@ -1,0 +1,202 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.KidFurnitureSection {
+    width: 100%;
+    padding: 50px 0px;
+    /* background-color: brown; */
+    background-color: whitesmoke;
+}
+
+/* Wrapper */
+.KidCardBox {
+    padding-left: 25px;
+    display: flex;
+    gap: 20px;
+    /* flex-wrap: wrap; */
+    justify-content: left;
+    overflow-x: auto;
+    overflow-y: hidden;
+    scroll-behavior: smooth;
+    padding-bottom: 10px;
+    scrollbar-width: none;
+}
+
+/* Single Card */
+.KidCard {
+    width: 250px;
+    flex-shrink: 0;
+    background-color: rgba(220, 220, 220, 0.296);
+    /* border-radius: 10px; */
+    overflow: hidden;
+    cursor: pointer;
+    transition: 0.3s;
+    height: 380px;
+    max-height: 100%;
+}
+
+.KidCard:hover {
+    transform: translateY(-5px);
+}
+
+/* Image Area */
+.Kidimage {
+    position: relative;
+    height: 280px;
+}
+
+.Kidimage img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.Kidimage h4 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 35px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-color: gold;
+    color: rgba(0, 0, 0, 0.8);
+    font-size: 1rem;
+}
+
+/* Content */
+.KidContent {
+    margin-top: 10px;
+    /* padding: 15px; */
+}
+
+.KidCartTitle {
+    font-size: 1rem;
+    font-weight: 400;
+    margin-bottom: 15px;
+}
+
+.PriceBox {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.PriceBox p {
+    text-decoration: line-through;
+    color: gray;
+}
+
+.Deliverys {
+    margin-top: 5px;
+    font-size: 0.85rem;
+    color: rgb(79, 78, 78);
+}
+
+
+@media screen and (min-width:320px) and (max-width:768px) {
+
+    
+.KidFurnitureSection {
+    width: 100%;
+    padding: 50px 0px;
+    /* background-color: brown; */
+    background-color: whitesmoke;
+}
+
+/* Wrapper */
+.KidCardBox {
+    padding-left: 25px;
+    display: flex;
+    gap: 20px;
+    /* flex-wrap: wrap; */
+    justify-content: left;
+    overflow-x: auto;
+    overflow-y: hidden;
+    scroll-behavior: smooth;
+    padding-bottom: 10px;
+    scrollbar-width: none;
+}
+
+/* Single Card */
+.KidCard {
+    width: 180px;
+    flex-shrink: 0;
+    background-color: rgba(220, 220, 220, 0.296);
+    /* border-radius: 10px; */
+    overflow: hidden;
+    cursor: pointer;
+    transition: 0.3s;
+    height: 300px;
+    max-height: 100%;
+}
+
+.KidCard:hover {
+    transform: translateY(-5px);
+}
+
+/* Image Area */
+.Kidimage {
+    position: relative;
+    height: 200px;
+}
+
+.Kidimage img {
+    width: 100%;
+    height: 90%;
+    object-fit: cover;
+}
+
+.Kidimage h4 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 35px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-color: gold;
+    color: rgba(0, 0, 0, 0.8);
+    font-size: 1rem;
+}
+
+/* Content */
+.KidContent {
+    margin-top: 10px;
+    /* padding: 15px; */
+}
+
+.KidCartTitle {
+    font-size: 1rem;
+    font-weight: 400;
+    margin-bottom: 15px;
+}
+
+.PriceBox {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.PriceBox p {
+    text-decoration: line-through;
+    color: gray;
+}
+
+.Deliverys {
+    margin-top: 5px;
+    font-size: 0.85rem;
+    color: rgb(79, 78, 78);
+}
+
+
+}

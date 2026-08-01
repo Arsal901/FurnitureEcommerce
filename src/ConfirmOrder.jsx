@@ -250,7 +250,7 @@ const handlePayment = async (e) => {
     <>
 
             <div className="MainContainer" id="ConfirmOrderNav">
-      <Link className="HomeLink" to="/" id="ConfirmOrderNavLogo"><h1>SAHILRAJPUT</h1></Link> 
+      <Link className="HomeLink" to="/" id="ConfirmOrderNavLogo"><h1>FURNITUREWALE</h1></Link>  
             </div>
 
       <div className="BackgroundContainer">

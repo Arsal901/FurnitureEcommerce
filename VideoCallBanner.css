@@ -1,0 +1,51 @@
+
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+
+
+.JustBanner {
+  max-width: 100%;
+  width: 100%;
+  height: 300px;
+  max-height: 100%;
+  /* background-color: brown; */
+  background-color: white;
+  cursor: pointer; 
+}
+
+.JustBanner img {
+    width: 100%;
+    max-width: 95%;
+    margin-top: 30px;
+    margin-left: 40px;
+}
+
+
+@media screen and (min-width:320px) and (max-width:768px) {
+
+
+    .JustBanner {
+  max-width: 100%;
+  width: 100%;
+  height: 70px;
+  max-height: 100%;
+  /* background-color: brown; */
+  background-color: white;
+  cursor: pointer; 
+  
+}
+
+.JustBanner img {
+    width: 100%;
+    max-width: 100%;
+    margin-top: 5px;
+    margin-left: 0px;
+    padding: 5px;
+   
+}
+
+}
