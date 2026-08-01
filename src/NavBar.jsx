@@ -358,7 +358,7 @@ const navigate = useNavigate();
 // This is MobileMenuBar 
 
 const [mobileSearchBar, setMobileSearchBar] = useState(true);     
-const [mobileMenuOpen, setMobileMenuOpen] = useState(true); 
+const [mobileMenuOpen, setMobileMenuOpen] = useState(true);  
 
 
 

@@ -53,6 +53,8 @@
 
 }
 .hero {
+    width: 100%;
+    max-width: 100%;
     height: clamp(300px, 40vh, 700px);
     /* height: clamp(120px, 18vh, 700px); */
 }

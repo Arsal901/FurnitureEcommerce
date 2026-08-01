@@ -6,6 +6,8 @@
  }
 
  .OnSaleCollection {
+   width: 100%;
+   max-width: 100%;
     /* background-color: red; */
     height: 500px;
     max-height: 100%;
@@ -155,3 +157,15 @@
     font-size: 0.75rem;
     color: rgba(0, 0, 0, 0.764);
  }
+
+
+ @media screen and (min-width: 320px) and (max-width: 768px) {
+    .OnSaleCollection {
+        width: 100%;
+        max-width: 100%;
+    }
+    .OnSaleContainer {
+        width: 100%;
+        max-width: 100%;
+    }
+   }
