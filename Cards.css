@@ -118,6 +118,7 @@
 
 @media screen and (min-width: 320px) and (max-width: 650px) {
     .MainCardBox {
+           /* border: 2px solid red; */
 
         display: flex;
         flex-wrap: wrap;

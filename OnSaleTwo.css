@@ -163,6 +163,8 @@
     .OnSaleCollection {
         width: 100%;
         max-width: 100%;
+            /* border: 2px solid red; */
+
     }
     .OnSaleContainer {
         width: 100%;

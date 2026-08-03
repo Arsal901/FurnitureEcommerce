@@ -283,6 +283,8 @@
       position: relative;
       width: 100%;
       max-width: 100%; 
+          /* border: 2px solid red; */
+
     }
 
     .Footerbox h2 {
@@ -336,6 +338,7 @@
 
 
     .Copyright {
+         /* border: 2px solid red; */
         width: 100%;
         max-width: 100%;
     display: flex;
@@ -351,6 +354,9 @@
     color: black;
     font-size: 1rem;
     margin: 30px auto;
+   /* border: 2px solid red; */
+
+    
 }
 
 .CitiesweDeliver h3,p {
@@ -358,10 +364,12 @@
    color: black;
    font-weight: 400;
    font-size: 0.91rem;
-   width: 900px;
-   max-width: 100%;
-   margin-top: 10px;
+   margin-top: 10px; 
+    /* border: 2px solid red; */
+
 }
+
+
 
 
 
@@ -378,7 +386,7 @@
     width: 150px;
     /* background-color:yellow; */
     height: 50px;
-    right: 130px;
+    right: 180px;
     /* margin-left: 70px; */
       /* outline: 1px solid red; */
 
@@ -386,6 +394,7 @@
 .AvailableStores img {
     display: flex;
     cursor: pointer;
+
 
 }
 
@@ -429,7 +438,6 @@
    color: black;
    font-weight: 400;
    font-size: 0.91rem;
-   width: 900px;
    max-width: 100%;
    margin-top: 40px;
 }
@@ -444,6 +452,7 @@
 }
 
 .AvailableStores {
+    display: flex;
     margin-left: 70px;
 }
 .AvailableStores img {

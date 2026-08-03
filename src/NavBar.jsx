@@ -401,7 +401,7 @@ const [mobileMenuOpen, setMobileMenuOpen] = useState(true);
 
                 <TbMapPinCode className="hamburgerIcon" onClick={()=> setOpenSideBar(true)} />
                 <b>{mainpinCode}</b>
-                </div>  
+                </div>   
                                       
                 
                 

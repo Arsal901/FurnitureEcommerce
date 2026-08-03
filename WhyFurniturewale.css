@@ -117,6 +117,13 @@
 
     .WhyContainer {
         display: none;
+        scrollbar-width: none;
+        flex-wrap: wrap;
+        overflow-x: scroll;
+        /* border: 2px solid red; */
+        width: 100%;
+        max-width: 100%;
+        
     }
 
     
