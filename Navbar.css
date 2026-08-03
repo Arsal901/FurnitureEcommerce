@@ -1142,6 +1142,43 @@ h1 {
 
 
 
+.first h1 {
+    /* border: 2px solid red; */
+    margin-left: -25px;
+    
+}
+
+.sideBarMenus {
+    /* margin: 0px; */
+     /* background-color: tomato; */
+     width: 95%;
+     
+}
+
+.Third {
+    /* background-color: #047992; */
+    width: 100%;
+    max-width: 100%;
+    overflow: hidden;
+    margin-top: 10px;
+   
+}
+
+
+
+
+
+.CityBox {
+    /* background-color: red; */
+    margin-right: 20px;
+    margin-left: -25px;
+
+}
+
+
+
+
+
 
 
 /* This is FurnitureMobileSection  */
@@ -1188,7 +1225,8 @@ h1 {
     text-align: center;
     align-items: center;
     position: absolute;
-    left: 120px;
+    left: 130px;
+    margin-top: 20px;
     
 
 }
