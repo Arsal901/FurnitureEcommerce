@@ -1033,12 +1033,12 @@ h1 {
 
 
 
-.overlays {
+.RightSideoverlays {
     position: fixed;
     inset: 0;
     background: rgba(0,0,0,0.3);
     backdrop-filter: blur(5px);
-    z-index: 99;
+    z-index: 999;
 }
 
 .CartSidebar { 
@@ -1162,12 +1162,15 @@ h1 {
     flex-direction: column;
     align-items: left;
     margin-left: 0px;
-    margin-top: 45px;
+    margin-top: 10px;  
+
 }
 
 .FurniturewaleMenus ul li {
     z-index: 100;
     cursor: pointer;
+    /* background-color:red; */
+    margin-top: 0px;
 }
 
 .FurniturewaleMenus ul li:hover {
@@ -1204,7 +1207,7 @@ h1 {
     position: absolute;
     left: 0px;
     top: 60px;
-    z-index: 1109;
+    z-index: 100;
     background-color: white;
     width: 100%;
     padding: 10px;
@@ -1387,9 +1390,9 @@ h1 {
     width: 380px;
     max-width: 90%;
     height: 100vh;
-    /* display: none; */
+    display: flex;
     flex-direction: column;
-    z-index: 1000;
+    z-index: 1100;
     overflow: hidden;
     transition: transform 0.4s ease;
     

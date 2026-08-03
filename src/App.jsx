@@ -269,7 +269,7 @@ const handleSearch = (query) => {
   {/* <BrowserRouter> */}
          {OpenCartBar && (
           <div
-          className="overlays"
+          className="RightSideoverlays"
           onClick={()=> setOpenCartBar(false)}>
           </div>
          )}

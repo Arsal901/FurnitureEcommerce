@@ -610,7 +610,7 @@ const handleHover = () => {
             //     width: filtersOpen ? "75%" : "100%"
 
             // }} >
-            >
+            > 
                 {LivingRoomImages.map((item, index)=> (
                 <div className="LivingRoomCard" key={index}
 
