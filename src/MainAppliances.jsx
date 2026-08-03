@@ -209,8 +209,8 @@ const handleHover = () => {
              </div>
 
 
-
-             <div className="LeftedSection">
+       <div className="BottomFlexWrapper">  
+             <div className="LeftedSection"  style={{ width: filtersOpen ? "22%" : "0%" }}>
                 {filtersOpen && (
             <div className="LeftLivingArea">
             {/* <div className={`LeftLivingArea ${filtersOpen ? 'open' : 'closed'}`}>  */}
@@ -600,13 +600,14 @@ const handleHover = () => {
              </div>
 
 
-             <div className="RightSection">
+             <div className="RightSection" style={{ width: filtersOpen ? "78%" : "100%" }}>
                 <div className="RightLivingArea" 
-            style={{
-                left: filtersOpen ? "20%" : "0%",
-                width: filtersOpen ? "75%" : "100%"
+            // style={{
+            //     left: filtersOpen ? "20%" : "0%",
+            //     width: filtersOpen ? "75%" : "100%"
 
-            }} >
+            // }} 
+            >
                 {LivingRoomImages.map((item, index)=> (
                 <div className="LivingRoomCard" key={index}
 
@@ -649,6 +650,7 @@ const handleHover = () => {
                
             </div>
             </div> 
+            </div>
         </div>
 
 

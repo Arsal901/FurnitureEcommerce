@@ -5,14 +5,22 @@
     box-sizing: border-box;
  }
 
- .MainboxContainer {
+ /* .MainboxContainer {
     background-color: white;
     height: 1250px;
     max-height: 100%;
     width: 95%;
     max-width: 100%;
     margin: 0px auto;
- } 
+ }  */
+
+ .MainboxContainer {
+    background-color: white;
+    width: 95%;
+    max-width: 100%;
+    margin: 0px auto;
+    
+}
 
  .TopLivingAreas {
     display: flex;
@@ -75,12 +83,13 @@
 
 
  .TopSection {
+    display: flex;
     width: 100%;
-    height: 30%;
+    height: 30%; 
     background-color: turquoise;
  }
 
- .TopSection img {
+ .TopSection img { 
     object-fit: cover;
     width: 100%;
     height: 100%;
@@ -177,7 +186,7 @@
 
 /* leftsection  */
 
- .LeftedSection {
+ /* .LeftedSection {
     width: 23%;
     max-width: 100%;
     height: 100%;
@@ -186,9 +195,7 @@
 .LeftLivingArea {
     position: absolute;
     display: flex;
-    /* background-color: aliceblue; */
     background-color: whitesmoke;
-    /* background-color: tan; */
     overflow-y: scroll;
     overflow-x: hidden;
     scroll-behavior: smooth; 
@@ -201,6 +208,33 @@
     transition: all 0.3s ease-in-out;
     bottom: 0px;
     
+} */
+
+.BottomFlexWrapper {
+    display: flex;
+    flex-direction: row;
+    align-items: stretch; 
+    width: 100%;
+} 
+
+.LeftedSection {
+    /* display: flex;
+    align-items: flex-start;
+    gap: 20px; */
+    /* width: 20%; */
+    flex-shrink: 0;
+    transition: all 0.3s ease-in-out;
+}
+
+.LeftLivingArea {
+    width: 100%;
+    height: auto;          /* fixed height hatao */
+    max-height: 800px;     /* agar sidebar apna scroll rakhna hai to yaha rakh sakte ho */
+    overflow-y: auto;
+    position: sticky;      /* absolute ki jagah sticky use karo, taaki scroll pe sidebar sath chale */
+    top: 100px;
+    scroll-behavior: smooth;
+    scrollbar-width: none;
 }
 
 .LeftLivingArea.closed {
@@ -641,7 +675,7 @@
 
 
 
-.RightLivingArea {
+/* .RightLivingArea {
     position: absolute;
     display: flex;
     flex-wrap: wrap;
@@ -652,14 +686,25 @@
     max-width: 95%;
     height: 737px;
     overflow-y: scroll;
-    /* overflow: hidden; */
-    /* overflow: visible; */
     scrollbar-width: none;
     scroll-behavior: smooth;
-    /* max-height: 100%; */
-    /* background-color: orange; */
     background-color: whitesmoke;
-    /* background-color: red; */
+} */
+
+.RightSection {
+    /* width: 78%; */
+    flex-shrink: 0;
+    transition: all 0.3s ease-in-out;
+}
+
+.RightLivingArea { 
+    display: flex;
+    flex-wrap: wrap;
+    /* gap: 0px; */
+    width: 100%;
+    max-width: 100%; 
+    background-color: whitesmoke;
+    
 }
 
 

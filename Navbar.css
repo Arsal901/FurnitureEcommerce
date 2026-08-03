@@ -1128,6 +1128,12 @@ h1 {
     display: none;
 }
 
+.SideBar {
+    width: 44%;
+    max-width: 100%;
+    z-index: 1005;
+}
+
 
 
 
@@ -1369,9 +1375,10 @@ h1 {
 
 
 .RightCartBar {
+
     position: fixed;
     top: 0;
-    right: 0;
+    right: 0px;
     background-color: #141e30;
     width: 350px;
     max-width: 92%;

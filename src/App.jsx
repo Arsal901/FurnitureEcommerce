@@ -11,7 +11,7 @@ import FooterArea from "./Footer";
 import ProductDetailPage from "./ProductDetailPage";
 import { useState, useEffect } from "react";
 import CheckoutStepper from "./ConfirmOrder";
-import { useLocation } from "react-router-dom";
+// import { useLocation } from "react-router-dom";
 import VideoCallBanner from "./VideoCallBanner";
 import KidSection from "./KidSection";
 import LuxurySection from "./LuxurySection";
@@ -48,6 +48,7 @@ import MainProductDetailLuxury from "./MainProductDetailPageLuxury";
 import MainProductDetailDinning from "./MainProductDetailPageDinning";
 
 import AllProducts from "./AllProductData"; 
+import { useLocation, useNavigate, useSearchParams } from "react-router-dom";
 
 
 
@@ -228,23 +229,38 @@ const handleAddToCartProductdetailPage = (product) => {
   }
 }, [OpenCartBar]); 
 
-const [searchResults, setSearchResults] = useState(null);
-const [searchTerm, setSearchTerm] = useState("");
+// const [searchResults, setSearchResults] = useState(null);
+// const [searchTerm, setSearchTerm] = useState("");
+
+// const handleSearch = (query) => {
+//   const lower = query.toLowerCase();
+//   const results = AllProducts.filter((item) =>
+//     item.title.toLowerCase().includes(lower)
+//   );
+//   setSearchTerm(query);
+//   setSearchResults(results);
+// };
+
+// useEffect(() => {
+//   if (location.pathname !== "/") {
+//     setSearchResults(null);
+//   }
+// }, [location.pathname]);
+
+const [searchParams] = useSearchParams();
+const navigate = useNavigate();
+
+const searchTerm = searchParams.get("search") || "";
+
+const searchResults = searchTerm
+  ? AllProducts.filter((item) =>
+      item.title.toLowerCase().includes(searchTerm.toLowerCase())
+    )
+  : null;
 
 const handleSearch = (query) => {
-  const lower = query.toLowerCase();
-  const results = AllProducts.filter((item) =>
-    item.title.toLowerCase().includes(lower)
-  );
-  setSearchTerm(query);
-  setSearchResults(results);
-};
-
-useEffect(() => {
-  if (location.pathname !== "/") {
-    setSearchResults(null);
-  }
-}, [location.pathname]);
+  navigate(`/?search=${encodeURIComponent(query)}`);
+}
 
   return (
 

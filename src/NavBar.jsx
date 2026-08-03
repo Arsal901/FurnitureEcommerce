@@ -872,9 +872,9 @@ const [mobileMenuOpen, setMobileMenuOpen] = useState(true);
                        if (e.key === "Enter") {
                          if (searchInput.trim() === "") return;
                          onSearch(searchInput);
-                         navigate("/");
+                        //  navigate("/");
         }
-      }}
+      }} 
     />
 
                     <FiSearch
@@ -882,7 +882,7 @@ const [mobileMenuOpen, setMobileMenuOpen] = useState(true);
                      onClick={()=> {
                       if(searchInput.trim() === "")  return;
                       onSearch(searchInput);
-                      navigate("/")
+                      // navigate("/")
                      }}
                      /> 
                   </div>
@@ -921,7 +921,7 @@ const [mobileMenuOpen, setMobileMenuOpen] = useState(true);
 
 
  
-
+ 
 
                 {/* {OpenCartBar && ( */}
                    {/* <div className="RightCartBar">  */}
