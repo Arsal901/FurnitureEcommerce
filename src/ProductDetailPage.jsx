@@ -6,7 +6,7 @@ import { FiMinus } from "react-icons/fi";
 import { GoPlus } from "react-icons/go";
 
 import { FaShoppingCart } from "react-icons/fa";
-
+ 
 import axios from "axios"; 
 
 
@@ -259,7 +259,7 @@ const handleConfirmOrder = () => {
 
 // export default PaymentButton;
 
-  return ( 
+  return (  
     <div className="MainProductPage">
       {/* <h1>Product ID : {id}</h1> */}
   <div className="TopedSection">
