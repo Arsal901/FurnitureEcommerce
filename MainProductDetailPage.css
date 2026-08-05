@@ -1527,14 +1527,18 @@
     margin-left: 22px;
 }
 
+
+
 .ExtraData button {
+   
      height: 50px;
-     margin-left: 25px;
+     margin-left: 0px;
      margin-top: 30px;
      border-radius: 15px;
      border: 1px solid;
      cursor: pointer;
      position: relative;
+     margin: 10px;
 }
 
 #AddtoCartbtn1 {
@@ -1542,8 +1546,9 @@
     color: white;
     font-size: 1rem;
     border: 1px solid var(--primary-7, #047992);
-    width: 260px;
+    width: 150px;
     transition: 0.4s ease;
+    margin-left: 20px;
 }
 
 #AddtoCartbtn1:hover {
@@ -1555,7 +1560,7 @@
     color: var(--primary-7, #047992);
     font-size: 1rem;
     border: 1px solid var(--primary-7, #047992);
-    width: 260px;
+    width: 150px;
     transition: 0.4s ease;
 }
 
@@ -1961,7 +1966,7 @@
 
 .AllAccordinaBox {
     border: 1px solid rgba(0, 0, 0, 0.112);
-    width: 75%;
+    width: 82%;
     margin-left: 20px;
     border-radius: 15px;
     height: auto;
