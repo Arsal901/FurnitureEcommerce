@@ -46,7 +46,6 @@ function ProductDetailPage({handleAddToCartProductdetailPage, setOpenCartBar, se
     ], 
     3: [
       { id: 1, img: "/Thirdbox.avif", producttitle:"Hako Solid Wood Bedside Table in Timeless Teak Finish",  productprice:699, productoffer:"₹1399", discount:"26%OFF", rating:"4", 
-        Mainheading:`Write, Learn & Connect with the Holy Quran`,
         description: `Enhance your bedroom with this stylish wooden bedside table, thoughtfully designed for both beauty and functionality. Crafted from high-quality wood with a
         smooth natural finish, it features spacious storage for keeping your essentials organized and within easy reach. Its compact design fits perfectly beside any bed, while
         the sturdy construction ensures lasting durability. Whether used for a bedside lamp, books, or decorative items, this table adds warmth and sophistication to your space.`
@@ -57,7 +56,6 @@ function ProductDetailPage({handleAddToCartProductdetailPage, setOpenCartBar, se
     ],
     4: [
       { id: 1, img: "/Fourthbox.avif", producttitle:"Semi Automatic Washing Machine", productprice:999 , productoffer:"₹1399", discount:"26%OFF", rating:"4.2",
-        Mainheading:`Experience the Perfect Blend of Tradition and Technology`,
         description: `Experience powerful and efficient laundry care with this modern washing machine, designed to make everyday washing effortless. Featuring
         multiple wash programs, energy-efficient performance, and a spacious drum capacity, it delivers outstanding cleaning results while protecting your clothes.
         Its user-friendly controls and quiet operation make it perfect for busy households, while the sleek contemporary design complements any laundry area. Built
