@@ -366,6 +366,17 @@ const [mobileSearchBar, setMobileSearchBar] = useState(window.innerWidth > 768);
 
 useEffect(() => {
   const handleResize = () => { 
+
+    // console.log(
+    //   "Resize",
+    //   window.innerWidth,
+    //   window.innerHeight,
+    // );
+
+
+
+
+
     if (window.innerWidth > 768) {
       setMobileMenuOpen(true);
       setMobileSearchBar(true);
@@ -868,7 +879,8 @@ useEffect(() => {
 
                    <div className="MobileSearchBarDown"  >  
                    <CiSearch className="MobileSearchBaricon" onClick={()=> { 
-                    setMobileSearchBar(prev => !prev);
+                    // setMobileSearchBar(prev => !prev);
+                    setMobileSearchBar(!mobileMenuOpen);
                     setMobileMenuOpen(false)
                     
                     }} /> 

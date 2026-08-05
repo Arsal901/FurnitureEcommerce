@@ -297,7 +297,7 @@ const handleSearch = (query) => {
                   <p style={{ fontSize: "0.85rem", color: "green", marginLeft:"10px" }}>{item.price}</p>
                 </div>
               </Link>
-            ))}
+            ))} 
           </div>
         )}
       </div>
