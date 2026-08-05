@@ -357,9 +357,27 @@ const navigate = useNavigate();
 
 // This is MobileMenuBar 
 
-const [mobileSearchBar, setMobileSearchBar] = useState(true);     
-const [mobileMenuOpen, setMobileMenuOpen] = useState(true);  
+// const [mobileSearchBar, setMobileSearchBar] = useState(false);      
+// const [mobileMenuOpen, setMobileMenuOpen] = useState(false);  
 
+
+const [mobileMenuOpen, setMobileMenuOpen] = useState(window.innerWidth > 768);
+const [mobileSearchBar, setMobileSearchBar] = useState(window.innerWidth > 768);
+
+useEffect(() => {
+  const handleResize = () => { 
+    if (window.innerWidth > 768) {
+      setMobileMenuOpen(true);
+      setMobileSearchBar(true);
+    } else {
+      setMobileMenuOpen(false);
+      setMobileSearchBar(false);
+    }
+  };
+
+  window.addEventListener("resize", handleResize);
+  return () => window.removeEventListener("resize", handleResize);
+}, []);
 
 
     

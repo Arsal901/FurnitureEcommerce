@@ -450,7 +450,7 @@ function MainProductDetailLivingroom() {
             </div>
 
             <div className="CoupenTemplates">
-
+ 
             <div className="Couponbox">
                 <h3>20% off upto ₹1100</h3>
                 <p>Apply this coupon to get
