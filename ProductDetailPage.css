@@ -29,7 +29,7 @@
     background-color: whitesmoke;
     width: 100%;
     /* max-width: 40%; */
-    height: 70vh;
+    height: 82vh;
     /* object-fit: cover; */
     /* height: auto;  */
     border-radius: 20px;
@@ -40,7 +40,7 @@
 
 /* MAIN IMAGE ONLY */
 .ProductImagesBox img {
-    height: fit-content; 
+    height: 70vh; 
     width: 100%;
     object-fit: cover; 
     display: block;
@@ -59,7 +59,7 @@
 
 /* THUMBNAILS */
 .OtherImages img {
-    height: auto;
+    height: 8vh;
     width: 60px;
     object-fit: cover;
     cursor: pointer;
@@ -453,6 +453,68 @@
     /* background-color: yellow; */
 }
 
+
+.ProductImagesBox {
+    margin-top: 20px;
+    background-color: whitesmoke;
+    width: 100%;
+    /* max-width: 40%; */
+    height: 70vh;
+    /* object-fit: cover; */
+    /* height: auto;  */
+    border-radius: 20px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.312);
+    overflow: hidden;
+    padding: 10px;
+    
+}
+
+/* MAIN IMAGE ONLY */
+.ProductImagesBox img {
+    height: 55vh; 
+    width: 100%;
+    object-fit: cover; 
+    display: block;
+    
+}
+
+/* THUMBNAIL CONTAINER */
+.OtherImages {
+    display: flex;
+    width: 100%;
+    gap: 20px;
+    padding: 10px;
+    align-items: center;
+    flex-wrap: nowrap;
+    overflow-x: scroll;
+    scroll-behavior: smooth;
+    scrollbar-width: none;
+
+}
+
+/* THUMBNAILS */
+.OtherImages img {
+    height: 8vh;
+    width: 60px;
+    object-fit: cover;
+    cursor: pointer;
+    border-radius: 10px;
+    transition: 0.3s ease; 
+    border: 1px solid transparent;
+}
+
+/* HOVER EFFECT */
+.OtherImages img:hover {
+    transform: translateY(-3px);
+    border: 1px solid black;
+}
+
+
+
+
+
+
+
 .LeftSide  {
     margin-left: 0px;
 }
@@ -666,8 +728,9 @@
      transform: translateY(0px); 
 }
 
+.ProductToCart:hover button,
 .ProductToCart:hover .ProductCart {
-    color: whitesmoke;
+    color: white;
    
 }
 
