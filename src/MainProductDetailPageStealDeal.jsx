@@ -41,7 +41,7 @@ function MainProductDetailStealDeal() {
                               StealDeals1:[   
                                 {id:"1",
                                  img:"/StealDeal1.webp", 
-                                 maintitle:"Treadmill FITXP MT05 - Powered by Sportsadda",
+                                 maintitle:"Refrigerator Single Door -190L",
                                  hurry:"Hurry up! Only 7 Left",
                                  mainPrice:"₹2,779/mo",
                                  mainOffer:"₹3,195/mo",
@@ -59,7 +59,7 @@ function MainProductDetailStealDeal() {
                                StealDeals2:[   
                                 {id:"1",
                                  img:"/StealDeal2.avif", 
-                                 maintitle:"Treadmill FITXP MT05 - Powered by Sportsadda",
+                                 maintitle:"Washing Machine Top Load Fully Automatic -6KG",
                                  mainPrice:"₹2,779/mo",
                                  mainOffer:"₹3,195/mo",
                                  maindiscount:"13% OFF",
@@ -74,7 +74,7 @@ function MainProductDetailStealDeal() {
                                StealDeals3:[   
                                 {id:"1",
                                  img:"/StealDeal3.avif", 
-                                 maintitle:"Treadmill FITXP MT05 - Powered by Sportsadda",
+                                 maintitle:"Blance Engineered Wood Queen Bed with 6 Premium Mattress",
                                  mainPrice:"₹2,779/mo",
                                  mainOffer:"₹3,195/mo",
                                  maindiscount:"13% OFF",
@@ -89,7 +89,7 @@ function MainProductDetailStealDeal() {
                                StealDeals4:[   
                                 {id:"1",
                                  img:"/StealDeal4.avif", 
-                                 maintitle:"Treadmill FITXP MT05 - Powered by Sportsadda",
+                                 maintitle:"Mojave Solid Wood Queen Bed in Teak Finish",
                                  mainPrice:"₹2,779/mo",
                                  mainOffer:"₹3,195/mo",
                                  maindiscount:"13% OFF",
@@ -104,7 +104,7 @@ function MainProductDetailStealDeal() {
                                StealDeals5:[   
                                 {id:"1",
                                  img:"/StealDeal5.avif", 
-                                 maintitle:"Treadmill FITXP MT05 - Powered by Sportsadda",
+                                 maintitle:"Hugo 2 Door Wardrobe with Mirror",
                                  mainPrice:"₹2,779/mo",
                                  mainOffer:"₹3,195/mo",
                                  maindiscount:"13% OFF",
@@ -119,7 +119,7 @@ function MainProductDetailStealDeal() {
                                StealDeals6:[   
                                 {id:"1",
                                  img:"/StealDeal6.avif", 
-                                 maintitle:"Treadmill FITXP MT05 - Powered by Sportsadda",
+                                 maintitle:"Noah Fabric 3 Seater Sofa Turquoise Color",
                                  mainPrice:"₹2,779/mo",
                                  mainOffer:"₹3,195/mo",
                                  maindiscount:"13% OFF",
@@ -134,7 +134,7 @@ function MainProductDetailStealDeal() {
                                StealDeals7:[   
                                 {id:"1",
                                  img:"/StealDeal7.avif", 
-                                 maintitle:"Treadmill FITXP MT05 - Powered by Sportsadda",
+                                 maintitle:"Noah Fabric 3 Seater Sofa in Grace Denim Color",
                                  mainPrice:"₹2,779/mo",
                                  mainOffer:"₹3,195/mo",
                                  maindiscount:"13% OFF",
@@ -149,7 +149,7 @@ function MainProductDetailStealDeal() {
                                StealDeals8:[   
                                 {id:"1",
                                  img:"/StealDeal8.avif", 
-                                 maintitle:"Treadmill FITXP MT05 - Powered by Sportsadda",
+                                 maintitle:"Semi Automatic Washing Machine",
                                  hurry:"Hurry up! Only 7 Left",
                                  mainPrice:"₹2,779/mo",
                                  mainOffer:"₹3,195/mo",
@@ -165,7 +165,7 @@ function MainProductDetailStealDeal() {
                                StealDeals9:[   
                                 {id:"1",
                                  img:"/StealDeal9.avif", 
-                                 maintitle:"Treadmill FITXP MT05 - Powered by Sportsadda",
+                                 maintitle:"LED UHD/4K Smart TV - 55 Inch",
                                  mainPrice:"₹2,779/mo",
                                  mainOffer:"₹3,195/mo",
                                  maindiscount:"13% OFF",
@@ -180,7 +180,7 @@ function MainProductDetailStealDeal() {
                                StealDeals10:[   
                                 {id:"1",
                                  img:"/StealDeal10.avif", 
-                                 maintitle:"Treadmill FITXP MT05 - Powered by Sportsadda",
+                                 maintitle:"DANK Workstation", 
                                  hurry:"Hurry up! Only 7 Left",
                                  mainPrice:"₹2,779/mo",
                                  mainOffer:"₹3,195/mo",
@@ -196,7 +196,7 @@ function MainProductDetailStealDeal() {
                                 StealDeals11:[   
                                 {id:"1",
                                  img:"/StealDeal11.avif", 
-                                 maintitle:"Treadmill FITXP MT05 - Powered by Sportsadda",
+                                 maintitle:"Lana Workstation with Mono Office Chair",
                                  mainPrice:"₹2,779/mo",
                                  mainOffer:"₹3,195/mo",
                                  maindiscount:"13% OFF",
@@ -211,7 +211,7 @@ function MainProductDetailStealDeal() {
                                 StealDeals12:[   
                                 {id:"1",
                                  img:"/StealDeal12.avif", 
-                                 maintitle:"Treadmill FITXP MT05 - Powered by Sportsadda",
+                                 maintitle:"Mojave Upholstered Solid Wood Queen Bed in Timeless Teak Finish",
                                  mainPrice:"₹2,779/mo",
                                  mainOffer:"₹3,195/mo",
                                  maindiscount:"13% OFF",
@@ -226,7 +226,7 @@ function MainProductDetailStealDeal() {
                                 StealDeals13:[   
                                 {id:"1",
                                  img:"/outofstockStealDeal1.avif", 
-                                 maintitle:"Treadmill FITXP MT05 - Powered by Sportsadda",
+                                 maintitle:"LIT Compact Double Bed with Premium 4 Mattress",
                                  mainPrice:"₹2,779/mo",
                                  OutOfStock:"OUT OF STOCK", 
                                  mainCoupen:"Apply: MAXSAVING to get 20% off upto ₹1100",
@@ -240,7 +240,7 @@ function MainProductDetailStealDeal() {
                                 StealDeals14:[   
                                 {id:"1",
                                  img:"/outofstockStealDeal2.avif", 
-                                 maintitle:"Treadmill FITXP MT05 - Powered by Sportsadda",
+                                 maintitle:"Lana Fabric Sofa Cum Bed in Denim Blue Color",
                                  mainPrice:"₹2,779/mo",
                                  OutOfStock:"OUT OF STOCK", 
                                  mainCoupen:"Apply: MAXSAVING to get 20% off upto ₹1100",
@@ -254,7 +254,7 @@ function MainProductDetailStealDeal() {
                                 StealDeals15:[   
                                 {id:"1",
                                  img:"/outofstockStealDeal3.avif", 
-                                 maintitle:"Treadmill FITXP MT05 - Powered by Sportsadda",
+                                 maintitle:"Lana Fabric Sofa Cum Bed in Grace Grey Color",
                                  mainPrice:"₹2,779/mo",
                                  OutOfStock:"OUT OF STOCK", 
                                  mainCoupen:"Apply: MAXSAVING to get 20% off upto ₹1100",
@@ -268,7 +268,7 @@ function MainProductDetailStealDeal() {
                                 StealDeals16:[   
                                 {id:"1",
                                  img:"/outofstockStealDeal4.avif", 
-                                 maintitle:"Treadmill FITXP MT05 - Powered by Sportsadda",
+                                 maintitle:"LED UHD/4K Smart TV - 43 Inch",
                                  mainPrice:"₹2,779/mo",
                                  OutOfStock:"OUT OF STOCK", 
                                  mainCoupen:"Apply: MAXSAVING to get 20% off upto ₹1100",

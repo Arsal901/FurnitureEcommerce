@@ -41,7 +41,7 @@ function MainProductDetailMattress() {
                               Mattress1:[   
                                 {id:"1",
                                  img:"/Mattressimg/MainMattress1.avif", 
-                                 maintitle:"Treadmill FITXP MT05 - Powered by Sportsadda",
+                                 maintitle:"Mattress Premium Foam Queen Size - (78 x 60 x 6 inches)",
                                  mainPrice:"₹2,779/mo",
                                  mainOffer:"₹3,195/mo",
                                  maindiscount:"13% OFF",
@@ -63,7 +63,7 @@ function MainProductDetailMattress() {
                                Mattress2:[   
                                 {id:"1",
                                  img:"/Mattressimg/MainMattress2.avif", 
-                                 maintitle:"Treadmill FITXP MT05 - Powered by Sportsadda",
+                                 maintitle:"Premium Queen Foam Mattress - (78 X 60 X 4 Inches)",
                                  mainPrice:"₹2,779/mo",
                                  mainOffer:"₹3,195/mo",
                                  maindiscount:"13% OFF",
@@ -78,7 +78,7 @@ function MainProductDetailMattress() {
                                 Mattress3:[   
                                 {id:"1",
                                  img:"/Mattressimg/MainMattress3.avif", 
-                                 maintitle:"Treadmill FITXP MT05 - Powered by Sportsadda",
+                                 maintitle:"Premium Foam Mattress Single Size - (78 x 36 x 6 inches)",
                                  mainPrice:"₹2,779/mo",
                                  mainOffer:"₹3,195/mo",
                                  maindiscount:"13% OFF",
@@ -93,7 +93,7 @@ function MainProductDetailMattress() {
                                 Mattress4:[   
                                 {id:"1",
                                  img:"/Mattressimg/MainMattress4.avif", 
-                                 maintitle:"Treadmill FITXP MT05 - Powered by Sportsadda",
+                                 maintitle:"Premium Queen Foam Mattress - 8",
                                  mainPrice:"₹2,779/mo",
                                  mainOffer:"₹3,195/mo",
                                  maindiscount:"13% OFF",
@@ -108,9 +108,9 @@ function MainProductDetailMattress() {
                                 Mattress5:[   
                                 {id:"1",
                                  img:"/Mattressimg/MainMattress5.avif", 
-                                 maintitle:"Treadmill FITXP MT05 - Powered by Sportsadda",
+                                 maintitle:"Kids Crib Mattress #Mattress",
                                  mainPrice:"₹2,779/mo",
-                                 mainOffer:"₹3,195/mo",
+                                 mainOffer:"₹3,195/mo", 
                                  maindiscount:"13% OFF",
                                  mainCoupen:"Apply: MAXSAVING to get 20% off upto ₹1100",
                                 },

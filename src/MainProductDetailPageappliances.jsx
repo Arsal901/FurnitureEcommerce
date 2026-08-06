@@ -41,7 +41,7 @@ function MainProductDetailAppliances() {
                               Appliances1:[   
                                 {id:"1",
                                  img:"/MainProductAppliances/AppliancesImg1.webp",  
-                                 maintitle:"Treadmill FITXP MT05 - Powered by Sportsadda",
+                                 maintitle:"Haier 100L Single Door Refrigerator",
                                  hurry:"Hurry up! Only 7 Left",
                                  mainPrice:"₹2,779/mo",
                                  mainOffer:"₹3,195/mo",
@@ -63,7 +63,7 @@ function MainProductDetailAppliances() {
                                Appliances2:[   
                                 {id:"1",
                                  img:"/Appliances/MainAppliances2.avif",   
-                                 maintitle:"Treadmill FITXP MT05 - Powered by Sportsadda",
+                                 maintitle:"Haier 9KG Front Load Washing Machine Fully Automatic",
                                  mainPrice:"₹2,779/mo",
                                  mainOffer:"₹3,195/mo",
                                  maindiscount:"13% OFF",
@@ -78,7 +78,7 @@ function MainProductDetailAppliances() {
                                 Appliances3:[   
                                 {id:"1",
                                  img:"/Appliances/MainAppliances3.avif",  
-                                 maintitle:"Treadmill FITXP MT05 - Powered by Sportsadda",
+                                 maintitle:"Refrigerator Double Door",
                                  mainPrice:"₹2,779/mo",
                                  mainOffer:"₹3,195/mo",
                                  maindiscount:"13% OFF",
@@ -93,7 +93,7 @@ function MainProductDetailAppliances() {
                                 Appliances4:[   
                                 {id:"1",
                                  img:"/Appliances/MainAppliances4.avif",  
-                                 maintitle:"Treadmill FITXP MT05 - Powered by Sportsadda",
+                                 maintitle:"Refrigerator Single Door - 215L",
                                  hurry:"Hurry up! Only 7 Left",
                                  mainPrice:"₹2,779/mo",
                                  mainOffer:"₹3,195/mo",
@@ -109,7 +109,7 @@ function MainProductDetailAppliances() {
                                 Appliances5:[   
                                 {id:"1",
                                  img:"/Appliances/MainAppliances5.avif",  
-                                 maintitle:"Treadmill FITXP MT05 - Powered by Sportsadda",
+                                 maintitle:"Washing Machine Fully Automatic (Front Load) - 8KG..",
                                  hurry:"Hurry up! Only 7 Left",
                                  mainPrice:"₹2,779/mo",
                                  mainOffer:"₹3,195/mo",
@@ -125,7 +125,7 @@ function MainProductDetailAppliances() {
                                 Appliances6:[   
                                 {id:"1",
                                  img:"/Appliances/MainAppliances6.avif",  
-                                 maintitle:"Treadmill FITXP MT05 - Powered by Sportsadda",
+                                 maintitle:"Refrigerator 235L & Washing Machine top load 6KG",
                                  mainPrice:"₹2,779/mo",
                                  mainOffer:"₹3,195/mo",
                                  maindiscount:"13% OFF",
@@ -140,7 +140,7 @@ function MainProductDetailAppliances() {
                                 Appliances7:[   
                                 {id:"1",
                                  img:"/Appliances/MainAppliances7.avif",  
-                                 maintitle:"Treadmill FITXP MT05 - Powered by Sportsadda",
+                                 maintitle:"All Appliance Haier 50L Ref Combo",
                                  mainPrice:"₹2,779/mo",
                                  mainOffer:"₹3,195/mo",
                                  maindiscount:"13% OFF",
@@ -155,7 +155,7 @@ function MainProductDetailAppliances() {
                                 Appliances8:[   
                                 {id:"1",
                                  img:"/Appliances/MainAppliances8.avif",  
-                                 maintitle:"Treadmill FITXP MT05 - Powered by Sportsadda",
+                                 maintitle:"Haier Refrigerator Single Door - 170L",
                                  hurry:"Hurry up! Only 7 Left",
                                  mainPrice:"₹2,779/mo",
                                  mainOffer:"₹3,195/mo",
@@ -171,7 +171,7 @@ function MainProductDetailAppliances() {
                                 Appliances9:[   
                                 {id:"1",
                                  img:"/Appliances/MainAppliances9.avif",  
-                                 maintitle:"Treadmill FITXP MT05 - Powered by Sportsadda",
+                                 maintitle:"Refrigerator Single Door - 190L",
                                  hurry:"Hurry up! Only 7 Left",
                                  mainPrice:"₹2,779/mo",
                                  mainOffer:"₹3,195/mo",
@@ -187,7 +187,7 @@ function MainProductDetailAppliances() {
                                 Appliances10:[   
                                 {id:"1",
                                  img:"/Appliances/MainAppliances10.avif",  
-                                 maintitle:"Treadmill FITXP MT05 - Powered by Sportsadda",
+                                 maintitle:"Washing Machine Top Load Fully Automatic - 6KG",
                                  mainPrice:"₹2,779/mo",
                                  mainOffer:"₹3,195/mo",
                                  maindiscount:"13% OFF",
@@ -202,7 +202,7 @@ function MainProductDetailAppliances() {
                                Appliances11:[   
                                 {id:"1",
                                  img:"/Appliances/MainAppliances11.avif",  
-                                 maintitle:"Treadmill FITXP MT05 - Powered by Sportsadda",
+                                 maintitle:"Haier 100L Ref and Washing Machine Combo",
                                  mainPrice:"₹2,779/mo",
                                  mainOffer:"₹3,195/mo",
                                  maindiscount:"13% OFF",
@@ -218,7 +218,7 @@ function MainProductDetailAppliances() {
                                Appliances12:[   
                                 {id:"1",
                                  img:"/Appliances/MainAppliances12.avif",  
-                                 maintitle:"Treadmill FITXP MT05 - Powered by Sportsadda",
+                                 maintitle:"Refrigerator 230L, Washing Machine 6KG & Microwave",
                                  mainPrice:"₹2,779/mo",
                                  mainOffer:"₹3,195/mo",
                                  maindiscount:"13% OFF",
@@ -233,7 +233,7 @@ function MainProductDetailAppliances() {
                                Appliances13:[   
                                 {id:"1",
                                  img:"/Appliances/MainAppliances13.webp",  
-                                 maintitle:"Treadmill FITXP MT05 - Powered by Sportsadda",
+                                 maintitle:"Haier 7.5KG Top Load Washing Machine - Fully Automatic",
                                  mainPrice:"₹2,779/mo",
                                  mainOffer:"₹3,195/mo",
                                  maindiscount:"13% OFF",
@@ -248,7 +248,7 @@ function MainProductDetailAppliances() {
                                Appliances14:[   
                                 {id:"1",
                                  img:"/Appliances/outofstockofappliances.avif",  
-                                 maintitle:"Treadmill FITXP MT05 - Powered by Sportsadda",
+                                 maintitle:"Premium Appliances Combo",
                                  mainPrice:"₹2,779/mo",
                                  OutOfStock:"OUT OF STOCK", 
                                  mainCoupen:"Apply: MAXSAVING to get 20% off upto ₹1100",
@@ -262,7 +262,7 @@ function MainProductDetailAppliances() {
                                Appliances15:[   
                                 {id:"1",
                                  img:"/Appliances/outofstockofappliances2.avif",  
-                                 maintitle:"Treadmill FITXP MT05 - Powered by Sportsadda",
+                                 maintitle:"Haier Microwave Convection - 28L",
                                  mainPrice:"₹2,779/mo",
                                  OutOfStock:"OUT OF STOCK", 
                                  mainCoupen:"Apply: MAXSAVING to get 20% off upto ₹1100",
@@ -276,7 +276,7 @@ function MainProductDetailAppliances() {
                                Appliances16:[   
                                 {id:"1",
                                  img:"/Appliances/outofstockofappliances3.avif",  
-                                 maintitle:"Treadmill FITXP MT05 - Powered by Sportsadda",
+                                 maintitle:"Refrigerator sinlge door 230L, Top Load Washing machine 6KG & Water Purifier - Drink Prime",
                                  mainPrice:"₹2,779/mo",
                                  OutOfStock:"OUT OF STOCK", 
                                  mainCoupen:"Apply: MAXSAVING to get 20% off upto ₹1100",
@@ -290,7 +290,7 @@ function MainProductDetailAppliances() {
                                Appliances17:[   
                                 {id:"1",
                                  img:"/Appliances/outofstockofappliances4.avif",  
-                                 maintitle:"Treadmill FITXP MT05 - Powered by Sportsadda",
+                                 maintitle:"Entertainment Corner",
                                  mainPrice:"₹2,779/mo",
                                  OutOfStock:"OUT OF STOCK", 
                                  mainCoupen:"Apply: MAXSAVING to get 20% off upto ₹1100",
@@ -304,7 +304,7 @@ function MainProductDetailAppliances() {
                                Appliances18:[   
                                 {id:"1",
                                  img:"/Appliances/outofstockofappliances5.avif",  
-                                 maintitle:"Treadmill FITXP MT05 - Powered by Sportsadda",
+                                 maintitle:"Recliner 3 Seater with LED 43 UHD 4K TV (with Table stand)",
                                  mainPrice:"₹2,779/mo",
                                  OutOfStock:"OUT OF STOCK", 
                                  mainCoupen:"Apply: MAXSAVING to get 20% off upto ₹1100",

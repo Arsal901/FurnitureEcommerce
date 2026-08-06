@@ -41,7 +41,7 @@ function MainProductDetailLivingroom() {
                               Livingroom1:[   
                                 {id:"1",
                                  img:"/LivingRoomimg1.avif",
-                                 maintitle:"Treadmill FITXP MT05 - Powered by Sportsadda",
+                                 maintitle:"Two Seater Recliner - Leatherette",
                                  hurry:"Hurry up! Only 7 Left",
                                  mainPrice:"₹2,779/mo",
                                  mainOffer:"₹3,195/mo",
@@ -69,7 +69,7 @@ function MainProductDetailLivingroom() {
                                 Livingroom2:[   
                                 {id:"1",
                                  img:"/LivingRoomimg2.avif",
-                                 maintitle:"Treadmill FITXP MT05 - Powered by Sportsadda",
+                                 maintitle:"Noah Fabric 3 Seater Sofa in Turquoise Color",
                                  mainPrice:"₹2,779/mo",
                                  mainOffer:"₹3,195/mo",
                                  maindiscount:"13% OFF",
@@ -85,7 +85,7 @@ function MainProductDetailLivingroom() {
                                Livingroom3:[   
                                 {id:"1",
                                  img:"/LivingRoomimg3.avif",
-                                 maintitle:"Treadmill FITXP MT05 - Powered by Sportsadda",
+                                 maintitle:"Lana Fabric Sofa Cum Bed in Denim Blue Color",
                                  mainPrice:"₹2,779/mo",
                                  mainOffer:"₹3,195/mo",
                                  maindiscount:"13% OFF",
@@ -101,7 +101,7 @@ function MainProductDetailLivingroom() {
                                Livingroom4:[   
                                 {id:"1",
                                  img:"/LivingRoomimg4.avif",
-                                 maintitle:"Treadmill FITXP MT05 - Powered by Sportsadda",
+                                 maintitle:"Eclectic Glamour 3 Seater Sofa in Spphire Blue Color",
                                  hurry:"Hurry up! Only 7 Left",
                                  mainPrice:"₹2,779/mo",
                                  mainOffer:"₹3,195/mo",
@@ -118,7 +118,7 @@ function MainProductDetailLivingroom() {
                                Livingroom5:[   
                                 {id:"1",
                                  img:"/LivingRoomimg5.avif",
-                                 maintitle:"Treadmill FITXP MT05 - Powered by Sportsadda",
+                                 maintitle:"FOMO Engineered Wood Nested Center Table with 4 Pouffs in..",
                                  mainPrice:"₹2,779/mo",
                                  mainOffer:"₹3,195/mo",
                                  maindiscount:"13% OFF",
@@ -134,7 +134,7 @@ function MainProductDetailLivingroom() {
                                Livingroom6:[   
                                 {id:"1",
                                  img:"/LivingRoomimg6.avif",
-                                 maintitle:"Treadmill FITXP MT05 - Powered by Sportsadda",
+                                 maintitle:"Noah 3 Seater Sofa Turquoise with Slay Coffee Table",
                                  mainPrice:"₹2,779/mo",
                                  mainOffer:"₹3,195/mo",
                                  maindiscount:"13% OFF",
@@ -150,7 +150,7 @@ function MainProductDetailLivingroom() {
                                Livingroom7:[   
                                 {id:"1",
                                  img:"/LivingRoomimg7.avif",
-                                 maintitle:"Treadmill FITXP MT05 - Powered by Sportsadda",
+                                 maintitle:"DRIP 2 Seater Dining Set",
                                  mainPrice:"₹2,779/mo",
                                  mainOffer:"₹3,195/mo",
                                  maindiscount:"13% OFF",
@@ -166,7 +166,7 @@ function MainProductDetailLivingroom() {
                                Livingroom8:[   
                                 {id:"1",
                                  img:"/LivingRoomimg8.avif",
-                                 maintitle:"Treadmill FITXP MT05 - Powered by Sportsadda",
+                                 maintitle:"Rizz Diwan cum Floor Pads in Honey Mustered Color",
                                  mainPrice:"₹2,779/mo",
                                  mainOffer:"₹3,195/mo",
                                  maindiscount:"13% OFF",
@@ -182,7 +182,7 @@ function MainProductDetailLivingroom() {
                                Livingroom9:[   
                                 {id:"1",
                                  img:"/LivingRoomimg9.avif",
-                                 maintitle:"Treadmill FITXP MT05 - Powered by Sportsadda",
+                                 maintitle:"Lexa Chaise Lounger -Desert Rose",
                                  mainPrice:"₹2,779/mo",
                                  mainOffer:"₹3,195/mo",
                                  maindiscount:"13% OFF",
@@ -198,7 +198,7 @@ function MainProductDetailLivingroom() {
                                Livingroom10:[   
                                 {id:"1",
                                  img:"/LivingRoomimg10.avif",
-                                 maintitle:"Treadmill FITXP MT05 - Powered by Sportsadda",
+                                 maintitle:"Helio Velvet 3 Seater Sofa in Sapphire Blue Color",
                                  mainPrice:"₹2,779/mo",
                                  mainOffer:"₹3,195/mo",
                                  maindiscount:"13% OFF",
@@ -214,7 +214,7 @@ function MainProductDetailLivingroom() {
                                Livingroom11:[   
                                 {id:"1",
                                  img:"/LivingRoomimg11.avif",
-                                 maintitle:"Treadmill FITXP MT05 - Powered by Sportsadda",
+                                 maintitle:"Lana Fabric Sofa Cum Bed in Silver Grey Color",
                                  mainPrice:"₹2,779/mo",
                                  mainOffer:"₹3,195/mo",
                                  maindiscount:"13% OFF",
@@ -230,7 +230,7 @@ function MainProductDetailLivingroom() {
                                Livingroom12:[   
                                 {id:"1",
                                  img:"/LivingRoomimg12.webp",
-                                 maintitle:"Treadmill FITXP MT05 - Powered by Sportsadda",
+                                 maintitle:"Vive Fabric 1 Seater Sofa in Magic Blue Color",
                                  mainPrice:"₹2,779/mo",
                                  mainOffer:"₹3,195/mo",
                                  maindiscount:"13% OFF",
@@ -246,7 +246,7 @@ function MainProductDetailLivingroom() {
                                Livingroom13:[   
                                 {id:"1",
                                  img:"/OutofStock1.avif",
-                                 maintitle:"Treadmill FITXP MT05 - Powered by Sportsadda",
+                                 maintitle:"Amy Slide Table with Blue Pouff", 
                                  mainPrice:"₹2,779/mo",
                                  OutOfStock:"OUT OF STOCK", 
                                  mainCoupen:"Apply: MAXSAVING to get 20% off upto ₹1100",
@@ -261,7 +261,7 @@ function MainProductDetailLivingroom() {
                                Livingroom14:[   
                                 {id:"1",
                                  img:"/OutofStock2.webp",
-                                 maintitle:"Treadmill FITXP MT05 - Powered by Sportsadda",
+                                 maintitle:"Hugo Bookshelf",
                                  mainPrice:"₹2,779/mo",
                                  OutOfStock:"OUT OF STOCK", 
                                  mainCoupen:"Apply: MAXSAVING to get 20% off upto ₹1100",
@@ -276,7 +276,7 @@ function MainProductDetailLivingroom() {
                                Livingroom15:[   
                                 {id:"1",
                                  img:"/OutofStock3.avif",
-                                 maintitle:"Treadmill FITXP MT05 - Powered by Sportsadda",
+                                 maintitle:"Flex Fabric 3 Seater Sofa in Moroccan Blue Color",
                                  mainPrice:"₹2,779/mo",
                                  OutOfStock:"OUT OF STOCK", 
                                  mainCoupen:"Apply: MAXSAVING to get 20% off upto ₹1100",
@@ -291,7 +291,7 @@ function MainProductDetailLivingroom() {
                                Livingroom16:[   
                                 {id:"1",
                                  img:"/OutofStock4.avif",
-                                 maintitle:"Treadmill FITXP MT05 - Powered by Sportsadda",
+                                 maintitle:"Mili Fabric L Shape Sofa in Magic Blue Color",
                                  mainPrice:"₹2,779/mo",
                                  OutOfStock:"OUT OF STOCK", 
                                  mainCoupen:"Apply: MAXSAVING to get 20% off upto ₹1100",
@@ -306,7 +306,7 @@ function MainProductDetailLivingroom() {
                                Livingroom17:[   
                                 {id:"1",
                                  img:"/OutofStock5.avif",
-                                 maintitle:"Treadmill FITXP MT05 - Powered by Sportsadda",
+                                 maintitle:"Abstract Energy Coffee Table",
                                  mainPrice:"₹2,779/mo",
                                  OutOfStock:"OUT OF STOCK", 
                                  mainCoupen:"Apply: MAXSAVING to get 20% off upto ₹1100",

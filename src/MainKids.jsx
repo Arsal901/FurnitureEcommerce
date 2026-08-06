@@ -29,7 +29,7 @@ const LivingRoomImages = [
                               {id:"Kids3", img:"MainKidsimg/KidsImg3.avif", title:"Mio Toddler Bed with Mattress", price:"₹1,379/mo", offer:"₹1,586/mo", off:"13%OFF", delivertime:"Delivery by 10 Jul-11 Jul"},
                               {id:"Kids4", img:"MainKidsimg/KidsImg4.avif", title:"Stowie Chest of drawers cum Diaper changing station - Jungle Green", price:"₹1,379/mo", offer:"₹1,586/mo", off:"13%OFF", delivertime:"Delivery by 10 Jul-11 Jul"},
                               {id:"Kids5", img:"MainKidsimg/KidsImg4.webp", title:"Rio kids wardrobe - Jungle Green", price:"₹1,379/mo", offer:"₹1,586/mo", off:"13%OFF", delivertime:"Delivery by 10 Jul-11 Jul"},
-                              {id:"Kids8", img:"MainKidsimg/KidsImg7.avif", title:" Moonpie Kids Activity Center Table ", price:"₹1,379/mo", offer:"₹1,586/mo", off:"13%OFF", delivertime:"Delivery by 10 Jul-11 Jul"},
+                              {id:"Kids8", img:"MainKidsimg/KidsImg7.avif", title:"Moonpie Kids Activity Center Table ", price:"₹1,379/mo", offer:"₹1,586/mo", off:"13%OFF", delivertime:"Delivery by 10 Jul-11 Jul"},
                               {id:"Kids9", img:"MainKidsimg/KidsImg8.avif", title:"Hillo Study Table (for Age 6-12 years)", price:"₹1,379/mo", offer:"₹1,586/mo", off:"13%OFF", delivertime:"Delivery by 10 Jul-11 Jul"},
                               {id:"Kids10", img:"MainKidsimg/KidsImg9.avif", title:"Buddy Storage Duo", price:"₹1,379/mo", offer:"₹1,586/mo", off:"13%OFF", delivertime:"Delivery by 10 Jul-11 Jul"},
                               {id:"Kids11", img:"MainKidsimg/KidsImg10.avif", title:"Kids Crib Mattress with New Protector", price:"₹1,379/mo", offer:"₹1,586/mo", off:"13%OFF", delivertime:"Delivery by 10 Jul-11 Jul"},

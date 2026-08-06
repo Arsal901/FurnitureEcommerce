@@ -41,7 +41,7 @@ function MainProductDetailStorage() {
                               Storage1:[   
                                 {id:"1",
                                  img:"/MainStorageimgs/MainStorageimg1.avif", 
-                                 maintitle:"Treadmill FITXP MT05 - Powered by Sportsadda",
+                                 maintitle:"Hugo 2 Door Wardrobe with Mirror",
                                  hurry:"Hurry up! Only 7 Left",
                                  mainPrice:"₹2,779/mo",
                                  mainOffer:"₹3,195/mo",
@@ -74,7 +74,7 @@ function MainProductDetailStorage() {
                                 Storage2:[   
                                 {id:"1",
                                  img:"/MainStorageimgs/MainStorageimg2.avif", 
-                                 maintitle:"Treadmill FITXP MT05 - Powered by Sportsadda",
+                                 maintitle:"Biance Engineered Wood Dressing Table in Ivory White Finish",
                                  mainPrice:"₹2,779/mo",
                                  mainOffer:"₹3,195/mo",
                                  maindiscount:"13% OFF",
@@ -89,7 +89,7 @@ function MainProductDetailStorage() {
                                Storage3:[   
                                 {id:"1",
                                  img:"/MainStorageimgs/MainStorageimg3.avif", 
-                                 maintitle:"Treadmill FITXP MT05 - Powered by Sportsadda",
+                                 maintitle:"Hugo 3 Door Wardrobe with Mirror",
                                  mainPrice:"₹2,779/mo",
                                  mainOffer:"₹3,195/mo",
                                  maindiscount:"13% OFF",
@@ -104,7 +104,7 @@ function MainProductDetailStorage() {
                                Storage4:[   
                                 {id:"1",
                                  img:"/MainStorageimgs/MainStorageimg4.avif", 
-                                 maintitle:"Treadmill FITXP MT05 - Powered by Sportsadda",
+                                 maintitle:"Biance Engineered Wood 2 Door Wardrobe with Mirror in Ivory White...",
                                  mainPrice:"₹2,779/mo",
                                  mainOffer:"₹3,195/mo",
                                  maindiscount:"13% OFF",
@@ -119,7 +119,7 @@ function MainProductDetailStorage() {
                                Storage5:[   
                                 {id:"1",
                                  img:"/MainStorageimgs/MainStorageimg5.avif", 
-                                 maintitle:"Treadmill FITXP MT05 - Powered by Sportsadda",
+                                 maintitle:"Grig Engineered Wood 2 Door Wardrobe with Mirror in Mocha Brow...",
                                  hurry:"Hurry up! Only 7 Left",
                                  mainPrice:"₹2,779/mo",
                                  mainOffer:"₹3,195/mo",
@@ -135,7 +135,7 @@ function MainProductDetailStorage() {
                                Storage6:[   
                                 {id:"1",
                                  img:"/MainStorageimgs/MainStorageimg6.avif", 
-                                 maintitle:"Treadmill FITXP MT05 - Powered by Sportsadda",
+                                 maintitle:"Bianca Engineered Wood Chest of Drawer in Ivory White Finish",
                                  mainPrice:"₹2,779/mo",
                                  mainOffer:"₹3,195/mo",
                                  maindiscount:"13% OFF",
@@ -150,7 +150,7 @@ function MainProductDetailStorage() {
                                Storage7:[   
                                 {id:"1",
                                  img:"/MainStorageimgs/MainStorageimg7.webp", 
-                                 maintitle:"Treadmill FITXP MT05 - Powered by Sportsadda",
+                                 maintitle:"Rio Kids wardrobe - Jungle Green",
                                  mainPrice:"₹2,779/mo",
                                  mainOffer:"₹3,195/mo",
                                  maindiscount:"13% OFF",
@@ -165,7 +165,7 @@ function MainProductDetailStorage() {
                                Storage8:[   
                                 {id:"1",
                                  img:"/MainStorageimgs/MainStorageimg8.avif", 
-                                 maintitle:"Treadmill FITXP MT05 - Powered by Sportsadda",
+                                 maintitle:"Stowie Chest of Drawers cum Diaper changing station - Jungle Green",
                                  hurry:"Hurry up! Only 7 Left",
                                  mainPrice:"₹2,779/mo",
                                  mainOffer:"₹3,195/mo",
@@ -181,7 +181,7 @@ function MainProductDetailStorage() {
                                Storage9:[   
                                 {id:"1",
                                  img:"/MainStorageimgs/MainStorageimg9.avif", 
-                                 maintitle:"Treadmill FITXP MT05 - Powered by Sportsadda",
+                                 maintitle:"Hugo Engineered Wood 1 door wardrobe without mirror",
                                  mainPrice:"₹2,779/mo",
                                  mainOffer:"₹3,195/mo",
                                  maindiscount:"13% OFF",
@@ -196,7 +196,7 @@ function MainProductDetailStorage() {
                                Storage10:[   
                                 {id:"1",
                                  img:"/MainStorageimgs/MainStorageimg10.avif", 
-                                 maintitle:"Treadmill FITXP MT05 - Powered by Sportsadda",
+                                 maintitle:"Cubbee Open Storage",
                                  mainPrice:"₹2,779/mo",
                                  mainOffer:"₹3,195/mo",
                                  maindiscount:"13% OFF",
@@ -211,7 +211,7 @@ function MainProductDetailStorage() {
                                Storage11:[   
                                 {id:"1",
                                  img:"/MainStorageimgs/MainStorageimg11.avif", 
-                                 maintitle:"Treadmill FITXP MT05 - Powered by Sportsadda",
+                                 maintitle:"Hillo Kids Wardrobe in Jungle Grren Colour",
                                  mainPrice:"₹2,779/mo",
                                  mainOffer:"₹3,195/mo",
                                  maindiscount:"13% OFF",
@@ -226,7 +226,7 @@ function MainProductDetailStorage() {
                                Storage12:[   
                                 {id:"1",
                                  img:"/MainStorageimgs/MainStorageimg12.avif", 
-                                 maintitle:"Treadmill FITXP MT05 - Powered by Sportsadda",
+                                 maintitle:"Bianca Engieered Wood 3 Door Wardrobe with Mirror in Ivory White...",
                                  mainPrice:"₹2,779/mo",
                                  mainOffer:"₹3,195/mo",
                                  maindiscount:"13% OFF",
@@ -241,7 +241,7 @@ function MainProductDetailStorage() {
                                Storage13:[   
                                 {id:"1",
                                  img:"/MainStorageimgs/MainStorageimg13.avif", 
-                                 maintitle:"Treadmill FITXP MT05 - Powered by Sportsadda",
+                                 maintitle:"Hugo Chest of Drawer",
                                  mainPrice:"₹2,779/mo",
                                  mainOffer:"₹3,195/mo",
                                  maindiscount:"13% OFF",
@@ -256,7 +256,7 @@ function MainProductDetailStorage() {
                                Storage14:[   
                                 {id:"1",
                                  img:"/MainStorageimgs/MainStorageimg14.avif", 
-                                 maintitle:"Treadmill FITXP MT05 - Powered by Sportsadda",
+                                 maintitle:"Hugo Entertainment Unit",
                                  mainPrice:"₹2,779/mo",
                                  mainOffer:"₹3,195/mo",
                                  maindiscount:"13% OFF",
@@ -271,7 +271,7 @@ function MainProductDetailStorage() {
                                Storage15:[   
                                 {id:"1",
                                  img:"/MainStorageimgs/MainStorageimg15.avif", 
-                                 maintitle:"Treadmill FITXP MT05 - Powered by Sportsadda",
+                                 maintitle:"Hugo Shoe Rack",
                                  mainPrice:"₹2,779/mo",
                                  mainOffer:"₹3,195/mo",
                                  maindiscount:"13% OFF",
@@ -286,7 +286,7 @@ function MainProductDetailStorage() {
                                Storage16:[   
                                 {id:"1",
                                  img:"/MainStorageimgs/MainStorageimg16.avif", 
-                                 maintitle:"Treadmill FITXP MT05 - Powered by Sportsadda",
+                                 maintitle:"Hugo Dressing Table",
                                  mainPrice:"₹2,779/mo",
                                  mainOffer:"₹3,195/mo",
                                  maindiscount:"13% OFF",
@@ -301,7 +301,7 @@ function MainProductDetailStorage() {
                                Storage17:[   
                                 {id:"1",
                                  img:"/MainStorageimgs/OutofStockStorage1.avif", 
-                                 maintitle:"Treadmill FITXP MT05 - Powered by Sportsadda",
+                                 maintitle:"Bianca Engineered Wood Entertainment Unit in Ivory White Finish",
                                  mainPrice:"₹2,779/mo",
                                  OutOfStock:"OUT OF STOCK", 
                                  mainCoupen:"Apply: MAXSAVING to get 20% off upto ₹1100",
@@ -315,7 +315,7 @@ function MainProductDetailStorage() {
                                Storage18:[   
                                 {id:"1",
                                  img:"/MainStorageimgs/OutofStockStorage2.avif", 
-                                 maintitle:"Treadmill FITXP MT05 - Powered by Sportsadda",
+                                 maintitle:"Bianca Engineered Wood Shoe Rack In Ivory White Finish",
                                  mainPrice:"₹2,779/mo",
                                  OutOfStock:"OUT OF STOCK", 
                                  mainCoupen:"Apply: MAXSAVING to get 20% off upto ₹1100",
@@ -329,7 +329,7 @@ function MainProductDetailStorage() {
                                Storage19:[   
                                 {id:"1",
                                  img:"/MainStorageimgs/OutofStockStorage3.avif", 
-                                 maintitle:"Treadmill FITXP MT05 - Powered by Sportsadda",
+                                 maintitle:"Hugo 3 Door Wardrobe & Biance Chest of Drawers",
                                  mainPrice:"₹2,779/mo",
                                  OutOfStock:"OUT OF STOCK", 
                                  mainCoupen:"Apply: MAXSAVING to get 20% off upto ₹1100",
@@ -343,7 +343,7 @@ function MainProductDetailStorage() {
                                Storage20:[   
                                 {id:"1",
                                  img:"/MainStorageimgs/OutofStockStorage4.avif", 
-                                 maintitle:"Treadmill FITXP MT05 - Powered by Sportsadda",
+                                 maintitle:"LIT Double Bed, Mattress & Hugo 1 Door Wardrobe",
                                  mainPrice:"₹2,779/mo",
                                  OutOfStock:"OUT OF STOCK", 
                                  mainCoupen:"Apply: MAXSAVING to get 20% off upto ₹1100",
@@ -357,7 +357,7 @@ function MainProductDetailStorage() {
                                Storage21:[   
                                 {id:"1",
                                  img:"/MainStorageimgs/OutofStockStorage5.avif", 
-                                 maintitle:"Treadmill FITXP MT05 - Powered by Sportsadda",
+                                 maintitle:"Hugo 2 Door Wardrobe with mirror in Columbia Walnut Finish",
                                  mainPrice:"₹2,779/mo",
                                  OutOfStock:"OUT OF STOCK", 
                                  mainCoupen:"Apply: MAXSAVING to get 20% off upto ₹1100",

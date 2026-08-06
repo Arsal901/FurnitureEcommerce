@@ -41,7 +41,7 @@ function MainProductDetailStudy() {
                               Study1:[   
                                 {id:"1",
                                  img:"/MainStudyimgs/MainStudyimg1.avif", 
-                                 maintitle:"Treadmill FITXP MT05 - Powered by Sportsadda",
+                                 maintitle:"Cruxe Mid Back Office Chair with Mesh Back & Fixed Arms in Black Color",
                                  hurry:"Hurry up! Only 7 Left",
                                  mainPrice:"₹2,779/mo",
                                  mainOffer:"₹3,195/mo",
@@ -63,7 +63,7 @@ function MainProductDetailStudy() {
                                Study2:[   
                                 {id:"1",
                                  img:"/MainStudyimgs/MainStudyimg2.avif", 
-                                 maintitle:"Treadmill FITXP MT05 - Powered by Sportsadda",
+                                 maintitle:"NO CAP Workstation",
                                  mainPrice:"₹2,779/mo",
                                  mainOffer:"₹3,195/mo",
                                  maindiscount:"13% OFF",
@@ -78,7 +78,7 @@ function MainProductDetailStudy() {
                                Study3:[   
                                 {id:"1",
                                  img:"/MainStudyimgs/MainStudyimg3.avif", 
-                                 maintitle:"Treadmill FITXP MT05 - Powered by Sportsadda",
+                                 maintitle:"DANK Workstation",
                                  mainPrice:"₹2,779/mo",
                                  mainOffer:"₹3,195/mo",
                                  maindiscount:"13% OFF",
@@ -93,7 +93,7 @@ function MainProductDetailStudy() {
                                Study4:[   
                                 {id:"1",
                                  img:"/MainStudyimgs/MainStudyimg4.avif", 
-                                 maintitle:"Treadmill FITXP MT05 - Powered by Sportsadda",
+                                 maintitle:"Lana Workstation",
                                  mainPrice:"₹2,779/mo",
                                  mainOffer:"₹3,195/mo",
                                  maindiscount:"13% OFF",
@@ -108,7 +108,7 @@ function MainProductDetailStudy() {
                                Study5:[   
                                 {id:"1",
                                  img:"/MainStudyimgs/MainStudyimg5.avif", 
-                                 maintitle:"Treadmill FITXP MT05 - Powered by Sportsadda",
+                                 maintitle:"Gaming Chair Pro",
                                  mainPrice:"₹2,779/mo",
                                  mainOffer:"₹3,195/mo",
                                  maindiscount:"13% OFF",
@@ -123,7 +123,7 @@ function MainProductDetailStudy() {
                                Study6:[   
                                 {id:"1",
                                  img:"/MainStudyimgs/MainStudyimg6.avif", 
-                                 maintitle:"Treadmill FITXP MT05 - Powered by Sportsadda",
+                                 maintitle:"DANK Workstation with Side Storage with Crux Office Chair",
                                  hurry:"Hurry up! Only 7 Left",
                                  mainPrice:"₹2,779/mo",
                                  mainOffer:"₹3,195/mo",
@@ -136,25 +136,25 @@ function MainProductDetailStudy() {
                                
                                ],
 
-                               Study7:[   
-                                {id:"1",
-                                 img:"/MainStudyimgs/MainStudyimg7.avif", 
-                                 maintitle:"Treadmill FITXP MT05 - Powered by Sportsadda",
-                                 mainPrice:"₹2,779/mo",
-                                 mainOffer:"₹3,195/mo",
-                                 maindiscount:"13% OFF",
-                                 mainCoupen:"Apply: MAXSAVING to get 20% off upto ₹1100",
-                                },
+                            //    Study7:[   
+                            //     {id:"1",
+                            //      img:"/MainStudyimgs/MainStudyimg7.avif", 
+                            //      maintitle:"Dank Study Table with Premium Office Chair",
+                            //      mainPrice:"₹2,779/mo",
+                            //      mainOffer:"₹3,195/mo",
+                            //      maindiscount:"13% OFF",
+                            //      mainCoupen:"Apply: MAXSAVING to get 20% off upto ₹1100",
+                            //     },
 
 
-                                {id:"2", img:"/MainProductStudy/StudyImg1.webp"},
+                            //     {id:"2", img:"/MainProductStudy/StudyImg1.webp"},
                                
-                               ],
+                            //    ],
 
                                Study8:[   
                                 {id:"1",
                                  img:"/MainStudyimgs/MainStudyimg8.avif", 
-                                 maintitle:"Treadmill FITXP MT05 - Powered by Sportsadda",
+                                 maintitle:"Dank Study Table with Premium Office Chair",
                                  mainPrice:"₹2,779/mo",
                                  mainOffer:"₹3,195/mo",
                                  maindiscount:"13% OFF",
@@ -169,7 +169,7 @@ function MainProductDetailStudy() {
                                Study9:[   
                                 {id:"1",
                                  img:"/MainStudyimgs/MainStudyimg9.avif", 
-                                 maintitle:"Treadmill FITXP MT05 - Powered by Sportsadda",
+                                 maintitle:"Moreon Workstation",
                                  mainPrice:"₹2,779/mo",
                                  mainOffer:"₹3,195/mo",
                                  maindiscount:"13% OFF",
@@ -184,7 +184,7 @@ function MainProductDetailStudy() {
                                Study10:[   
                                 {id:"1",
                                  img:"/MainStudyimgs/MainStudyimg10.avif", 
-                                 maintitle:"Treadmill FITXP MT05 - Powered by Sportsadda",
+                                 maintitle:"Nauka Solid Wood Study Table in Teak Finish",
                                  mainPrice:"₹2,779/mo",
                                  mainOffer:"₹3,195/mo",
                                  maindiscount:"13% OFF",
@@ -199,7 +199,7 @@ function MainProductDetailStudy() {
                                Study11:[   
                                 {id:"1",
                                  img:"/MainStudyimgs/MainStudyimg11.avif", 
-                                 maintitle:"Treadmill FITXP MT05 - Powered by Sportsadda",
+                                 maintitle:"Lana Engineered Wood Study Table in Teak Finish",
                                  mainPrice:"₹2,779/mo",
                                  mainOffer:"₹3,195/mo",
                                  maindiscount:"13% OFF",
@@ -214,7 +214,7 @@ function MainProductDetailStudy() {
                                Study12:[   
                                 {id:"1",
                                  img:"/MainStudyimgs/MainStudyimg12.avif", 
-                                 maintitle:"Treadmill FITXP MT05 - Powered by Sportsadda",
+                                 maintitle:"Moreno Engineered Wood Study Table in Neo Teak Finish", 
                                  mainPrice:"₹2,779/mo",
                                  mainOffer:"₹3,195/mo",
                                  maindiscount:"13% OFF",
@@ -229,7 +229,7 @@ function MainProductDetailStudy() {
                                Study13:[   
                                 {id:"1",
                                  img:"/MainStudyimgs/MainStudyimg13.avif", 
-                                 maintitle:"Treadmill FITXP MT05 - Powered by Sportsadda",
+                                 maintitle:"DANK Engineered Wood Study Table in Mushroom Beige Finish",
                                  mainPrice:"₹2,779/mo",
                                  mainOffer:"₹3,195/mo",
                                  maindiscount:"13% OFF",
@@ -244,7 +244,7 @@ function MainProductDetailStudy() {
                                Study14:[   
                                 {id:"1",
                                  img:"/MainStudyimgs/OutofStockMainStudyimg1.avif", 
-                                 maintitle:"Treadmill FITXP MT05 - Powered by Sportsadda",
+                                 maintitle:"Dank Workstation with Storage Drawer",
                                  mainPrice:"₹2,779/mo",
                                  OutOfStock:"OUT OF STOCK", 
                                  mainCoupen:"Apply: MAXSAVING to get 20% off upto ₹1100",
@@ -258,7 +258,7 @@ function MainProductDetailStudy() {
                                Study15:[   
                                 {id:"1",
                                  img:"/MainStudyimgs/OutofStockMainStudyimg2.avif", 
-                                 maintitle:"Treadmill FITXP MT05 - Powered by Sportsadda",
+                                 maintitle:"Bianca Height Adjustable Study Table",
                                  mainPrice:"₹2,779/mo",
                                  OutOfStock:"OUT OF STOCK", 
                                  mainCoupen:"Apply: MAXSAVING to get 20% off upto ₹1100",
@@ -272,7 +272,7 @@ function MainProductDetailStudy() {
                                Study16:[   
                                 {id:"1",
                                  img:"/MainStudyimgs/OutofStockMainStudyimg3.avif", 
-                                 maintitle:"Treadmill FITXP MT05 - Powered by Sportsadda",
+                                 maintitle:"Mono Workstation",
                                  mainPrice:"₹2,779/mo", 
                                  OutOfStock:"OUT OF STOCK", 
                                  mainCoupen:"Apply: MAXSAVING to get 20% off upto ₹1100",
@@ -286,7 +286,7 @@ function MainProductDetailStudy() {
                                Study17:[   
                                 {id:"1",
                                  img:"/MainStudyimgs/OutofStockMainStudyimg4.avif", 
-                                 maintitle:"Treadmill FITXP MT05 - Powered by Sportsadda",
+                                 maintitle:"Glyde Workstation with Mono Office Chair",
                                  mainPrice:"₹2,779/mo",                                
                                  OutOfStock:"OUT OF STOCK", 
                                  mainCoupen:"Apply: MAXSAVING to get 20% off upto ₹1100",
@@ -300,7 +300,7 @@ function MainProductDetailStudy() {
                                Study18:[   
                                 {id:"1",
                                  img:"/MainStudyimgs/OutofStockMainStudyimg5.avif", 
-                                 maintitle:"Treadmill FITXP MT05 - Powered by Sportsadda",
+                                 maintitle:"Flexo Mid Back Office Chair with Mesh Back & Fixed Arms in Maroon Color",
                                  mainPrice:"₹2,779/mo",
                                  OutOfStock:"OUT OF STOCK", 
                                  mainCoupen:"Apply: MAXSAVING to get 20% off upto ₹1100",

@@ -41,7 +41,7 @@ function MainProductDetailKids() {
                               Kids1:[   
                                 {id:"1",
                                  img:"/MainKidsimg/KidsImg1.avif", 
-                                 maintitle:"Treadmill FITXP MT05 - Powered by Sportsadda",
+                                 maintitle:"Zzoom Kids Crib - Jungle Green",
                                  mainPrice:"₹2,779/mo",
                                  mainOffer:"₹3,195/mo",
                                  maindiscount:"13% OFF",
@@ -69,7 +69,7 @@ function MainProductDetailKids() {
                                 Kids2:[   
                                 {id:"1",
                                  img:"/MainKidsimg/KidsImg2.avif", 
-                                 maintitle:"Treadmill FITXP MT05 - Powered by Sportsadda",
+                                 maintitle:"Kids CoZzzy Cradle",
                                  mainPrice:"₹2,779/mo",
                                  mainOffer:"₹3,195/mo",
                                  maindiscount:"13% OFF",
@@ -84,7 +84,7 @@ function MainProductDetailKids() {
                                Kids3:[   
                                 {id:"1",
                                  img:"/MainKidsimg/KidsImg3.avif", 
-                                 maintitle:"Treadmill FITXP MT05 - Powered by Sportsadda",
+                                 maintitle:"Mio Toddler Bed with Mattress",
                                  mainPrice:"₹2,779/mo",
                                  mainOffer:"₹3,195/mo",
                                  maindiscount:"13% OFF",
@@ -99,7 +99,7 @@ function MainProductDetailKids() {
                                Kids4:[   
                                 {id:"1",
                                  img:"/MainKidsimg/KidsImg4.avif", 
-                                 maintitle:"Treadmill FITXP MT05 - Powered by Sportsadda",
+                                 maintitle:"Stowie Chest of drawers cum Diaper changing station - Jungle Green",
                                  mainPrice:"₹2,779/mo",
                                  mainOffer:"₹3,195/mo",
                                  maindiscount:"13% OFF",
@@ -114,7 +114,7 @@ function MainProductDetailKids() {
                                Kids5:[   
                                 {id:"1",
                                  img:"/MainKidsimg/KidsImg4.webp", 
-                                 maintitle:"Treadmill FITXP MT05 - Powered by Sportsadda",
+                                 maintitle:"Rio kids wardrobe - Jungle Green",
                                  mainPrice:"₹2,779/mo",
                                  mainOffer:"₹3,195/mo",
                                  maindiscount:"13% OFF",
@@ -159,7 +159,7 @@ function MainProductDetailKids() {
                                Kids8:[   
                                 {id:"1",
                                  img:"/MainKidsimg/KidsImg7.avif", 
-                                 maintitle:"Treadmill FITXP MT05 - Powered by Sportsadda",
+                                 maintitle:"Moonpie Kids Activity Center Table ",
                                  hurry:"Hurry up! Only 7 Left",
                                  mainPrice:"₹2,779/mo",
                                  mainOffer:"₹3,195/mo",
@@ -175,7 +175,7 @@ function MainProductDetailKids() {
                                Kids9:[   
                                 {id:"1",
                                  img:"/MainKidsimg/KidsImg8.avif", 
-                                 maintitle:"Treadmill FITXP MT05 - Powered by Sportsadda",
+                                 maintitle:"Hillo Study Table (for Age 6-12 years)",
                                  hurry:"Hurry up! Only 7 Left",
                                  mainPrice:"₹2,779/mo", 
                                  mainOffer:"₹3,195/mo",
@@ -191,7 +191,7 @@ function MainProductDetailKids() {
                                Kids10:[   
                                 {id:"1",
                                  img:"/MainKidsimg/KidsImg9.avif", 
-                                 maintitle:"Treadmill FITXP MT05 - Powered by Sportsadda",
+                                 maintitle:"Buddy Storage Duo",
                                  mainPrice:"₹2,779/mo",
                                  mainOffer:"₹3,195/mo",
                                  maindiscount:"13% OFF",
@@ -206,7 +206,7 @@ function MainProductDetailKids() {
                                 Kids11:[   
                                 {id:"1",
                                  img:"/MainKidsimg/KidsImg10.avif", 
-                                 maintitle:"Treadmill FITXP MT05 - Powered by Sportsadda",
+                                 maintitle:"Kids Crib Mattress with New Protector",
                                  mainPrice:"₹2,779/mo",
                                  mainOffer:"₹3,195/mo",
                                  maindiscount:"13% OFF",
@@ -221,7 +221,7 @@ function MainProductDetailKids() {
                                 Kids12:[   
                                 {id:"1",
                                  img:"/MainKidsimg/OutofStockKidsImg1.avif", 
-                                 maintitle:"Treadmill FITXP MT05 - Powered by Sportsadda",
+                                 maintitle:"Big Kid Bedroom Combo",
                                  mainPrice:"₹2,779/mo",
                                  OutOfStock:"OUT OF STOCK", 
                                  mainCoupen:"Apply: MAXSAVING to get 20% off upto ₹1100",
@@ -234,8 +234,8 @@ function MainProductDetailKids() {
 
                                 Kids13:[   
                                 {id:"1",
-                                 img:"/MainKidsimg/OutofStockKidsImg3.webp", 
-                                 maintitle:"Treadmill FITXP MT05 - Powered by Sportsadda",
+                                 img:"/MainKidsimg/OutofStockKidsImg2.avif", 
+                                 maintitle:"Joey Kids Single Bed with Mattress",
                                  mainPrice:"₹2,779/mo",
                                  OutOfStock:"OUT OF STOCK", 
                                  mainCoupen:"Apply: MAXSAVING to get 20% off upto ₹1100",
@@ -248,8 +248,8 @@ function MainProductDetailKids() {
 
                                 Kids14:[   
                                 {id:"1",
-                                 img:"/MainKidsimg/OutofStockKidsImg3.avif", 
-                                 maintitle:"Treadmill FITXP MT05 - Powered by Sportsadda",
+                                 img:"/MainKidsimg/OutofStockKidsImg3.webp", 
+                                 maintitle:"Momkin Bedside Nursing Unit with Caddy - Bubble Blue",
                                  mainPrice:"₹2,779/mo",
                                  OutOfStock:"OUT OF STOCK", 
                                  mainCoupen:"Apply: MAXSAVING to get 20% off upto ₹1100",
@@ -263,7 +263,7 @@ function MainProductDetailKids() {
                                 Kids15:[   
                                 {id:"1",
                                  img:"/MainKidsimg/OutofStockKidsImg4.avif", 
-                                 maintitle:"Treadmill FITXP MT05 - Powered by Sportsadda",
+                                 maintitle:"Giggle Kids Activity Table Set",
                                  mainPrice:"₹2,779/mo",
                                  OutOfStock:"OUT OF STOCK", 
                                  mainCoupen:"Apply: MAXSAVING to get 20% off upto ₹1100",
@@ -277,7 +277,7 @@ function MainProductDetailKids() {
                                 Kids16:[   
                                 {id:"1",
                                  img:"/MainKidsimg/OutofStockKidsImg5.avif", 
-                                 maintitle:"Treadmill FITXP MT05 - Powered by Sportsadda",
+                                 maintitle:"Mio Kids Sofa -Amber Yellow",
                                  mainPrice:"₹2,779/mo",
                                  OutOfStock:"OUT OF STOCK", 
                                  mainCoupen:"Apply: MAXSAVING to get 20% off upto ₹1100",
