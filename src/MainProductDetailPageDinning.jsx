@@ -64,7 +64,7 @@ function MainProductDetailDinning() {
 
                                Dinning2:[   
                                 {id:"1",
-                                 img:"/MainDinning/MainDinning1.avif", 
+                                 img:"/MainDinning/MainDinning2.avif", 
                                  maintitle:"Treadmill FITXP MT05 - Powered by Sportsadda",
                                  mainPrice:"₹2,779/mo",
                                  mainOffer:"₹3,195/mo",
@@ -79,7 +79,7 @@ function MainProductDetailDinning() {
 
                                Dinning3:[   
                                 {id:"1",
-                                 img:"/MainDinning/MainDinning1.avif", 
+                                 img:"/MainDinning/MainDinning3.avif", 
                                  maintitle:"Treadmill FITXP MT05 - Powered by Sportsadda",
                                  mainPrice:"₹2,779/mo",
                                  mainOffer:"₹3,195/mo",
@@ -94,7 +94,7 @@ function MainProductDetailDinning() {
 
                                Dinning4:[   
                                 {id:"1",
-                                 img:"/MainDinning/MainDinning1.avif", 
+                                 img:"/MainDinning/MainDinning4.avif", 
                                  maintitle:"Treadmill FITXP MT05 - Powered by Sportsadda",
                                  hurry:"Hurry up! Only 7 Left",
                                  mainPrice:"₹2,779/mo",
@@ -110,7 +110,7 @@ function MainProductDetailDinning() {
 
                                Dinning5:[   
                                 {id:"1",
-                                 img:"/MainDinning/MainDinning1.avif", 
+                                 img:"/MainDinning/MainDinning5.avif", 
                                  maintitle:"Treadmill FITXP MT05 - Powered by Sportsadda",
                                  mainPrice:"₹2,779/mo",
                                  mainOffer:"₹3,195/mo",
@@ -125,7 +125,7 @@ function MainProductDetailDinning() {
 
                                Dinning6:[   
                                 {id:"1",
-                                 img:"/MainDinning/MainDinning1.avif", 
+                                 img:"/MainDinning/MainDinning6.avif", 
                                  maintitle:"Treadmill FITXP MT05 - Powered by Sportsadda",
                                  mainPrice:"₹2,779/mo",
                                  mainOffer:"₹3,195/mo",
@@ -140,7 +140,7 @@ function MainProductDetailDinning() {
 
                                Dinning7:[   
                                 {id:"1",
-                                 img:"/MainDinning/MainDinning1.avif", 
+                                 img:"/MainDinning/MainDinning7.avif", 
                                  maintitle:"Treadmill FITXP MT05 - Powered by Sportsadda",
                                  mainPrice:"₹2,779/mo",
                                  mainOffer:"₹3,195/mo",
@@ -155,7 +155,7 @@ function MainProductDetailDinning() {
 
                                Dinning8:[   
                                 {id:"1",
-                                 img:"/MainDinning/MainDinning1.avif", 
+                                 img:"/MainDinning/MainDinning8.avif", 
                                  maintitle:"Treadmill FITXP MT05 - Powered by Sportsadda",
                                  mainPrice:"₹2,779/mo",
                                  mainOffer:"₹3,195/mo",
@@ -170,7 +170,7 @@ function MainProductDetailDinning() {
 
                                Dinning9:[   
                                 {id:"1",
-                                 img:"/MainDinning/MainDinning1.avif", 
+                                 img:"/MainDinning/MainDinning9.avif", 
                                  maintitle:"Treadmill FITXP MT05 - Powered by Sportsadda",
                                  mainPrice:"₹2,779/mo",
                                  mainOffer:"₹3,195/mo",
@@ -185,7 +185,7 @@ function MainProductDetailDinning() {
 
                                Dinning10:[   
                                 {id:"1",
-                                 img:"/MainDinning/MainDinning1.avif", 
+                                 img:"/MainDinning/OutofStockMainDinning1.avif", 
                                  maintitle:"Treadmill FITXP MT05 - Powered by Sportsadda",
                                  mainPrice:"₹2,779/mo",
                                  OutOfStock:"OUT OF STOCK", 
@@ -199,7 +199,7 @@ function MainProductDetailDinning() {
 
                                Dinning11:[   
                                 {id:"1",
-                                 img:"/MainDinning/MainDinning1.avif", 
+                                 img:"/MainDinning/OutofStockMainDinning2.avif", 
                                  maintitle:"Treadmill FITXP MT05 - Powered by Sportsadda",
                                  mainPrice:"₹2,779/mo",
                                  OutOfStock:"OUT OF STOCK", 
@@ -213,7 +213,7 @@ function MainProductDetailDinning() {
 
                                Dinning12:[   
                                 {id:"1",
-                                 img:"/MainDinning/MainDinning1.avif", 
+                                 img:"/MainDinning/OutofStockMainDinning3.avif", 
                                  maintitle:"Treadmill FITXP MT05 - Powered by Sportsadda",
                                  mainPrice:"₹2,779/mo",
                                  OutOfStock:"OUT OF STOCK", 
@@ -227,7 +227,7 @@ function MainProductDetailDinning() {
 
                                Dinning13:[   
                                 {id:"1",
-                                 img:"/MainDinning/MainDinning1.avif", 
+                                 img:"/MainDinning/OutofStockMainDinning4.avif", 
                                  maintitle:"Treadmill FITXP MT05 - Powered by Sportsadda",
                                  mainPrice:"₹2,779/mo",
                                  OutOfStock:"OUT OF STOCK", 
@@ -241,7 +241,7 @@ function MainProductDetailDinning() {
 
                                Dinning14:[   
                                 {id:"1",
-                                 img:"/MainDinning/MainDinning1.avif", 
+                                 img:"/MainDinning/OutofStockMainDinning5.avif", 
                                  maintitle:"Treadmill FITXP MT05 - Powered by Sportsadda",
                                  mainPrice:"₹2,779/mo",
                                  OutOfStock:"OUT OF STOCK", 

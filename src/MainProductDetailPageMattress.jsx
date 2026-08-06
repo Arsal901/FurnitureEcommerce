@@ -62,7 +62,7 @@ function MainProductDetailMattress() {
 
                                Mattress2:[   
                                 {id:"1",
-                                 img:"/Mattressimg/MainMattress1.avif", 
+                                 img:"/Mattressimg/MainMattress2.avif", 
                                  maintitle:"Treadmill FITXP MT05 - Powered by Sportsadda",
                                  mainPrice:"₹2,779/mo",
                                  mainOffer:"₹3,195/mo",
@@ -77,7 +77,7 @@ function MainProductDetailMattress() {
 
                                 Mattress3:[   
                                 {id:"1",
-                                 img:"/Mattressimg/MainMattress1.avif", 
+                                 img:"/Mattressimg/MainMattress3.avif", 
                                  maintitle:"Treadmill FITXP MT05 - Powered by Sportsadda",
                                  mainPrice:"₹2,779/mo",
                                  mainOffer:"₹3,195/mo",
@@ -92,7 +92,7 @@ function MainProductDetailMattress() {
 
                                 Mattress4:[   
                                 {id:"1",
-                                 img:"/Mattressimg/MainMattress1.avif", 
+                                 img:"/Mattressimg/MainMattress4.avif", 
                                  maintitle:"Treadmill FITXP MT05 - Powered by Sportsadda",
                                  mainPrice:"₹2,779/mo",
                                  mainOffer:"₹3,195/mo",
@@ -107,7 +107,7 @@ function MainProductDetailMattress() {
 
                                 Mattress5:[   
                                 {id:"1",
-                                 img:"/Mattressimg/MainMattress1.avif", 
+                                 img:"/Mattressimg/MainMattress5.avif", 
                                  maintitle:"Treadmill FITXP MT05 - Powered by Sportsadda",
                                  mainPrice:"₹2,779/mo",
                                  mainOffer:"₹3,195/mo",

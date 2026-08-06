@@ -368,7 +368,7 @@ useEffect(() => {
   const handleResize = () => { 
 
     if (window.innerWidth > 768) {
-      setMobileMenuOpen(true);   
+      setMobileMenuOpen(true);    
       setMobileSearchBar(true);
     } else {
       setMobileMenuOpen(false);

@@ -367,7 +367,7 @@ function MainProductDetail() {
                                 {id:"8", img:"/MainProductDetailsPageimg/FifteenProductDetailImg8.webp"},
                                 {id:"9", img:"/MainProductDetailsPageimg/FifteenProductDetailImg9.webp"},
                                 {id:"10",img:"/MainProductDetailsPageimg/FifteenProductDetailImg10.webp"},
-                                {id:"11",img:"/MainProductDetailsPageimg/FifteenProductDetailImg11.webp"},
+                                // {id:"11",img:"/MainProductDetailsPageimg/FifteenProductDetailImg1.webp"},
                                 {id:"12",img:"/MainProductDetailsPageimg/FifteenProductDetailImg12.webp"},
                                ],
                            }

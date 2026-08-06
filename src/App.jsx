@@ -288,10 +288,10 @@ const handleSearch = (query) => {
         {searchResults.length === 0 ? (
           <p>No products found.</p>
         ) : (
-          <div style={{ display: "flex", flexWrap: "wrap", gap: "20px" }}>
+          <div style={{ display: "flex", flexWrap: "wrap", gap: "20px", justifyContent:"center" }}>
             {searchResults.map((item, index) => (
               <Link to={item.link} key={index} style={{ textDecoration: "none", color: "inherit" }}>
-                <div style={{ width: "220px", cursor: "pointer" }}>
+                <div style={{ width: "290px", cursor: "pointer", }}>
                   <img src={item.displayImg} alt={item.title} style={{ width: "100%", height: "100%", objectFit: "cover" }} />
                   <h4 style={{ fontSize: "0.9rem", marginTop: "8px" }}>{item.title}</h4>
                   <p style={{ fontSize: "0.85rem", color: "green", marginLeft:"10px" }}>{item.price}</p>
