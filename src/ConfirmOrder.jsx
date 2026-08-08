@@ -537,7 +537,7 @@ checkoutItems.map((item) => (
       <h3>₹{totalPrice}</h3>
     </div>
 
-    <div className="SummaryTabTotal">
+    <div className="SummaryTabTotal"> 
       <h2>Total</h2>
       <p>₹{totalPrice}</p>
     </div>

@@ -1213,11 +1213,14 @@ font-size: 1.4rem;
   margin-top: 0px;
 }
 
+
 .SummaryTabTotal p {
   font-size: 1.2rem;
   font-weight: bold;
   color: green; 
   margin-top: 0px;
+  position: absolute;
+  right: 30px;
 }
 
 
@@ -1289,7 +1292,7 @@ font-size: 1.4rem;
   height: 180px;
   max-height: 100%;
   margin-top: 200px;
-  margin-left: 12px;
+  margin-left: 42px; 
   padding: 5px;
   border-radius: 20px;
   box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.282);
