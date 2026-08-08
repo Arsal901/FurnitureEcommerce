@@ -868,8 +868,12 @@ const [mobileopenBuyMenu, setmobileOpenBuyMenu] = useState(false);
                   
                   <ul> 
                     {/* <li onClick={() => setOpenLilMenu(!openLilMenu)}>Rent  */}
-                    <li onMouseEnter={() => setmobileOpenBuyMenu(true)}
-                      onMouseLeave={() => setmobileOpenBuyMenu(false)}>Rent 
+                    <li onMouseEnter={() => setmobileOpenRentMenu(true)}
+                      onMouseLeave={() => setmobileOpenRentMenu(false)}>Rent 
+
+                      {/* <li 
+                      onClick={() => setmobileOpenRentMenu(!mobileopenRentMenu)}>Rent    */}
+
                     {mobileopenRentMenu && (
                       <div className="MobileRentSubmenus">
                          
@@ -1021,9 +1025,12 @@ const [mobileopenBuyMenu, setmobileOpenBuyMenu] = useState(false);
                    
 
                     <li onMouseEnter={() => setmobileOpenBuyMenu(true)} 
-                      onMouseLeave={() => setmobileOpenBuyMenu(false)}>Buy
+                      onMouseLeave={() => setmobileOpenBuyMenu(false)}>Buy  
 
-                      {openBuyMenu && (
+                      {/* <li  
+                      onClick={() => setmobileOpenBuyMenu(!mobileopenBuyMenu)}>Buy  */}
+
+                      {mobileopenBuyMenu && (
                       <div className="MobileBuySubmenus">
                          
                         <div className="MobileAllBuySubMenu" > 

@@ -1214,6 +1214,7 @@ h1 {
     align-items: left;
     margin-left: 0px;
     font-size: 1.2rem;
+    
 }
 
 .MobileFurniturewaleMenus ul li {
@@ -1229,6 +1230,32 @@ h1 {
     width: 100%;
     background-color: rgba(183, 186, 185, 0.179);
     color: rgb(2, 184, 145);
+}
+
+.MobileRentSubmenus, .MobileBuySubmenus {
+height: 300px;
+overflow-x: scroll;
+scrollbar-width: none;
+}
+
+.MobileAllRentSubMenu ul, .MobileAllBuySubMenu ul {
+/* width: 150px; */
+    display: flex;
+    border-bottom: none;
+    background-color: whitesmoke;
+    
+}
+
+.MobileAllRentSubMenu ul li, .MobileAllBuySubMenu ul li {
+    display: flex;
+    /* border-bottom: none; */
+    background-color: whitesmoke;
+    
+}
+
+.MobileAllRentSubMenu h4, .MobileAllBuySubMenu h4 {
+    color: black;
+    margin: 20px;
 }
 
 
