@@ -1098,6 +1098,12 @@ h1 {
 }
 
 
+
+.MobileFurniturewaleMenus {
+    display: none;
+}
+
+
 @media screen and (min-width:320px) and (max-width:768px) {
 
 
@@ -1183,40 +1189,49 @@ h1 {
 
 /* This is FurnitureMobileSection  */
 
-
 .FurniturewaleMenus {
+    display: none;
+}
+
+
+.MobileFurniturewaleMenus {
     position: absolute;
     left: 0px;
     margin-top: 20px;  
     background-color: whitesmoke;
+    /* background-color: red; */
+    width: 100% ;
     z-index: 100;
+    text-align: center;
+    display: block;
 }
 
 
 
-.FurniturewaleMenus ul {
+.MobileFurniturewaleMenus ul {
     display: block; 
     flex-direction: column;
     align-items: left;
     margin-left: 0px;
-    margin-top: 10px;  
-
+    font-size: 1.2rem;
 }
 
-.FurniturewaleMenus ul li {
+.MobileFurniturewaleMenus ul li {
+   padding: 10px;
     z-index: 100;
     cursor: pointer;
     /* background-color:red; */
-    margin-top: 0px;
+    margin-top: 10px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.193);
 }
 
-.FurniturewaleMenus ul li:hover {
+.MobileFurniturewaleMenus ul li:hover {
     width: 100%;
     background-color: rgba(183, 186, 185, 0.179);
     color: rgb(2, 184, 145);
 }
 
-  
+
 
 
 
@@ -1231,6 +1246,10 @@ h1 {
 
 }
 
+.MainSearchBarSection {
+    display: none;
+}
+
 .MobileSearchBarDown {
     display: block;
     position: absolute;
@@ -1241,7 +1260,7 @@ h1 {
     /* background-color: red; */
 }
 
-.MainSearchBarSection {
+.MobileMainSearchBarSection {
     position: absolute;
     left: 0px;
     top: 60px;
@@ -1252,13 +1271,66 @@ h1 {
     border-top: 1px solid rgba(0, 0, 0, 0.303);
 }
 
-.SearchBar {
+/* .MobileSearchBar {
     background-color: whitesmoke;
     margin-left: 0px;
     width: 100%;
     max-width: 100%;
     margin-top: 0px; 
     height: 40px;
+} */
+
+
+
+
+.MobileSearchBar {
+    /* background-color: brown; */
+    height: 48px;
+    max-height: 100%;
+    width: 350px;
+    max-width: 100%;
+    margin-top: 7px;
+    margin-left: 00px;
+    border-radius: 10px; 
+    /* border: 1px solid rgba(0, 0, 0, 0.499); */
+    background-color: rgba(216, 216, 216, 0.462);
+    position: relative; 
+}
+
+.MobileSearchBar input {
+    height: 100%;
+    width: 100%;
+    margin-left: 0px;
+    overflow: hidden;
+    border-radius: 10px;
+    outline: none; 
+    border: none;
+    padding-left: 10px;
+    background-color: transparent;
+    font-size: 0.87rem;
+    margin-top: 0px;
+    border: 1px solid whitesmoke;
+}
+
+.MobileSearchBar input:focus {
+    outline: 2px solid #047992;
+}
+
+.MobileSearchBar input:hover {
+        outline: 2px solid #047992;
+}
+
+.MobileMainSearchIcon {
+    position: absolute;
+    right: 5px;
+    top: 11px;
+    font-size: 1.4rem;
+    font-weight: bolder;
+    border-left: 2px solid rgba(0, 0, 0, 0.151);
+    /* background-color: red; */
+    width: 38px;
+    color: rgba(0, 0, 0, 0.611);
+    cursor: pointer;
 }
 
 

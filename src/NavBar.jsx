@@ -357,30 +357,31 @@ const navigate = useNavigate();
 
 // This is MobileMenuBar 
 
-// const [mobileSearchBar, setMobileSearchBar] = useState(false);      
-// const [mobileMenuOpen, setMobileMenuOpen] = useState(false);  
+const [mobileSearchBar, setMobileSearchBar] = useState(false);      
+const [mobileMenuOpen, setMobileMenuOpen] = useState(false);  
  
 
-const [mobileMenuOpen, setMobileMenuOpen] = useState(window.innerWidth > 768);
-const [mobileSearchBar, setMobileSearchBar] = useState(window.innerWidth > 768);
+// const [mobileMenuOpen, setMobileMenuOpen] = useState(window.innerWidth > 768);
+// const [mobileSearchBar, setMobileSearchBar] = useState(window.innerWidth > 768);
 
-useEffect(() => {
-  const handleResize = () => { 
+// useEffect(() => {
+//   const handleResize = () => { 
 
-    if (window.innerWidth > 768) {
-      setMobileMenuOpen(true);    
-      setMobileSearchBar(true);
-    } else {
-      setMobileMenuOpen(false);
-      setMobileSearchBar(false);
-    }
-  };
+//     if (window.innerWidth > 768) {
+//       setMobileMenuOpen(true);    
+//       setMobileSearchBar(true);
+//     } else {
+//       setMobileMenuOpen(false);
+//       setMobileSearchBar(false);
+//     }
+//   };
 
-  window.addEventListener("resize", handleResize);
-  return () => window.removeEventListener("resize", handleResize);
-}, []);
+//   window.addEventListener("resize", handleResize);
+//   return () => window.removeEventListener("resize", handleResize);
+// }, []);
 
-
+const [mobileopenRentMenu, setmobileOpenRentMenu] = useState(false); 
+const [mobileopenBuyMenu, setmobileOpenBuyMenu] = useState(false);  
     
 
     return (
@@ -565,7 +566,7 @@ useEffect(() => {
 
 
                 {/* This is For FurnitureWala - Here I Make Menus  */}
-                {mobileMenuOpen && (
+                {/* {mobileMenuOpen && ( */}
                 <div className="FurniturewaleMenus">
                   
                   <ul> 
@@ -852,8 +853,304 @@ useEffect(() => {
                     <li>B2B</li> 
                   </ul>
                 </div>
-                )}
+                 {/* )}  */}
                 
+
+
+
+                 {/* This is Menu for Mobile...  */}
+
+
+
+                   {/* This is For FurnitureWala - Here I Make Menus  */}
+                {mobileMenuOpen && (
+                <div className="MobileFurniturewaleMenus">
+                  
+                  <ul> 
+                    {/* <li onClick={() => setOpenLilMenu(!openLilMenu)}>Rent  */}
+                    <li onMouseEnter={() => setmobileOpenBuyMenu(true)}
+                      onMouseLeave={() => setmobileOpenBuyMenu(false)}>Rent 
+                    {mobileopenRentMenu && (
+                      <div className="MobileRentSubmenus">
+                         
+                        <div className="MobileAllRentSubMenu" > 
+                        <h4>Bedroom</h4> 
+                        <ul>
+                        <li>Beds</li>  
+                        <li>Kids Crib</li>
+                        <li>Queen Beds</li>
+                        <li>Storage Beds</li>
+                        <li>King Beds</li> 
+                        <li>Single Beds</li>
+                        <li>Bedside Tables</li>
+                        <li>Beds without Mattress</li>
+                        <li>Mattress</li>
+                        <li>Bedroom Combos</li>
+                        <li>Kids Beds</li>
+                        </ul>
+                        </div>
+
+                        <div className="MobileAllRentSubMenu" >
+                        <h4>BHK Combos</h4> 
+                        <ul>
+                        <li>Bedroom Combos</li>  
+                        <li>Living Room Combos</li>
+                        <li>Appliance Combos</li>
+                        <li>Storage Combos</li>
+                        <li>Dining Combos</li>
+                        <li>Study Combos</li>
+                        </ul>
+                        </div>
+
+                        <div className="MobileAllRentSubMenu">
+                        <h4>Living Room</h4> 
+                        <ul>
+                        <li>Sofas</li>  
+                        <li>Kids Seating</li>
+                        <li>3 Seater</li>
+                        <li>Sofa Sets</li>
+                        <li>2 Seater</li>
+                        <li>1 Seater</li>
+                        <li>Recliner</li>
+                        <li>L Shape</li>
+                        <li>Sofa Cum Bed</li>
+                        <li>Multifunctional</li>
+                        <li>Centre Tables</li>
+                        <li>Living Room Combos</li>
+                        </ul>
+                        </div>
+
+
+                        <div className="MobileAllRentSubMenu" >
+                          <div className="MobileAllRentSubMenu" >
+                        <h4>Steal Deals</h4> 
+                        <ul><li></li></ul>
+                        </div>
+                        <h4>Appliances</h4> 
+                        <ul>
+                        <li>Washing machines</li>  
+                        <li>Refrigerators</li>
+                        <li>TV</li>
+                        <li>Microwave</li>
+                        <li>Water Purifier</li>
+                        <li>Appliance Combos</li>
+                        <li>AC</li>
+                        </ul>
+                        </div>
+
+                       <div className="MobileAllRentSubMenu" >
+                        <h4>Storage</h4> 
+                        <ul>
+                        <li>Kids Storage</li>  
+                        <li>Wardrobes</li>
+                        <li>Chest of Drawers</li>
+                        <li>Entertainment Units</li>
+                        <li>Dressing Table</li>
+                        <li>Bookshelves</li>
+                        <li>Shoe Racks</li>
+                        <li>Storage Combos</li>
+                        </ul>
+                        </div>
+
+                       <div className="MobileAllRentSubMenu" >
+                        <h4>Kids</h4> 
+                        <ul>
+                        <li>Kids Study</li>  
+                        <li>Kids Bed</li>
+                        <li>Kids Crib</li>
+                        <li>Kids Seating</li>
+                        <li>Kids Storage</li>
+                        </ul>
+
+                        <div className="MobileAllRentSubMenu" >
+                        <h4>Study</h4> 
+                        <ul>
+                        <li>Workstations</li>
+                        <li>Study Tables</li>
+                        <li>Office Chairs</li>
+                        <li>Study Combos</li>
+                        </ul>
+                        </div>
+                        </div>
+
+                       <div className="MobileAllRentSubMenu" >
+                        <h4>Dinning</h4>  
+                        <ul>
+                        <li>Dining Tables</li>  
+                        <li>Dining Combos</li>
+                        </ul>
+
+                        <div className="MobileAllRentSubMenu" >
+                        <h4>Luxury</h4>
+                        <ul><li></li></ul>
+                        </div>
+
+                        <div className="MobileAllRentSubMenu" >
+                        <h4>Fitness</h4>
+                        <ul>
+                          <li>Treadmills</li>
+                          </ul>
+                        </div>
+
+                        <div className="MobileAllRentSubMenu" >
+                        <h4>Mattress</h4>
+                        <ul>
+                          <li>Mattress</li>
+                          </ul>
+                        </div>
+
+
+                        <div className="MobileAllRentSubMenu">
+                          <h4>Z Rated</h4>
+                        <ul>
+                        <li>Sleep</li>
+                        <li>Chill</li>
+                        <li>Work</li>
+                        <li>Z Rated Combos</li> 
+                        </ul>
+                        </div>
+
+                        </div>
+</div>
+                    )}
+                    
+                    
+ </li>
+ 
+
+                   
+
+                    <li onMouseEnter={() => setmobileOpenBuyMenu(true)} 
+                      onMouseLeave={() => setmobileOpenBuyMenu(false)}>Buy
+
+                      {openBuyMenu && (
+                      <div className="MobileBuySubmenus">
+                         
+                        <div className="MobileAllBuySubMenu" > 
+                        <h4>Living Room</h4> 
+                        <ul>
+                        <li>Sofas</li>  
+                        <li>Ottomans</li>
+                        <li>Recliner</li>
+                        <li>Center Tables</li>
+                        <li>Tv Units</li>
+                        </ul>
+                        </div>
+
+                        <div className="MobileAllBuySubMenu" >
+                        <h4>Bedroom</h4> 
+                        <ul>
+                        <li>Queen Beds</li>  
+                        <li>King Beds</li>
+                        <li>Storage Beds</li>
+                        <li>Single Beds</li>
+                        <li>Beside Table</li>
+                        <li>Wardrobes</li>
+                        <li>Mattress</li>
+                        </ul>
+
+                         <div className="MobileAllBuySubMenu">
+                        <h4>Premium</h4>  
+                        <ul><li></li></ul>
+                        </div>
+
+                        </div>
+
+
+
+                        <div className="MobileAllBuySubMenu">
+                        <h4>Storage</h4> 
+                        <ul>
+                        <li>Chest of Drawers</li>  
+                        <li>TV Units</li>
+                        <li>Shoe Racks</li>
+                        <li>Wardrobes</li>
+                        </ul>
+
+
+                         <div className="MobileAllBuySubMenu">
+                        <h4>Study</h4> 
+                        <ul>
+                        <li>Study Tables</li>
+                        <li>Office Chairs</li>
+                        </ul>
+                        </div>
+
+                         <div className="MobileAllBuySubMenu">
+                        <h4>Dining </h4> 
+                        <ul>
+                        <li>Dining Tables</li>
+                        <li>Dining Chairs</li>
+                        <li>Dining Sets</li>
+                        </ul>
+                        </div>
+
+                        </div>
+
+                        <div className="MobileAllBuySubMenu" >
+                        <h4>Tables</h4> 
+                        <ul>
+                        <li>Beside Tables</li>  
+                        <li>Center Tables</li>
+                        <li>Dining Tables</li>
+                        <li>Study Tables</li> 
+                       </ul>
+
+                        <div className="MobileAllBuySubMenu" >
+                        <h4>Lounger</h4>
+                        <ul>
+                        <li>Office Chairs</li>
+                        <li>Ottomans</li>
+                        </ul>
+                        </div>
+                         
+                        <div className="MobileAllBuySubMenu" >
+                        <h4>Kids Room</h4> 
+                        <ul><li></li></ul>
+                        </div>
+                      </div>
+
+                      <div className="MobileAllBuySubMenu" >
+                        <h4>Best Deals</h4> 
+                        <ul>
+                        <li>Best Deals-Bedroom</li> 
+                        <li>Best Deals-Living Room</li> 
+                        <li>Best Deals-Storage</li> 
+                        <li>Best Deals-Study</li> 
+                        <li>Best Deals-Dining</li> 
+                       </ul>
+
+                       <div className="MobileAllBuySubMenu" >
+                        <h4>Mattress</h4> 
+                        <ul><li></li></ul>
+                        </div>
+
+                        <div className="MobileAllBuySubMenu" >
+                        <h4>Z Rated</h4>
+                        <ul>
+                        <li>Sleep</li>
+                        <li>Chill</li>
+                        <li>Work</li>
+                        </ul>
+                        </div>
+                         
+                        
+                      </div>
+
+
+</div>
+                    )}
+                    
+ </li>
+
+
+
+
+                    <li>Unlimited</li>
+                    <li>B2B</li> 
+                  </ul>
+                </div>
+                )}
 
 
 
@@ -877,9 +1174,38 @@ useEffect(() => {
 
 
 
-                       {/* This is Search Bar */}
+                       {/* This is Mobile Search Bar */}
                       
                   {mobileSearchBar && (   
+                 <div className="MobileMainSearchBarSection">
+                  <div className="MobileSearchBar">
+                    <input type="text"
+                     placeholder="Search sofa, chair, beds etc"
+                     value={searchInput}
+                     onChange={(e) => setSearchInput(e.target.value)}
+                     onKeyDown={(e) => {
+                       if (e.key === "Enter") {
+                         if (searchInput.trim() === "") return;
+                         onSearch(searchInput);
+                        //  navigate("/");
+        }
+      }} 
+    />
+
+                    <FiSearch
+                     className="MobileMainSearchIcon"
+                     onClick={()=> {
+                      if(searchInput.trim() === "")  return;
+                      onSearch(searchInput);
+                      // navigate("/")
+                     }}
+                     /> 
+                  </div>
+                 </div>
+                 )} 
+
+                       {/* This is Normal Search Bar  */}
+        
                  <div className="MainSearchBarSection">
                   <div className="SearchBar">
                     <input type="text"
@@ -905,7 +1231,6 @@ useEffect(() => {
                      /> 
                   </div>
                  </div>
-                 )} 
                   
 
 
