@@ -41,7 +41,7 @@ function MainProductDetailLuxury() {
                               Luxury1:[   
                                 {id:"1",
                                  img:"/Luxuryimg/MainLuxuryimg1.avif", 
-                                 maintitle:"Treadmill FITXP MT05 - Powered by Sportsadda",
+                                 maintitle:"Aara Solid Wood King Hydraulic Storage Bed", 
                                  mainPrice:"₹2,779/mo",
                                  mainOffer:"₹3,195/mo",
                                  maindiscount:"13% OFF",
@@ -68,7 +68,7 @@ function MainProductDetailLuxury() {
                                Luxury2:[   
                                 {id:"1",
                                  img:"/Luxuryimg/MainLuxuryimg2.avif", 
-                                 maintitle:"Treadmill FITXP MT05 - Powered by Sportsadda",
+                                 maintitle:"Sara Solid Wood Queen Bed in Timeless Teak Finish",
                                  mainPrice:"₹2,779/mo",
                                  mainOffer:"₹3,195/mo",
                                  maindiscount:"13% OFF",
@@ -83,7 +83,7 @@ function MainProductDetailLuxury() {
                                 Luxury3:[   
                                 {id:"1",
                                  img:"/Luxuryimg/MainLuxuryimg3.avif", 
-                                 maintitle:"Treadmill FITXP MT05 - Powered by Sportsadda",
+                                 maintitle:"Abstract Energy Solid Wood Queen Bed",
                                  mainPrice:"₹2,779/mo",
                                  mainOffer:"₹3,195/mo",
                                  maindiscount:"13% OFF",
@@ -98,7 +98,7 @@ function MainProductDetailLuxury() {
                                 Luxury4:[   
                                 {id:"1",
                                  img:"/Luxuryimg/MainLuxuryimg4.avif", 
-                                 maintitle:"Treadmill FITXP MT05 - Powered by Sportsadda",
+                                 maintitle:"Aara Solid Wood Upholstered Queen Bed",
                                  hurry:"Hurry up! Only 7 Left",
                                  mainPrice:"₹2,779/mo",
                                  mainOffer:"₹3,195/mo",
@@ -114,7 +114,7 @@ function MainProductDetailLuxury() {
                                 Luxury5:[   
                                 {id:"1",
                                  img:"/Luxuryimg/MainLuxuryimg5.avif", 
-                                 maintitle:"Treadmill FITXP MT05 - Powered by Sportsadda",
+                                 maintitle:"Lexa Chaise Lounger - Desert Rose ",
                                  mainPrice:"₹2,779/mo",
                                  mainOffer:"₹3,195/mo",
                                  maindiscount:"13% OFF",
@@ -129,7 +129,7 @@ function MainProductDetailLuxury() {
                                 Luxury6:[   
                                 {id:"1",
                                  img:"/Luxuryimg/MainLuxuryimg6.avif", 
-                                 maintitle:"Treadmill FITXP MT05 - Powered by Sportsadda",
+                                 maintitle:"Optimus Velvet Sofa cum Bed in Deep Teal Color",
                                  mainPrice:"₹2,779/mo",
                                  mainOffer:"₹3,195/mo",
                                  maindiscount:"13% OFF",
@@ -144,7 +144,7 @@ function MainProductDetailLuxury() {
                                 Luxury7:[   
                                 {id:"1",
                                  img:"/Luxuryimg/MainLuxuryimg7.avif", 
-                                 maintitle:"Treadmill FITXP MT05 - Powered by Sportsadda",
+                                 maintitle:"Eclectic Glamour 3 Seater Sofa in Sapphire Blue Color",
                                  mainPrice:"₹2,779/mo",
                                  mainOffer:"₹3,195/mo",
                                  maindiscount:"13% OFF",
@@ -159,7 +159,7 @@ function MainProductDetailLuxury() {
                                 Luxury8:[   
                                 {id:"1",
                                  img:"/Luxuryimg/MainLuxuryimg8.avif", 
-                                 maintitle:"Treadmill FITXP MT05 - Powered by Sportsadda",
+                                 maintitle:"Lexa Chaise Lounger - Yellow Mustard8",
                                  mainPrice:"₹2,779/mo",
                                  mainOffer:"₹3,195/mo",
                                  maindiscount:"13% OFF",
@@ -174,7 +174,7 @@ function MainProductDetailLuxury() {
                                 Luxury9:[   
                                 {id:"1",
                                  img:"/Luxuryimg/MainLuxuryimg9.avif", 
-                                 maintitle:"Treadmill FITXP MT05 - Powered by Sportsadda",
+                                 maintitle:"Fio Accent Chair with Footstool",
                                  hurry:"Hurry up! Only 7 Left",
                                  mainPrice:"₹2,779/mo",
                                  mainOffer:"₹3,195/mo",
@@ -190,7 +190,7 @@ function MainProductDetailLuxury() {
                                 Luxury10:[   
                                 {id:"1",
                                  img:"/Luxuryimg/MainLuxuryimg10.avif", 
-                                 maintitle:"Treadmill FITXP MT05 - Powered by Sportsadda",
+                                 maintitle:"Aurelia Leatherette 3 Seater Sofa in Amber Yellow Colour",
                                  mainPrice:"₹2,779/mo",
                                  mainOffer:"₹3,195/mo",
                                  maindiscount:"13% OFF",
@@ -205,7 +205,7 @@ function MainProductDetailLuxury() {
                                Luxury11:[   
                                 {id:"1",
                                  img:"/Luxuryimg/MainLuxuryimg11.webp", 
-                                 maintitle:"Treadmill FITXP MT05 - Powered by Sportsadda",
+                                 maintitle:"Linora Velvet L-Shape Sofa in Sapphire Blue Color",
                                  mainPrice:"₹2,779/mo",
                                  mainOffer:"₹3,195/mo",
                                  maindiscount:"13% OFF",
@@ -220,7 +220,7 @@ function MainProductDetailLuxury() {
                                Luxury12:[   
                                 {id:"1",
                                  img:"/Luxuryimg/MainLuxuryimg12.avif", 
-                                 maintitle:"Treadmill FITXP MT05 - Powered by Sportsadda",
+                                 maintitle:"Eclectic Glamour Velvet 3+1+1 Sofa Set in Sapphire Blue Colour",
                                  mainPrice:"₹2,779/mo",
                                  mainOffer:"₹3,195/mo",
                                  maindiscount:"13% OFF",
@@ -235,7 +235,7 @@ function MainProductDetailLuxury() {
                                Luxury13:[   
                                 {id:"1",
                                  img:"/Luxuryimg/OutofStockMainLuxuryimg1.avif", 
-                                 maintitle:"Treadmill FITXP MT05 - Powered by Sportsadda",
+                                 maintitle:"Linora Velvet L Shape Sofa in Sunshine Yellow Color",
                                  mainPrice:"₹2,779/mo",
                                  OutOfStock:"OUT OF STOCK", 
                                  mainCoupen:"Apply: MAXSAVING to get 20% off upto ₹1100",
@@ -249,7 +249,7 @@ function MainProductDetailLuxury() {
                                Luxury14:[   
                                 {id:"1",
                                  img:"/Luxuryimg/OutofStockMainLuxuryimg2.avif", 
-                                 maintitle:"Treadmill FITXP MT05 - Powered by Sportsadda",
+                                 maintitle:"Helio 3 Seater Sofa & Ottoman - Desert Rose",
                                  mainPrice:"₹2,779/mo",
                                  OutOfStock:"OUT OF STOCK", 
                                  mainCoupen:"Apply: MAXSAVING to get 20% off upto ₹1100",
@@ -263,7 +263,7 @@ function MainProductDetailLuxury() {
                                Luxury15:[   
                                 {id:"1",
                                  img:"/Luxuryimg/OutofStockMainLuxuryimg3.avif", 
-                                 maintitle:"Treadmill FITXP MT05 - Powered by Sportsadda",
+                                 maintitle:"Abstract Energy Sofa Charcoal Gray",
                                  mainPrice:"₹2,779/mo",
                                  OutOfStock:"OUT OF STOCK", 
                                  mainCoupen:"Apply: MAXSAVING to get 20% off upto ₹1100",
@@ -277,7 +277,7 @@ function MainProductDetailLuxury() {
                                Luxury16:[   
                                 {id:"1",
                                  img:"/Luxuryimg/OutofStockMainLuxuryimg4.avif", 
-                                 maintitle:"Treadmill FITXP MT05 - Powered by Sportsadda",
+                                 maintitle:"Linora Velvet L Shape Sofa - Desert Rose",
                                  mainPrice:"₹2,779/mo",
                                  OutOfStock:"OUT OF STOCK",  
                                  mainCoupen:"Apply: MAXSAVING to get 20% off upto ₹1100",
@@ -291,7 +291,7 @@ function MainProductDetailLuxury() {
                                 Luxury17:[   
                                 {id:"1",
                                  img:"/Luxuryimg/OutofStockMainLuxuryimg5.avif", 
-                                 maintitle:"Treadmill FITXP MT05 - Powered by Sportsadda",
+                                 maintitle:"Boho Earth Solid Wood Coffee Table in Teak Finish",
                                  mainPrice:"₹2,779/mo",
                                  OutOfStock:"OUT OF STOCK", 
                                  mainCoupen:"Apply: MAXSAVING to get 20% off upto ₹1100",

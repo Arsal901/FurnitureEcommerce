@@ -41,7 +41,7 @@ function MainProductDetailZrated() {
                               Zrated1:[   
                                 {id:"1",
                                  img:"/ZRatedImg/MainZratedimg1.avif", 
-                                 maintitle:"Treadmill FITXP MT05 - Powered by Sportsadda",
+                                 maintitle:"LIT Compact Double Bed with Premium 4 Mattress #Zrated1",
                                  hurry:"Hurry up! Only 7 Left",
                                  mainPrice:"₹2,779/mo",
                                  mainOffer:"₹3,195/mo",
@@ -67,7 +67,7 @@ function MainProductDetailZrated() {
                                Zrated2:[   
                                 {id:"1",
                                  img:"/ZRatedImg/MainZratedimg2.avif", 
-                                 maintitle:"Treadmill FITXP MT05 - Powered by Sportsadda",
+                                 maintitle:"NO CAP Workstation #Zrated",
                                  mainPrice:"₹2,779/mo",
                                  mainOffer:"₹3,195/mo",
                                  maindiscount:"13% OFF",
@@ -82,7 +82,7 @@ function MainProductDetailZrated() {
                                 Zrated3:[   
                                 {id:"1",
                                  img:"/ZRatedImg/MainZratedimg3.avif", 
-                                 maintitle:"Treadmill FITXP MT05 - Powered by Sportsadda",
+                                 maintitle:"LIT Engineered wood Compact Double Bed #Zrated2",
                                  mainPrice:"₹2,779/mo",
                                  mainOffer:"₹3,195/mo",
                                  maindiscount:"13% OFF",
@@ -97,7 +97,7 @@ function MainProductDetailZrated() {
                                 Zrated4:[   
                                 {id:"1",
                                  img:"/ZRatedImg/MainZratedimg4.avif", 
-                                 maintitle:"Treadmill FITXP MT05 - Powered by Sportsadda",
+                                 maintitle:"Hugo Upholstered Box Storage Compact Double Bed with Premium Mattress #Zrated",
                                  mainPrice:"₹2,779/mo",
                                  mainOffer:"₹3,195/mo",
                                  maindiscount:"13% OFF",
@@ -112,7 +112,7 @@ function MainProductDetailZrated() {
                                 Zrated5:[   
                                 {id:"1",
                                  img:"/ZRatedImg/MainZratedimg5.avif", 
-                                 maintitle:"Treadmill FITXP MT05 - Powered by Sportsadda",
+                                 maintitle:"Hugo Upholstered Box Storage Compact Double Bed, Mattress & Hugo 3 Door Wardrobe #Zrated",
                                  mainPrice:"₹2,779/mo",
                                  mainOffer:"₹3,195/mo",
                                  maindiscount:"13% OFF",
@@ -126,8 +126,8 @@ function MainProductDetailZrated() {
 
                                 Zrated6:[   
                                 {id:"1",
-                                 img:"/ZRatedImg/MainZratedimg6.avif", 
-                                 maintitle:"Treadmill FITXP MT05 - Powered by Sportsadda",
+                                 img:"/ZRatedImg/MainZratedimg6.webp", 
+                                 maintitle:"LIT Compact Double Bed, Mattress & Hugo 2 Door Wardrobe",
                                  hurry:"Hurry up! Only 7 Left",
                                  mainPrice:"₹2,779/mo",
                                  mainOffer:"₹3,195/mo",
@@ -143,7 +143,7 @@ function MainProductDetailZrated() {
                                 Zrated7:[   
                                 {id:"1",
                                  img:"/ZRatedImg/MainZratedimg7.avif", 
-                                 maintitle:"Treadmill FITXP MT05 - Powered by Sportsadda",
+                                 maintitle:"LIT Compact Double Bed, Mattress & Dank Workstation",
                                  hurry:"Hurry up! Only 7 Left",
                                  mainPrice:"₹2,779/mo",
                                  mainOffer:"₹3,195/mo",
@@ -156,25 +156,25 @@ function MainProductDetailZrated() {
                                
                                ],
 
-                                Zrated8:[   
-                                {id:"1",
-                                 img:"/ZRatedImg/MainZratedimg8.avif", 
-                                 maintitle:"Treadmill FITXP MT05 - Powered by Sportsadda",
-                                 mainPrice:"₹2,779/mo",
-                                 mainOffer:"₹3,195/mo",
-                                 maindiscount:"13% OFF",
-                                 mainCoupen:"Apply: MAXSAVING to get 20% off upto ₹1100",
-                                },
+                            //     Zrated8:[   
+                            //     {id:"1",
+                            //      img:"/ZRatedImg/MainZratedimg8.avif", 
+                            //      maintitle:"FOMO Engineered Wood Nested Center Table with 4 Pouffs in Mushroom Beige Finish",
+                            //      mainPrice:"₹2,779/mo",
+                            //      mainOffer:"₹3,195/mo",
+                            //      maindiscount:"13% OFF",
+                            //      mainCoupen:"Apply: MAXSAVING to get 20% off upto ₹1100",
+                            //     },
 
 
-                                {id:"2", img:"/MainProductZrated/MattressImg2.webp"},
+                            //     {id:"2", img:"/MainProductZrated/MattressImg2.webp"},
                                
-                               ],
+                            //    ],
 
                                 Zrated9:[   
                                 {id:"1",
                                  img:"/ZRatedImg/MainZratedimg9.avif", 
-                                 maintitle:"Treadmill FITXP MT05 - Powered by Sportsadda",
+                                 maintitle:"FOMO Engineered Wood Nested Center Table with 4 Pouffs in Mushroom Beige Finish",
                                  mainPrice:"₹2,779/mo",
                                  mainOffer:"₹3,195/mo",
                                  maindiscount:"13% OFF",
@@ -189,7 +189,7 @@ function MainProductDetailZrated() {
                                 Zrated10:[   
                                 {id:"1",
                                  img:"/ZRatedImg/MainZratedimg10.avif", 
-                                 maintitle:"Treadmill FITXP MT05 - Powered by Sportsadda",
+                                 maintitle:"Slay Engineered Wood Center Table",
                                  mainPrice:"₹2,779/mo",
                                  mainOffer:"₹3,195/mo",
                                  maindiscount:"13% OFF",
@@ -204,7 +204,7 @@ function MainProductDetailZrated() {
                                Zrated11:[   
                                 {id:"1",
                                  img:"/ZRatedImg/MainZratedimg11.avif", 
-                                 maintitle:"Treadmill FITXP MT05 - Powered by Sportsadda",
+                                 maintitle:"Hugo Engineered Wood 1 door wardrobe without mirror #Zrated",
                                  mainPrice:"₹2,779/mo",
                                  mainOffer:"₹3,195/mo",
                                  maindiscount:"13% OFF",
@@ -219,7 +219,7 @@ function MainProductDetailZrated() {
                                Zrated12:[   
                                 {id:"1",
                                  img:"/ZRatedImg/OutofStockMainZratedimg1.avif", 
-                                 maintitle:"Treadmill FITXP MT05 - Powered by Sportsadda",
+                                 maintitle:"Mattress Premium Foam Double Size - (72 x 48 x 4 inches)",
                                  mainPrice:"₹2,779/mo",
                                  OutOfStock:"OUT OF STOCK", 
                                  mainCoupen:"Apply: MAXSAVING to get 20% off upto ₹1100",
@@ -233,7 +233,7 @@ function MainProductDetailZrated() {
                                Zrated13:[   
                                 {id:"1",
                                  img:"/ZRatedImg/OutofStockMainZratedimg2.avif", 
-                                 maintitle:"Treadmill FITXP MT05 - Powered by Sportsadda",
+                                 maintitle:"LIT AF Compact Double Bed with 4 Inch Premium Mattress",
                                  mainPrice:"₹2,779/mo",
                                  OutOfStock:"OUT OF STOCK", 
                                  mainCoupen:"Apply: MAXSAVING to get 20% off upto ₹1100",
@@ -247,7 +247,7 @@ function MainProductDetailZrated() {
                                Zrated14:[   
                                 {id:"1",
                                  img:"/ZRatedImg/OutofStockMainZratedimg3.avif", 
-                                 maintitle:"Treadmill FITXP MT05 - Powered by Sportsadda",
+                                 maintitle:"Rizz Diwan cum Floor Pads in Honey Mustered Color #Zrated",
                                  mainPrice:"₹2,779/mo",
                                  OutOfStock:"OUT OF STOCK", 
                                  mainCoupen:"Apply: MAXSAVING to get 20% off upto ₹1100",
@@ -261,7 +261,7 @@ function MainProductDetailZrated() {
                                Zrated15:[   
                                 {id:"1",
                                  img:"/ZRatedImg/OutofStockMainZratedimg4.avif", 
-                                 maintitle:"Treadmill FITXP MT05 - Powered by Sportsadda",
+                                 maintitle:"G.O.A.T Sofa cum Bed and FOMO Nested Center Table Combo",
                                  mainPrice:"₹2,779/mo",
                                  OutOfStock:"OUT OF STOCK", 
                                  mainCoupen:"Apply: MAXSAVING to get 20% off upto ₹1100",
@@ -275,7 +275,7 @@ function MainProductDetailZrated() {
                                Zrated16:[   
                                 {id:"1",
                                  img:"/ZRatedImg/OutofStockMainZratedimg5.avif", 
-                                 maintitle:"Treadmill FITXP MT05 - Powered by Sportsadda",
+                                 maintitle:"Bounce Fabric Set of 2 Floor Pads in Chocolava Brown Color",
                                  mainPrice:"₹2,779/mo",
                                  OutOfStock:"OUT OF STOCK", 
                                  mainCoupen:"Apply: MAXSAVING to get 20% off upto ₹1100",

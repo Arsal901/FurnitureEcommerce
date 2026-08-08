@@ -41,7 +41,7 @@ function MainProductDetailCombo() {
                               Combo1:[   
                                 {id:"1",
                                  img:"/MainComboImgs/MainCombo1.avif",
-                                 maintitle:"Treadmill FITXP MT05 - Powered by Sportsadda",
+                                 maintitle:"Refrigerator 190L & Washing Machine Top Load 6KG (Brand New)",
                                  hurry:"Hurry up! Only 7 Left",
                                  mainPrice:"₹2,779/mo",
                                  mainOffer:"₹3,195/mo",

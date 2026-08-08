@@ -41,7 +41,7 @@ function MainProductDetailDinning() {
                               Dinning1:[   
                                 {id:"1",
                                  img:"/MainDinning/MainDinning1.avif", 
-                                 maintitle:"Treadmill FITXP MT05 - Powered by Sportsadda",
+                                 maintitle:"DRIP 4 Seater Dinning Set",
                                  hurry:"Hurry up! Only 7 Left",
                                  mainPrice:"₹2,779/mo",
                                  mainOffer:"₹3,195/mo",
@@ -65,7 +65,7 @@ function MainProductDetailDinning() {
                                Dinning2:[   
                                 {id:"1",
                                  img:"/MainDinning/MainDinning2.avif", 
-                                 maintitle:"Treadmill FITXP MT05 - Powered by Sportsadda",
+                                 maintitle:"Kayra Solid Wood 4 Seater Dining Set in Timeless Teak Finish",
                                  mainPrice:"₹2,779/mo",
                                  mainOffer:"₹3,195/mo",
                                  maindiscount:"13% OFF",
@@ -80,7 +80,7 @@ function MainProductDetailDinning() {
                                Dinning3:[   
                                 {id:"1",
                                  img:"/MainDinning/MainDinning3.avif", 
-                                 maintitle:"Treadmill FITXP MT05 - Powered by Sportsadda",
+                                 maintitle:"Pico Solid Wood 4 Seater Dining Set",
                                  mainPrice:"₹2,779/mo",
                                  mainOffer:"₹3,195/mo",
                                  maindiscount:"13% OFF",
@@ -95,7 +95,7 @@ function MainProductDetailDinning() {
                                Dinning4:[   
                                 {id:"1",
                                  img:"/MainDinning/MainDinning4.avif", 
-                                 maintitle:"Treadmill FITXP MT05 - Powered by Sportsadda",
+                                 maintitle:"Dualo Solid Wood 4 Seater Dining cum Study Set in Walnut Finish",
                                  hurry:"Hurry up! Only 7 Left",
                                  mainPrice:"₹2,779/mo",
                                  mainOffer:"₹3,195/mo",
@@ -111,7 +111,7 @@ function MainProductDetailDinning() {
                                Dinning5:[   
                                 {id:"1",
                                  img:"/MainDinning/MainDinning5.avif", 
-                                 maintitle:"Treadmill FITXP MT05 - Powered by Sportsadda",
+                                 maintitle:"Kayra Solid Wood 6 Seater Dining Set in Timeless Teak Finish",
                                  mainPrice:"₹2,779/mo",
                                  mainOffer:"₹3,195/mo",
                                  maindiscount:"13% OFF",
@@ -126,7 +126,7 @@ function MainProductDetailDinning() {
                                Dinning6:[   
                                 {id:"1",
                                  img:"/MainDinning/MainDinning6.avif", 
-                                 maintitle:"Treadmill FITXP MT05 - Powered by Sportsadda",
+                                 maintitle:"Mili Solid Wood 4 Seater Dining Set in Teak Finish",
                                  mainPrice:"₹2,779/mo",
                                  mainOffer:"₹3,195/mo",
                                  maindiscount:"13% OFF",
@@ -141,7 +141,7 @@ function MainProductDetailDinning() {
                                Dinning7:[   
                                 {id:"1",
                                  img:"/MainDinning/MainDinning7.avif", 
-                                 maintitle:"Treadmill FITXP MT05 - Powered by Sportsadda",
+                                 maintitle:"Pico 6 Seater Dining Set - Classic",
                                  mainPrice:"₹2,779/mo",
                                  mainOffer:"₹3,195/mo",
                                  maindiscount:"13% OFF",
@@ -156,7 +156,7 @@ function MainProductDetailDinning() {
                                Dinning8:[   
                                 {id:"1",
                                  img:"/MainDinning/MainDinning8.avif", 
-                                 maintitle:"Treadmill FITXP MT05 - Powered by Sportsadda",
+                                 maintitle:"Glen Solid Wood and Upholstered Bar Stool In Walnut Finish",
                                  mainPrice:"₹2,779/mo",
                                  mainOffer:"₹3,195/mo",
                                  maindiscount:"13% OFF",
@@ -171,7 +171,7 @@ function MainProductDetailDinning() {
                                Dinning9:[   
                                 {id:"1",
                                  img:"/MainDinning/MainDinning9.avif", 
-                                 maintitle:"Treadmill FITXP MT05 - Powered by Sportsadda",
+                                 maintitle:"Dualo Solid Wood 4 Seater Dining cum Study Table in Walnut Finish",
                                  mainPrice:"₹2,779/mo",
                                  mainOffer:"₹3,195/mo",
                                  maindiscount:"13% OFF",
@@ -186,7 +186,7 @@ function MainProductDetailDinning() {
                                Dinning10:[   
                                 {id:"1",
                                  img:"/MainDinning/OutofStockMainDinning1.avif", 
-                                 maintitle:"Treadmill FITXP MT05 - Powered by Sportsadda",
+                                 maintitle:"Milli 4 Seater Dinning Set in Magic Blue Color",
                                  mainPrice:"₹2,779/mo",
                                  OutOfStock:"OUT OF STOCK", 
                                  mainCoupen:"Apply: MAXSAVING to get 20% off upto ₹1100",
@@ -200,7 +200,7 @@ function MainProductDetailDinning() {
                                Dinning11:[   
                                 {id:"1",
                                  img:"/MainDinning/OutofStockMainDinning2.avif", 
-                                 maintitle:"Treadmill FITXP MT05 - Powered by Sportsadda",
+                                 maintitle:"Clare 4 Seating Dinning Set",
                                  mainPrice:"₹2,779/mo",
                                  OutOfStock:"OUT OF STOCK", 
                                  mainCoupen:"Apply: MAXSAVING to get 20% off upto ₹1100",
@@ -214,7 +214,7 @@ function MainProductDetailDinning() {
                                Dinning12:[   
                                 {id:"1",
                                  img:"/MainDinning/OutofStockMainDinning3.avif", 
-                                 maintitle:"Treadmill FITXP MT05 - Powered by Sportsadda",
+                                 maintitle:"Pico Solid Wood Dining Bench in Walnut Finish",
                                  mainPrice:"₹2,779/mo",
                                  OutOfStock:"OUT OF STOCK", 
                                  mainCoupen:"Apply: MAXSAVING to get 20% off upto ₹1100",
@@ -228,7 +228,7 @@ function MainProductDetailDinning() {
                                Dinning13:[   
                                 {id:"1",
                                  img:"/MainDinning/OutofStockMainDinning4.avif", 
-                                 maintitle:"Treadmill FITXP MT05 - Powered by Sportsadda",
+                                 maintitle:"Dualo Solid Wood 4 Seater Dining cum Study Set in Deep Walnut Finish",
                                  mainPrice:"₹2,779/mo",
                                  OutOfStock:"OUT OF STOCK", 
                                  mainCoupen:"Apply: MAXSAVING to get 20% off upto ₹1100",
@@ -242,7 +242,7 @@ function MainProductDetailDinning() {
                                Dinning14:[   
                                 {id:"1",
                                  img:"/MainDinning/OutofStockMainDinning5.avif", 
-                                 maintitle:"Treadmill FITXP MT05 - Powered by Sportsadda",
+                                 maintitle:"Mili Solid Wood 4 Seater Dining Bench Set In Magic Blue Colour",
                                  mainPrice:"₹2,779/mo",
                                  OutOfStock:"OUT OF STOCK", 
                                  mainCoupen:"Apply: MAXSAVING to get 20% off upto ₹1100",

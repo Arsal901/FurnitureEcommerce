@@ -22,7 +22,7 @@ import { Link } from "react-router-dom";
 
  const LivingRoomImages = [
 
-                              { id:"Luxury1", img:"Luxuryimg/MainLuxuryimg1.avif", title:"Aara Solid Wood King Hydraulic Storage Bed", price:"₹1,379/mo", offer:"₹1,586/mo", off:"13%OFF", delivertime:"Delivery by 10 Jul-11 Jul"},
+                              {id:"Luxury1", img:"Luxuryimg/MainLuxuryimg1.avif", title:"Aara Solid Wood King Hydraulic Storage Bed", price:"₹1,379/mo", offer:"₹1,586/mo", off:"13%OFF", delivertime:"Delivery by 10 Jul-11 Jul"},
                               {id:"Luxury2",  img:"Luxuryimg/MainLuxuryimg2.avif", title:"Sara Solid Wood Queen Bed in Timeless Teak Finish", price:"₹1,379/mo", offer:"₹1,586/mo", off:"13%OFF", delivertime:"Delivery by 10 Jul-11 Jul"},
                               {id:"Luxury3",  img:"Luxuryimg/MainLuxuryimg3.avif", title:"Abstract Energy Solid Wood Queen Bed", price:"₹1,379/mo", offer:"₹1,586/mo", off:"13%OFF", delivertime:"Delivery by 10 Jul-11 Jul"},
                               {id:"Luxury4",  img:"Luxuryimg/MainLuxuryimg4.avif", title:"Aara Solid Wood Upholstered Queen Bed", price:"₹1,379/mo", offer:"₹1,586/mo", off:"13%OFF", delivertime:"Delivery by 10 Jul-11 Jul"},
@@ -34,7 +34,7 @@ import { Link } from "react-router-dom";
                               {id:"Luxury10",  img:"Luxuryimg/MainLuxuryimg10.avif", title:"Aurelia Leatherette 3 Seater Sofa in Amber Yellow Colour", price:"₹1,379/mo", offer:"₹1,586/mo", off:"13%OFF", delivertime:"Delivery by 10 Jul-11 Jul"},
                               {id:"Luxury11",  img:"Luxuryimg/MainLuxuryimg11.webp", title:"Linora Velvet L-Shape Sofa in Sapphire Blue Color", price:"₹1,379/mo", offer:"₹1,586/mo", off:"13%OFF", delivertime:"Delivery by 10 Jul-11 Jul"},
                               {id:"Luxury12",  img:"Luxuryimg/MainLuxuryimg12.avif", title:"Eclectic Glamour Velvet 3+1+1 Sofa Set in Sapphire Blue Colour", price:"₹1,379/mo", offer:"₹1,586/mo", off:"13%OFF", delivertime:"Delivery by 10 Jul-11 Jul"},
-                              {id:"Luxury13",  img:"Luxuryimg/OutofStockMainLuxuryimg1.avif", title:" Linora Velvet L Shape Sofa in Sunshine Yellow Color", price:"₹949/mo", offer:"₹1,091/mo", off:"13% OFF", StockOut:"Out Of Stock", delivertime:"Delivery by 10 Jul-11 Jul"},
+                              {id:"Luxury13",  img:"Luxuryimg/OutofStockMainLuxuryimg1.avif", title:"Linora Velvet L Shape Sofa in Sunshine Yellow Color", price:"₹949/mo", offer:"₹1,091/mo", off:"13% OFF", StockOut:"Out Of Stock", delivertime:"Delivery by 10 Jul-11 Jul"},
                               {id:"Luxury14",  img:"Luxuryimg/OutofStockMainLuxuryimg2.avif", title:"Helio 3 Seater Sofa & Ottoman - Desert Rose", price:"₹949/mo", offer:"₹1,091/mo", off:"13% OFF", StockOut:"Out Of Stock", delivertime:"Delivery by 10 Jul-11 Jul"},
                               {id:"Luxury15",  img:"Luxuryimg/OutofStockMainLuxuryimg3.avif", title:"Abstract Energy Sofa Charcoal Gray", price:"₹949/mo", offer:"₹1,091/mo", off:"13% OFF", StockOut:"Out Of Stock", delivertime:"Delivery by 10 Jul-11 Jul"},
                               {id:"Luxury16",  img:"Luxuryimg/OutofStockMainLuxuryimg4.avif", title:"Linora Velvet L Shape Sofa - Desert Rose", price:"₹949/mo", offer:"₹1,091/mo", off:"13% OFF", StockOut:"Out Of Stock", delivertime:"Delivery by 10 Jul-11 Jul"},
