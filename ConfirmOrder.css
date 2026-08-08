@@ -802,7 +802,7 @@ font-size: 2rem;
   max-height: 100%;
   box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.159);
   padding: 20px;
-  margin: 200px 12px; 
+  margin: 200px 22.5px;  
   
 }
 
@@ -1165,7 +1165,7 @@ font-size: 1.4rem;
 .SummaryTabOrderSummary h5 {
   font-size: 1rem;
   color: green;
-  margin-top: 0px;
+  margin-top: -18px;
   margin-left: 70px;
 }
 
@@ -1265,9 +1265,9 @@ font-size: 1.4rem;
   background-color: green;
   color: white; 
   cursor: pointer;
-  font-size: 0.85rem;
-  margin-top: 15px;
-  margin-right: 0px; 
+  font-size: 0.95rem;
+  margin-top: 15px; 
+  margin-right: 12px; 
   padding: 5px;
 }
 

@@ -269,7 +269,7 @@ const handlePayment = async (e) => {
 
           <div className={`ThiredPayment ${ChangeTab === "payment" ? "activeStep" : ""}`}>
             <h1>3</h1>
-             <h3>PAYMENT</h3>
+             <h3>PAYMENT</h3> 
           </div>
 
         </div>
